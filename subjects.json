@@ -1,0 +1,36 @@
+{
+  "subjects": [
+    {
+      "name": "Hematology",
+      "topics": [
+        { "name": "Red Cell Disorders", "file": "hematology_rbc.json" },
+        { "name": "Coagulation Disorders", "file": "hematology_coagulation.json" },
+        { "name": "White Cell Disorders", "file": "hematology_wbc.json" }
+      ]
+    },
+    {
+      "name": "Immunology",
+      "topics": [
+        { "name": "Innate Immunity", "file": "immunology_innate.json" },
+        { "name": "Adaptive Immunity", "file": "immunology_adaptive.json" },
+        { "name": "Hypersensitivity Reactions", "file": "immunology_hypersensitivity.json" }
+      ]
+    },
+    {
+      "name": "Transfusion Medicine",
+      "topics": [
+        { "name": "Blood Group Systems", "file": "transfusion_bloodgroups.json" },
+        { "name": "Transfusion Reactions", "file": "transfusion_reactions.json" },
+        { "name": "Component Therapy", "file": "transfusion_components.json" }
+      ]
+    },
+    {
+      "name": "Virology",
+      "topics": [
+        { "name": "DNA Viruses", "file": "virology_dna.json" },
+        { "name": "RNA Viruses", "file": "virology_rna.json" },
+        { "name": "Viral Vaccines", "file": "virology_vaccines.json" }
+      ]
+    }
+  ]
+}

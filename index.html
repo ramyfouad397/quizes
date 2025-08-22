@@ -2,261 +2,212 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Transfusion Medicine - Learn by Quizzes</title>
+  <title>Transfusion Medicine</title>
   <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background: #f4f6fa;
-      color: #222;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
+    /* Fonts & base style */
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Poppins:wght@400;600&display=swap');
 
-    header {
-      background: linear-gradient(135deg, #0066cc, #00cc99);
-      color: white;
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f7fb;
+      color: #222;
+      text-align: center;
+      margin: 0;
       padding: 20px;
     }
 
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
     h2 {
-      margin: 5px 0 0;
-      font-weight: 400;
-      font-size: 1.2rem;
-      opacity: 0.9;
+      font-family: 'Baloo 2', cursive;
+      color: #0d47a1;
+      margin-bottom: 5px;
     }
 
-    .container {
-      margin: 20px auto;
-      width: 90%;
-      max-width: 900px;
+    h3 {
+      font-family: 'Baloo 2', cursive;
+      color: #1565c0;
     }
 
-    .quiz-list, .question-block {
-      margin-top: 20px;
+    p.subtitle {
+      font-size: 18px;
+      color: #444;
+      margin-top: 0;
+      margin-bottom: 20px;
     }
 
-    .quiz-button {
-      display: block;
-      width: 100%;
-      background: #3498db;
-      color: white;
+    /* Quiz button styles */
+    .quiz-btn {
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 16px;
       border: none;
-      padding: 15px;
-      margin: 10px 0;
-      border-radius: 8px;
-      font-size: 1.1rem;
-      cursor: pointer;
+      background: #1976d2; /* primary blue */
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      width: 220px;
       position: relative;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      cursor: pointer;
+      transition: transform 0.2s, background 0.3s;
     }
-
-    .quiz-button .progress {
+    .quiz-btn:hover {
+      transform: scale(1.05);
+      background: #0d47a1;
+    }
+    .progress-bar {
       position: absolute;
-      left: 0;
-      top: 0;
       bottom: 0;
-      background: #27ae60;
-      border-radius: 8px 0 0 8px;
-      z-index: 0;
+      left: 0;
+      height: 8px;
+      background: #43a047; /* vibrant green */
+      border-radius: 0 0 16px 16px;
+      transition: width 0.4s;
     }
 
-    .quiz-button span {
-      position: relative;
-      z-index: 1;
+    /* Question section */
+    #quiz-container {
+      margin-top: 30px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .question {
-      font-size: 1.2rem;
-      margin: 15px 0;
+    p {
+      font-size: 18px;
+      font-weight: 500;
     }
 
-    .option {
+    /* Choice buttons */
+    .choice-btn {
       display: block;
-      background: #ecf0f1;
-      border: 2px solid transparent;
-      padding: 12px;
-      margin: 8px 0;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-
-    .option.correct {
-      background: #2ecc71;
-      color: white;
-    }
-
-    .option.wrong {
-      background: #e74c3c;
-      color: white;
-    }
-
-    .option.disabled {
-      pointer-events: none;
-      opacity: 0.7;
-    }
-
-    .explanation {
-      margin-top: 10px;
-      font-size: 0.95rem;
-      color: #555;
-    }
-
-    .restart-btn {
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #8e44ad;
-      color: white;
+      margin: 10px auto;
+      padding: 12px 16px;
       border: none;
-      border-radius: 6px;
+      border-radius: 12px;
+      width: 80%;
+      font-size: 16px;
+      background: #ff7043; /* strong orange */
+      color: white;
+      font-weight: bold;
       cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .choice-btn:hover:not(:disabled) {
+      transform: scale(1.03);
+      background: #e64a19;
+    }
+    .choice-btn:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+
+    .correct { background: #2e7d32 !important; }  /* green */
+    .wrong { background: #c62828 !important; }    /* red */
+
+    /* Reset button */
+    .reset-btn {
+      margin-top: 20px;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 12px;
+      background: #6a1b9a; /* deep purple */
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .reset-btn:hover {
+      background: #4a148c;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Transfusion Medicine</h1>
-    <h2>Learn by Quizzes</h2>
-  </header>
 
-  <div class="container">
-    <div id="quizList" class="quiz-list"></div>
-    <div id="quizContainer"></div>
-  </div>
+<h2>✨ Transfusion Medicine ✨</h2>
+<p class="subtitle">Learn by Quizzes</p>
 
-  <script>
-    // Example JSON data (you can replace with external file if needed)
-    const quizData = {
-      "quizzes": [
-        {
-          "name": "Iron Deficiency Anemia",
-          "questions": [
-            {
-              "question": "What is the most common cause of iron deficiency anemia worldwide?",
-              "options": ["Poor dietary intake", "Hookworm infection", "Chronic blood loss", "Celiac disease"],
-              "answer": "Hookworm infection",
-              "explanation": "Globally, hookworm infection is the leading cause of iron deficiency anemia due to chronic intestinal blood loss."
-            },
-            {
-              "question": "Which laboratory finding is most consistent with iron deficiency anemia?",
-              "options": ["High ferritin", "Low serum iron", "Normal TIBC", "Macrocytosis"],
-              "answer": "Low serum iron",
-              "explanation": "Iron deficiency anemia shows low serum iron, low ferritin, and increased TIBC."
-            }
-          ]
-        },
-        {
-          "name": "Hereditary Spherocytosis",
-          "questions": [
-            {
-              "question": "What is the genetic basis of hereditary spherocytosis?",
-              "options": ["Enzyme deficiency", "Membrane protein defect", "Hemoglobin mutation", "Autoantibody destruction"],
-              "answer": "Membrane protein defect",
-              "explanation": "It is due to defects in RBC membrane proteins like ankyrin, spectrin, band 3."
-            }
-          ]
-        }
-      ]
-    };
+<!-- Example quiz button -->
+<button class="quiz-btn" id="quiz1-btn" onclick="loadQuiz('quiz1')">
+  PRBCs Quiz
+  <div class="progress-bar" id="quiz1-progress"></div>
+</button>
 
-    const quizListDiv = document.getElementById("quizList");
-    const quizContainer = document.getElementById("quizContainer");
+<div id="quiz-container"></div>
 
-    let currentQuiz = null;
+<script>
+const quizzes = {
+  "quiz1": {
+    name: "PRBCs Quiz",
+    questions: [
+      { q: "Main indication for PRBCs?", options: ["Anemia", "Thrombocytopenia"], answer: 0 }
+    ]
+  }
+};
 
-    // Load quiz list
-    function loadQuizList() {
-      quizListDiv.innerHTML = "";
-      quizData.quizzes.forEach((quiz, index) => {
-        const btn = document.createElement("button");
-        btn.classList.add("quiz-button");
+// Load saved progress
+function loadProgress(quizId) {
+  let data = localStorage.getItem(quizId);
+  return data ? JSON.parse(data) : null;
+}
 
-        // Progress tracking
-        let score = localStorage.getItem("quiz_" + quiz.name);
-        let percentage = score ? parseInt(score) : null;
+// Save progress
+function saveProgress(quizId, score) {
+  localStorage.setItem(quizId, JSON.stringify({score: score}));
+  updateButton(quizId, score);
+}
 
-        if (percentage !== null) {
-          const progress = document.createElement("div");
-          progress.classList.add("progress");
-          progress.style.width = percentage + "%";
-          btn.appendChild(progress);
-        }
+// Update button color/progress
+function updateButton(quizId, score) {
+  const btn = document.getElementById(quizId + "-btn");
+  const bar = document.getElementById(quizId + "-progress");
+  if(score !== null) {
+    bar.style.width = score + "%";
+    btn.style.background = "#546e7a"; // gray-blue after attempt
+  } else {
+    btn.style.background = "#1976d2"; // blue if not taken
+  }
+}
 
-        const span = document.createElement("span");
-        span.innerText = quiz.name + (percentage !== null ? ` (${percentage}%)` : "");
-        btn.appendChild(span);
+// Load quiz
+function loadQuiz(quizId) {
+  const quiz = quizzes[quizId];
+  let container = document.getElementById("quiz-container");
+  container.innerHTML = `<h3>${quiz.name}</h3>`;
+  quiz.questions.forEach((q,i) => {
+    let html = `<p>${q.q}</p>`;
+    q.options.forEach((opt,idx) => {
+      html += `<button class='choice-btn' onclick='checkAnswer("${quizId}",${i},${idx},this)'>${opt}</button>`;
+    });
+    container.innerHTML += html;
+  });
+  container.innerHTML += `<button class="reset-btn" onclick="resetQuiz('${quizId}')">🔄 Restart Quiz</button>`;
+}
 
-        btn.onclick = () => loadQuiz(index);
-        quizListDiv.appendChild(btn);
-      });
-    }
+function checkAnswer(quizId,qIdx,optIdx,btn){
+  const quiz = quizzes[quizId];
+  let buttons = btn.parentNode.querySelectorAll("button");
+  buttons.forEach(b => b.disabled = true); // disable all
+  if(optIdx === quiz.questions[qIdx].answer){
+    btn.classList.add("correct");
+    saveProgress(quizId,100); // here example: 100% if 1Q quiz
+  } else {
+    btn.classList.add("wrong");
+    saveProgress(quizId,0);
+  }
+}
 
-    // Load selected quiz
-    function loadQuiz(index) {
-      currentQuiz = quizData.quizzes[index];
-      quizContainer.innerHTML = "";
-      let score = 0;
+function resetQuiz(quizId){
+  localStorage.removeItem(quizId);
+  document.getElementById("quiz-container").innerHTML = "";
+  updateButton(quizId, null);
+}
 
-      currentQuiz.questions.forEach((q, qi) => {
-        const qDiv = document.createElement("div");
-        qDiv.classList.add("question-block");
-
-        const questionEl = document.createElement("div");
-        questionEl.classList.add("question");
-        questionEl.innerText = q.question;
-        qDiv.appendChild(questionEl);
-
-        q.options.forEach(opt => {
-          const optBtn = document.createElement("div");
-          optBtn.classList.add("option");
-          optBtn.innerText = opt;
-          optBtn.onclick = () => {
-            // Disable all
-            const allOptions = qDiv.querySelectorAll(".option");
-            allOptions.forEach(o => o.classList.add("disabled"));
-
-            if (opt === q.answer) {
-              optBtn.classList.add("correct");
-              score++;
-            } else {
-              optBtn.classList.add("wrong");
-              // highlight correct
-              allOptions.forEach(o => {
-                if (o.innerText === q.answer) {
-                  o.classList.add("correct");
-                }
-              });
-            }
-
-            const exp = document.createElement("div");
-            exp.classList.add("explanation");
-            exp.innerText = "Explanation: " + q.explanation;
-            qDiv.appendChild(exp);
-          };
-          qDiv.appendChild(optBtn);
-        });
-
-        quizContainer.appendChild(qDiv);
-      });
-
-      const restartBtn = document.createElement("button");
-      restartBtn.classList.add("restart-btn");
-      restartBtn.innerText = "Submit & Save Progress";
-      restartBtn.onclick = () => {
-        let percentage = Math.round((score / currentQuiz.questions.length) * 100);
-        localStorage.setItem("quiz_" + currentQuiz.name, percentage);
-        loadQuizList();
-        quizContainer.innerHTML = `<h3>Your Score: ${percentage}%</h3>`;
-      };
-      quizContainer.appendChild(restartBtn);
-    }
-
-    loadQuizList();
-  </script>
+// On load update buttons
+updateButton("quiz1", (loadProgress("quiz1")||{}).score ?? null);
+</script>
 </body>
 </html>

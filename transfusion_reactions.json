@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Acute Hemolytic Transfusion Reactions",
+      "questions": [
+        {
+          "question": "What is the most common cause of acute hemolytic transfusion reactions (AHTR)?",
+          "options": ["Clerical error", "Bacterial contamination", "Storage lesion", "Plasma protein allergy"],
+          "answer": "Clerical error",
+          "explanation": "Clerical errors such as ABO-incompatible transfusions are the leading cause of AHTRs."
+        },
+        {
+          "question": "Which antibody class is primarily responsible for ABO-mediated AHTRs?",
+          "options": ["IgM", "IgG", "IgE", "IgA"],
+          "answer": "IgM",
+          "explanation": "Naturally occurring IgM antibodies activate complement and cause rapid intravascular hemolysis."
+        },
+        {
+          "question": "What is the classic clinical triad of AHTR?",
+          "options": ["Fever, rash, cough", "Fever, hypotension, hemoglobinuria", "Cyanosis, headache, dizziness", "Edema, jaundice, rash"],
+          "answer": "Fever, hypotension, hemoglobinuria",
+          "explanation": "The triad reflects hemolysis: fever (immune activation), hypotension (shock), and hemoglobinuria (hemolysis)."
+        },
+        {
+          "question": "Which test confirms intravascular hemolysis during AHTR?",
+          "options": ["Direct Coombs test", "Indirect Coombs test", "PT and aPTT", "ELISA"],
+          "answer": "Direct Coombs test",
+          "explanation": "The direct antiglobulin (Coombs) test detects antibodies/complement coating the patient’s RBCs."
+        },
+        {
+          "question": "What is the immediate management of suspected AHTR?",
+          "options": ["Continue transfusion with slower rate", "Stop transfusion immediately", "Give antibiotics", "Change IV line only"],
+          "answer": "Stop transfusion immediately",
+          "explanation": "The transfusion must be stopped at once, and supportive management started to prevent renal failure and shock."
+        }
+      ]
+    },
+    {
+      "name": "Febrile and Allergic Reactions",
+      "questions": [
+        {
+          "question": "What is the most common transfusion reaction overall?",
+          "options": ["Allergic reaction", "Febrile non-hemolytic transfusion reaction", "Sepsis", "Anaphylaxis"],
+          "answer": "Febrile non-hemolytic transfusion reaction",
+          "explanation": "FNHTR, caused by recipient antibodies reacting to donor leukocytes/cytokines, is the most common reaction."
+        },
+        {
+          "question": "What mediates allergic transfusion reactions?",
+          "options": ["IgE against plasma proteins", "IgG against RBC antigens", "IgM against platelets", "Complement deficiency"],
+          "answer": "IgE against plasma proteins",
+          "explanation": "IgE-mediated hypersensitivity to donor plasma proteins causes allergic transfusion reactions, usually with rash and pruritus."
+        },
+        {
+          "question": "Which reaction is reduced by leukocyte reduction of blood products?",
+          "options": ["Allergic reactions", "Febrile non-hemolytic transfusion reactions", "Anaphylaxis", "TRALI"],
+          "answer": "Febrile non-hemolytic transfusion reactions",
+          "explanation": "Leukoreduction removes donor WBCs, decreasing cytokine accumulation and FNHTRs."
+        },
+        {
+          "question": "What is the usual management of mild allergic transfusion reactions?",
+          "options": ["Stop transfusion permanently", "Give antihistamines and restart if symptoms resolve", "Start steroids", "Exchange transfusion"],
+          "answer": "Give antihistamines and restart if symptoms resolve",
+          "explanation": "Most mild allergic reactions resolve with antihistamines and do not require discarding the blood unit."
+        },
+        {
+          "question": "Which patients are at risk of severe anaphylactic transfusion reactions?",
+          "options": ["IgA-deficient patients", "Diabetic patients", "Pregnant women", "Patients with hemophilia"],
+          "answer": "IgA-deficient patients",
+          "explanation": "IgA-deficient patients can develop anti-IgA antibodies and experience life-threatening anaphylaxis upon transfusion."
+        }
+      ]
+    },
+    {
+      "name": "Delayed Transfusion Reactions",
+      "questions": [
+        {
+          "question": "What is the typical time frame for a delayed hemolytic transfusion reaction (DHTR)?",
+          "options": ["Minutes to hours", "Within 24 hours", "5–14 days", "More than 1 month"],
+          "answer": "5–14 days",
+          "explanation": "DHTRs usually appear 5–14 days after transfusion as antibody titers rise."
+        },
+        {
+          "question": "Which antibody class most often causes delayed hemolytic transfusion reactions?",
+          "options": ["IgM", "IgG", "IgE", "IgD"],
+          "answer": "IgG",
+          "explanation": "IgG alloantibodies (often against Kidd, Duffy, Kell antigens) cause extravascular hemolysis in DHTRs."
+        },
+        {
+          "question": "What is the hallmark laboratory finding in delayed hemolytic transfusion reactions?",
+          "options": ["Hemoglobinuria", "Hyperkalemia", "Falling hemoglobin despite transfusion", "Leukocytosis"],
+          "answer": "Falling hemoglobin despite transfusion",
+          "explanation": "Patients with DHTR show unexplained anemia after transfusion due to extravascular destruction of transfused RBCs."
+        },
+        {
+          "question": "Which type of transfusion reaction involves donor antibodies attacking recipient leukocytes, leading to lung injury?",
+          "options": ["TRALI", "TACO", "FNHTR", "Septic transfusion reaction"],
+          "answer": "TRALI",
+          "explanation": "Transfusion-related acute lung injury (TRALI) is caused by donor anti-HLA or anti-neutrophil antibodies causing pulmonary edema."
+        },
+        {
+          "question": "What is the main difference between TACO and TRALI?",
+          "options": ["TACO is immune-mediated, TRALI is volume overload", "TACO is due to volume overload, TRALI is immune-mediated", "Both are allergic", "Both are bacterial"],
+          "answer": "TACO is due to volume overload, TRALI is immune-mediated",
+          "explanation": "TACO (transfusion-associated circulatory overload) is non-immune volume overload, whereas TRALI is immune-mediated lung injury."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Acute Leukemia",
+      "questions": [
+        {
+          "question": "What is the hallmark finding in acute leukemia?",
+          "options": ["Presence of blasts in peripheral blood and bone marrow", "High lymphocyte count only", "Splenomegaly without blasts", "Eosinophilia"],
+          "answer": "Presence of blasts in peripheral blood and bone marrow",
+          "explanation": "Acute leukemias are characterized by the rapid proliferation of immature precursor cells (blasts), seen in both blood and bone marrow."
+        },
+        {
+          "question": "Which cytogenetic abnormality is associated with Acute Promyelocytic Leukemia (APL)?",
+          "options": ["t(9;22)", "t(15;17)", "t(8;14)", "t(11;14)"],
+          "answer": "t(15;17)",
+          "explanation": "Acute Promyelocytic Leukemia (M3 AML) is associated with t(15;17), involving the PML-RARA fusion gene, and is treated with all-trans retinoic acid (ATRA)."
+        },
+        {
+          "question": "Which clinical feature is most commonly seen in acute leukemia?",
+          "options": ["Recurrent infections, anemia, bleeding", "Liver cirrhosis", "Chronic arthritis", "Neuropathy"],
+          "answer": "Recurrent infections, anemia, bleeding",
+          "explanation": "Due to bone marrow failure, patients with acute leukemia present with infections (low WBC function), anemia, and bleeding (low platelets)."
+        },
+        {
+          "question": "What is the main difference between AML and ALL?",
+          "options": ["Cell lineage (myeloid vs lymphoid)", "Age of onset only", "Presence of BCR-ABL only", "Location in spleen only"],
+          "answer": "Cell lineage (myeloid vs lymphoid)",
+          "explanation": "Acute Myeloid Leukemia (AML) arises from myeloid precursors, while Acute Lymphoblastic Leukemia (ALL) arises from lymphoid precursors."
+        },
+        {
+          "question": "Which of the following is a poor prognostic factor in acute leukemia?",
+          "options": ["Age <10 years", "High blast count and unfavorable cytogenetics", "Early treatment response", "t(15;17) translocation"],
+          "answer": "High blast count and unfavorable cytogenetics",
+          "explanation": "Poor prognosis in acute leukemia is associated with older age, high blast count, and adverse genetic abnormalities."
+        }
+      ]
+    },
+    {
+      "name": "Chronic Leukemia",
+      "questions": [
+        {
+          "question": "Which chromosomal translocation is associated with Chronic Myeloid Leukemia (CML)?",
+          "options": ["t(9;22)", "t(15;17)", "t(8;21)", "t(14;18)"],
+          "answer": "t(9;22)",
+          "explanation": "CML is strongly associated with the Philadelphia chromosome t(9;22), resulting in the BCR-ABL fusion gene (tyrosine kinase activity)."
+        },
+        {
+          "question": "Which drug is the first-line treatment for CML?",
+          "options": ["Imatinib (tyrosine kinase inhibitor)", "Cyclophosphamide", "Methotrexate", "Prednisone"],
+          "answer": "Imatinib (tyrosine kinase inhibitor)",
+          "explanation": "Imatinib inhibits BCR-ABL tyrosine kinase and revolutionized CML treatment."
+        },
+        {
+          "question": "Which chronic leukemia is most common in elderly patients?",
+          "options": ["Chronic Lymphocytic Leukemia (CLL)", "Chronic Myeloid Leukemia (CML)", "AML", "ALL"],
+          "answer": "Chronic Lymphocytic Leukemia (CLL)",
+          "explanation": "CLL is the most common adult leukemia in the West and typically presents in elderly patients."
+        },
+        {
+          "question": "Which immunophenotype is typical for CLL?",
+          "options": ["CD5+ B cells", "CD4+ T cells", "CD8+ T cells", "CD34+ stem cells"],
+          "answer": "CD5+ B cells",
+          "explanation": "CLL is characterized by a clonal proliferation of mature B lymphocytes co-expressing CD5 and CD19."
+        },
+        {
+          "question": "Which complication is common in CLL patients?",
+          "options": ["Autoimmune hemolytic anemia", "Diabetic ketoacidosis", "Pulmonary embolism", "Nephrotic syndrome"],
+          "answer": "Autoimmune hemolytic anemia",
+          "explanation": "CLL is associated with immune dysregulation, often causing autoimmune hemolytic anemia and hypogammaglobulinemia."
+        }
+      ]
+    },
+    {
+      "name": "Lymphoma Basics",
+      "questions": [
+        {
+          "question": "Which cell type is the origin of most lymphomas?",
+          "options": ["B lymphocytes", "T lymphocytes", "Macrophages", "Neutrophils"],
+          "answer": "B lymphocytes",
+          "explanation": "Most lymphomas are of B-cell origin, although T-cell lymphomas also occur."
+        },
+        {
+          "question": "Which feature distinguishes Hodgkin lymphoma from non-Hodgkin lymphoma?",
+          "options": ["Reed-Sternberg cells", "Splenomegaly", "Lymphadenopathy", "Bone marrow involvement"],
+          "answer": "Reed-Sternberg cells",
+          "explanation": "Hodgkin lymphoma is defined by the presence of Reed-Sternberg cells, which are large binucleated cells with 'owl’s eye' nucleoli."
+        },
+        {
+          "question": "Which viral infection is most strongly associated with Hodgkin lymphoma?",
+          "options": ["Epstein-Barr virus (EBV)", "HIV", "Hepatitis B", "CMV"],
+          "answer": "Epstein-Barr virus (EBV)",
+          "explanation": "EBV is detected in a significant proportion of Hodgkin lymphoma cases."
+        },
+        {
+          "question": "Which symptom is part of 'B symptoms' in lymphoma?",
+          "options": ["Night sweats", "Hair loss", "Pruritus", "Constipation"],
+          "answer": "Night sweats",
+          "explanation": "B symptoms include fever, drenching night sweats, and unexplained weight loss. They indicate a more aggressive disease course."
+        },
+        {
+          "question": "Which type of lymphoma often presents with a mediastinal mass in young adults?",
+          "options": ["Hodgkin lymphoma", "Burkitt lymphoma", "Follicular lymphoma", "Mantle cell lymphoma"],
+          "answer": "Hodgkin lymphoma",
+          "explanation": "Hodgkin lymphoma commonly presents with mediastinal lymphadenopathy in young adults."
+        }
+      ]
+    }
+  ]
+}

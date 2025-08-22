@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Hemophilia A",
+      "questions": [
+        {
+          "question": "Hemophilia A is caused by a deficiency in which clotting factor?",
+          "options": ["Factor VIII", "Factor IX", "Factor XI", "Factor VII"],
+          "answer": "Factor VIII",
+          "explanation": "Hemophilia A is due to a deficiency or dysfunction of Factor VIII. Hemophilia B is due to Factor IX deficiency."
+        },
+        {
+          "question": "What is the inheritance pattern of hemophilia A?",
+          "options": ["Autosomal dominant", "X-linked recessive", "Autosomal recessive", "Mitochondrial"],
+          "answer": "X-linked recessive",
+          "explanation": "Hemophilia A is inherited as an X-linked recessive disorder, which means it primarily affects males while females are carriers."
+        },
+        {
+          "question": "Which laboratory test is prolonged in hemophilia A?",
+          "options": ["PT (Prothrombin time)", "aPTT (Activated partial thromboplastin time)", "Bleeding time", "Thrombin time"],
+          "answer": "aPTT (Activated partial thromboplastin time)",
+          "explanation": "Hemophilia A affects the intrinsic pathway, so aPTT is prolonged, while PT remains normal."
+        },
+        {
+          "question": "What is the standard treatment for severe hemophilia A?",
+          "options": ["Factor VIII replacement", "Fresh frozen plasma", "Desmopressin only", "Vitamin K supplementation"],
+          "answer": "Factor VIII replacement",
+          "explanation": "The cornerstone of treatment for hemophilia A is intravenous infusion of recombinant or plasma-derived Factor VIII."
+        },
+        {
+          "question": "Which drug can be used in mild hemophilia A to increase Factor VIII levels?",
+          "options": ["Aspirin", "Heparin", "Desmopressin (DDAVP)", "Tranexamic acid"],
+          "answer": "Desmopressin (DDAVP)",
+          "explanation": "Desmopressin stimulates release of Factor VIII and von Willebrand factor from endothelial cells, useful in mild hemophilia A."
+        }
+      ]
+    },
+    {
+      "name": "Von Willebrand Disease",
+      "questions": [
+        {
+          "question": "What is the most common inherited bleeding disorder?",
+          "options": ["Hemophilia A", "Von Willebrand disease", "Hemophilia B", "Factor XI deficiency"],
+          "answer": "Von Willebrand disease",
+          "explanation": "Von Willebrand disease (VWD) is the most common inherited bleeding disorder, affecting up to 1% of the population."
+        },
+        {
+          "question": "Von Willebrand factor is important for which function?",
+          "options": ["Platelet adhesion", "Fibrin cross-linking", "Prothrombin activation", "Factor XIII stabilization"],
+          "answer": "Platelet adhesion",
+          "explanation": "Von Willebrand factor mediates platelet adhesion to subendothelial collagen via glycoprotein Ib receptors."
+        },
+        {
+          "question": "Which laboratory findings are typical in VWD?",
+          "options": ["Prolonged bleeding time and prolonged aPTT", "Prolonged PT only", "Prolonged thrombin time", "Normal coagulation profile"],
+          "answer": "Prolonged bleeding time and prolonged aPTT",
+          "explanation": "VWD leads to defective platelet adhesion (↑ bleeding time) and low Factor VIII activity (↑ aPTT). PT is usually normal."
+        },
+        {
+          "question": "Which drug is first-line for most patients with type 1 VWD?",
+          "options": ["Factor IX concentrate", "Desmopressin (DDAVP)", "Vitamin K", "Heparin"],
+          "answer": "Desmopressin (DDAVP)",
+          "explanation": "DDAVP promotes release of vWF and Factor VIII, making it first-line treatment in type 1 VWD."
+        },
+        {
+          "question": "Which type of VWD is the most severe?",
+          "options": ["Type 1", "Type 2A", "Type 2B", "Type 3"],
+          "answer": "Type 3",
+          "explanation": "Type 3 VWD is characterized by near complete absence of vWF and severe bleeding, often requiring vWF-containing factor concentrates."
+        }
+      ]
+    },
+    {
+      "name": "Disseminated Intravascular Coagulation (DIC)",
+      "questions": [
+        {
+          "question": "Which of the following is a common trigger for DIC?",
+          "options": ["Vitamin K deficiency", "Sepsis", "Hemophilia", "von Willebrand disease"],
+          "answer": "Sepsis",
+          "explanation": "Sepsis is one of the most frequent causes of DIC, along with trauma, obstetric complications, and malignancy."
+        },
+        {
+          "question": "What is the underlying problem in DIC?",
+          "options": ["Deficiency of clotting factors", "Uncontrolled activation of coagulation and fibrinolysis", "Immune destruction of platelets", "Isolated fibrinogen deficiency"],
+          "answer": "Uncontrolled activation of coagulation and fibrinolysis",
+          "explanation": "DIC involves widespread activation of the coagulation cascade, leading to consumption of clotting factors and platelets with secondary fibrinolysis."
+        },
+        {
+          "question": "Which laboratory pattern is typical in DIC?",
+          "options": ["Prolonged PT, prolonged aPTT, low fibrinogen, elevated D-dimer", "Isolated prolonged PT", "Isolated thrombocytosis", "Normal coagulation profile"],
+          "answer": "Prolonged PT, prolonged aPTT, low fibrinogen, elevated D-dimer",
+          "explanation": "DIC presents with consumption of clotting factors (↑ PT, ↑ aPTT, ↓ fibrinogen) and increased fibrinolysis (↑ D-dimer)."
+        },
+        {
+          "question": "Which is the most common clinical manifestation of DIC?",
+          "options": ["Isolated thrombosis", "Bleeding", "Splenomegaly", "Isolated petechiae"],
+          "answer": "Bleeding",
+          "explanation": "Bleeding from multiple sites (IV lines, mucous membranes, GI tract) is the most common clinical finding in DIC, though thrombosis may also occur."
+        },
+        {
+          "question": "What is the cornerstone of DIC management?",
+          "options": ["Vitamin K", "Heparin always", "Treating the underlying cause", "Splenectomy"],
+          "answer": "Treating the underlying cause",
+          "explanation": "DIC is secondary to another condition (e.g., sepsis, trauma, obstetric complication), so the primary treatment is correcting the cause. Supportive transfusion may be required."
+        }
+      ]
+    }
+  ]
+}

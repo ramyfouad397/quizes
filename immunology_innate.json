@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Innate Immunity Basics",
+      "questions": [
+        {
+          "question": "Which of the following is a component of innate immunity?",
+          "options": ["Macrophages", "T lymphocytes", "B lymphocytes", "Memory cells"],
+          "answer": "Macrophages",
+          "explanation": "Macrophages are phagocytic cells that belong to innate immunity, whereas T and B cells are part of adaptive immunity."
+        },
+        {
+          "question": "What is the main characteristic of innate immunity?",
+          "options": ["Specificity for particular antigens", "Immunological memory", "Immediate response", "Antibody production"],
+          "answer": "Immediate response",
+          "explanation": "Innate immunity provides a rapid, non-specific defense against pathogens without requiring prior exposure."
+        },
+        {
+          "question": "Which physical barrier is the first line of defense in innate immunity?",
+          "options": ["Skin", "Bone marrow", "Spleen", "Lymph nodes"],
+          "answer": "Skin",
+          "explanation": "The skin acts as a mechanical and chemical barrier, preventing pathogen entry."
+        },
+        {
+          "question": "Which type of receptors recognize pathogen-associated molecular patterns (PAMPs)?",
+          "options": ["Toll-like receptors (TLRs)", "T-cell receptors", "B-cell receptors", "MHC molecules"],
+          "answer": "Toll-like receptors (TLRs)",
+          "explanation": "TLRs on innate immune cells detect PAMPs such as bacterial LPS or viral RNA, initiating immune responses."
+        },
+        {
+          "question": "Which soluble factor is produced by epithelial cells as part of innate immunity?",
+          "options": ["Defensins", "IgG", "IgM", "CD8"],
+          "answer": "Defensins",
+          "explanation": "Defensins are antimicrobial peptides secreted by epithelial cells that disrupt microbial membranes."
+        }
+      ]
+    },
+    {
+      "name": "Innate Immune Cells",
+      "questions": [
+        {
+          "question": "Which innate immune cells are primarily responsible for phagocytosis?",
+          "options": ["Neutrophils and macrophages", "B cells and T cells", "NK cells and basophils", "Eosinophils and mast cells"],
+          "answer": "Neutrophils and macrophages",
+          "explanation": "Neutrophils are first responders, and macrophages are long-lived phagocytes in tissues."
+        },
+        {
+          "question": "Which innate immune cell kills virus-infected and tumor cells?",
+          "options": ["Natural killer (NK) cells", "Neutrophils", "B cells", "Helper T cells"],
+          "answer": "Natural killer (NK) cells",
+          "explanation": "NK cells recognize stressed cells lacking MHC I and kill them without prior sensitization."
+        },
+        {
+          "question": "Mast cells mainly contribute to which type of innate response?",
+          "options": ["Inflammation and allergy", "Phagocytosis", "Antibody secretion", "Cytotoxic killing"],
+          "answer": "Inflammation and allergy",
+          "explanation": "Mast cells release histamine and other mediators, contributing to inflammation and allergic reactions."
+        },
+        {
+          "question": "Dendritic cells are important because they:",
+          "options": ["Link innate and adaptive immunity", "Produce antibodies directly", "Kill bacteria by lysis", "Store iron"],
+          "answer": "Link innate and adaptive immunity",
+          "explanation": "Dendritic cells capture antigens and present them to T cells, bridging innate and adaptive immunity."
+        },
+        {
+          "question": "Which cells produce type I interferons in viral infections?",
+          "options": ["Plasmacytoid dendritic cells", "B cells", "Neutrophils", "Eosinophils"],
+          "answer": "Plasmacytoid dendritic cells",
+          "explanation": "Plasmacytoid dendritic cells are specialized in secreting large amounts of type I interferons (IFN-α, IFN-β) during viral infections."
+        }
+      ]
+    },
+    {
+      "name": "Innate Immune Mechanisms",
+      "questions": [
+        {
+          "question": "Which complement pathway is directly activated by pathogens without antibodies?",
+          "options": ["Alternative pathway", "Classical pathway", "Lectin pathway", "Adaptive pathway"],
+          "answer": "Alternative pathway",
+          "explanation": "The alternative complement pathway is triggered directly by microbial surfaces, independent of antibodies."
+        },
+        {
+          "question": "Which complement fragment is an important opsonin?",
+          "options": ["C3b", "C5a", "C9", "C2"],
+          "answer": "C3b",
+          "explanation": "C3b coats microbes, enhancing phagocytosis by neutrophils and macrophages."
+        },
+        {
+          "question": "Which molecule acts as a chemotactic factor for neutrophils?",
+          "options": ["C5a", "IgM", "IL-10", "CD8"],
+          "answer": "C5a",
+          "explanation": "C5a is a potent chemoattractant for neutrophils, guiding them to sites of infection."
+        },
+        {
+          "question": "Which cytokine is the main mediator of fever in innate immunity?",
+          "options": ["IL-1", "IL-4", "IL-10", "TGF-β"],
+          "answer": "IL-1",
+          "explanation": "IL-1, produced by macrophages, induces fever by acting on the hypothalamus."
+        },
+        {
+          "question": "Which process involves engulfing and digesting microbes?",
+          "options": ["Phagocytosis", "Apoptosis", "Necrosis", "Opsonization"],
+          "answer": "Phagocytosis",
+          "explanation": "Phagocytosis is the process by which immune cells (like macrophages) ingest and degrade pathogens."
+        }
+      ]
+    }
+  ]
+}

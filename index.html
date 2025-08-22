@@ -1,213 +1,556 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Transfusion Medicine</title>
-  <style>
-    /* Fonts & base style */
-    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Poppins:wght@400;600&display=swap');
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>✨ Medical Quiz Hub</title>
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #f4f7fb;
-      color: #222;
-      text-align: center;
-      margin: 0;
-      padding: 20px;
-    }
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-    h2 {
-      font-family: 'Baloo 2', cursive;
-      color: #0d47a1;
-      margin-bottom: 5px;
-    }
+<style>
+  :root{
+    --bg:#f9fafb;
+    --card:#ffffff;
+    --text:#1f2937;
+    --muted:#6b7280;
 
-    h3 {
-      font-family: 'Baloo 2', cursive;
-      color: #1565c0;
-    }
+    --blue:#3b82f6;
+    --blue-700:#2563eb;
+    --green:#22c55e;
+    --green-700:#16a34a;
+    --mint:#2dd4bf;
+    --coral:#f87171;
+    --coral-700:#ef4444;
+    --peach:#fb923c;
+    --peach-700:#f97316;
+    --lav:#a78bfa;
+    --lav-700:#8b5cf6;
+    --amber:#facc15;
+    --gray-200:#e5e7eb;
+    --gray-300:#d1d5db;
+    --gray-400:#9ca3af;
 
-    p.subtitle {
-      font-size: 18px;
-      color: #444;
-      margin-top: 0;
-      margin-bottom: 20px;
-    }
+    --radius-xl:20px;
+    --radius-lg:16px;
+    --shadow:0 10px 24px rgba(0,0,0,0.12);
+  }
 
-    /* Quiz button styles */
-    .quiz-btn {
-      padding: 12px 20px;
-      margin: 10px;
-      border-radius: 16px;
-      border: none;
-      background: #1976d2; /* primary blue */
-      color: white;
-      font-weight: bold;
-      font-size: 16px;
-      width: 220px;
-      position: relative;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-      cursor: pointer;
-      transition: transform 0.2s, background 0.3s;
-    }
-    .quiz-btn:hover {
-      transform: scale(1.05);
-      background: #0d47a1;
-    }
-    .progress-bar {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 8px;
-      background: #43a047; /* vibrant green */
-      border-radius: 0 0 16px 16px;
-      transition: width 0.4s;
-    }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:24px;
+    background:linear-gradient(180deg, #f9fafb 0%, #f3f4f6 100%);
+    color:var(--text);
+    font-family:'Poppins',sans-serif;
+  }
 
-    /* Question section */
-    #quiz-container {
-      margin-top: 30px;
-      background: #fff;
-      border-radius: 20px;
-      padding: 20px;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  header{
+    text-align:center; margin-bottom:24px;
+  }
+  header h1{
+    font-family:'Baloo 2',cursive;
+    font-size:2.4rem; margin:0 0 6px;
+    color:var(--blue-700);
+  }
+  header p{ color:var(--muted); margin:0 }
 
-    p {
-      font-size: 18px;
-      font-weight: 500;
-    }
+  .shell{
+    max-width:1000px; margin:0 auto;
+  }
 
-    /* Choice buttons */
-    .choice-btn {
-      display: block;
-      margin: 10px auto;
-      padding: 12px 16px;
-      border: none;
-      border-radius: 12px;
-      width: 80%;
-      font-size: 16px;
-      background: #ff7043; /* strong orange */
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.3s, transform 0.2s;
-    }
-    .choice-btn:hover:not(:disabled) {
-      transform: scale(1.03);
-      background: #e64a19;
-    }
-    .choice-btn:disabled {
-      opacity: 0.7;
-      cursor: not-allowed;
-    }
+  .card{
+    background:var(--card);
+    border-radius:var(--radius-xl);
+    box-shadow:var(--shadow);
+    padding:18px;
+  }
 
-    .correct { background: #2e7d32 !important; }  /* green */
-    .wrong { background: #c62828 !important; }    /* red */
+  /* Button grid */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:14px;
+    margin-top:14px;
+  }
 
-    /* Reset button */
-    .reset-btn {
-      margin-top: 20px;
-      padding: 10px 18px;
-      border: none;
-      border-radius: 12px;
-      background: #6a1b9a; /* deep purple */
-      font-weight: bold;
-      color: white;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .reset-btn:hover {
-      background: #4a148c;
-    }
-  </style>
+  /* Generic pretty button with progress bar stripe */
+  .pretty-btn{
+    position:relative;
+    border:none; width:100%;
+    padding:16px 14px 14px;
+    border-radius:var(--radius-lg);
+    background:var(--blue);
+    color:#fff; font-weight:700;
+    box-shadow:0 6px 14px rgba(0,0,0,0.1);
+    cursor:pointer;
+    transition:transform .15s ease, filter .2s ease, background .2s ease;
+    text-align:left;
+    min-height:72px;
+  }
+  .pretty-btn:hover{ transform:translateY(-2px); filter:saturate(1.12) }
+  .pretty-btn .title{
+    font-family:'Baloo 2',cursive;
+    font-size:1.2rem; line-height:1.2;
+    display:block; margin-bottom:4px;
+  }
+  .pretty-btn .subtitle{ font-size:.9rem; opacity:.9 }
+  .pretty-btn .stripe{
+    position:absolute; left:0; bottom:0; height:8px;
+    background:var(--green);
+    border-radius:0 0 var(--radius-lg) var(--radius-lg);
+    width:0%;
+    transition:width .4s ease;
+  }
+  /* Color accents by level */
+  .subject-btn{ background:var(--lav) }
+  .subject-btn:hover{ background:var(--lav-700) }
+  .topic-btn{ background:var(--peach) }
+  .topic-btn:hover{ background:var(--peach-700) }
+  .quiz-btn{ background:var(--blue) }
+  .quiz-btn:hover{ background:var(--blue-700) }
+
+  /* Breadcrumb + nav */
+  .crumbs{
+    display:flex; flex-wrap:wrap; gap:8px;
+    margin:0 0 12px;
+  }
+  .linkish{
+    background:#dbeafe; color:#1e40af;
+    padding:8px 10px; border-radius:999px; border:none;
+    font-weight:600; cursor:pointer;
+  }
+
+  /* Quiz pane */
+  .quiz-pane{
+    margin-top:18px;
+    padding:18px;
+    border-radius:var(--radius-xl);
+    background:#fff;
+    box-shadow:var(--shadow);
+  }
+  .q-head{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:10px; margin-bottom:8px;
+  }
+  .q-title{
+    font-family:'Baloo 2',cursive;
+    font-size:1.25rem; margin:0;
+    color:var(--blue-700);
+  }
+  .q-num{ color:var(--muted); font-weight:600 }
+  .question{
+    font-size:1.05rem; font-weight:600; margin:10px 0 8px;
+  }
+
+  .choices{ display:flex; flex-direction:column; gap:10px; margin-top:8px }
+  .choice{
+    border:none; text-align:left; padding:12px 14px;
+    border-radius:14px; background:var(--coral);
+    color:#fff; font-weight:600; cursor:pointer;
+    transition:transform .1s ease, background .2s ease, opacity .2s ease;
+  }
+  .choice:hover:not(:disabled){ transform:translateY(-1px); background:var(--coral-700) }
+  .choice:disabled{ opacity:.7; cursor:not-allowed }
+  .choice.correct{ background:var(--green) !important; color:#fff }
+  .choice.wrong{ background:var(--amber) !important; color:#000 }
+
+  .explain{
+    margin-top:12px; padding:12px 14px;
+    background:#eef2ff; border:1px dashed #c7d2fe;
+    border-radius:12px; color:#312e81;
+  }
+
+  .controls{
+    margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;
+  }
+  .btn{
+    border:none; border-radius:12px; padding:10px 14px; font-weight:700; cursor:pointer;
+    background:#e5e7eb; color:#111827;
+  }
+  .btn.primary{ background:var(--green); color:#fff }
+  .btn.warn{ background:var(--amber); color:#000 }
+  .btn.secondary{ background:var(--blue); color:#fff }
+  .score{
+    font-weight:800; padding:8px 12px; border-radius:999px;
+    background:#dbeafe; color:#1e3a8a;
+  }
+
+  /* Loader & error */
+  .muted{ color:var(--muted) }
+  .err{
+    background:#fef2f2; color:#991b1b; border-left:4px solid #ef4444;
+    padding:12px; border-radius:12px; margin:10px 0;
+  }
+
+  @media (max-width:640px){
+    body{ padding:16px }
+    .pretty-btn{ min-height:84px }
+  }
+</style>
+
 </head>
 <body>
+<header class="shell">
+  <h1>✨ Medical Quiz Hub</h1>
+  <p class="muted">Pick a subject → topic → quiz. Your progress is saved on this device.</p>
+</header>
 
-<h2>✨ Transfusion Medicine ✨</h2>
-<p class="subtitle">Learn by Quizzes</p>
+<main class="shell">
+  <!-- Breadcrumb / nav -->
+  <div class="crumbs" id="crumbs"></div>
 
-<!-- Example quiz button -->
-<button class="quiz-btn" id="quiz1-btn" onclick="loadQuiz('quiz1')">
-  PRBCs Quiz
-  <div class="progress-bar" id="quiz1-progress"></div>
-</button>
+  <!-- Dynamic list area (subjects, topics, quizzes) -->
+  <section class="card" id="listArea">
+    <p class="muted" id="status">Loading subjects…</p>
+    <div class="grid" id="grid"></div>
+  </section>
 
-<div id="quiz-container"></div>
+  <!-- Quiz player -->
+  <section class="quiz-pane" id="quizPane" style="display:none">
+    <div class="q-head">
+      <h2 class="q-title" id="quizTitle">Quiz</h2>
+      <div class="q-num" id="qCounter"></div>
+    </div>
+
+    <div class="question" id="qText"></div>
+    <div class="choices" id="choices"></div>
+    <div class="explain" id="explain" style="display:none"></div>
+
+    <div class="controls">
+      <button class="btn secondary" id="btnBackToQuizzes">⬅️ Back to quizzes</button>
+      <button class="btn warn" id="btnRestart" title="Erase this quiz progress on this device">🔄 Restart quiz</button>
+      <span class="score" id="scoreBadge" style="display:none"></span>
+      <button class="btn primary" id="btnNext" style="margin-left:auto; display:none">Next ➜</button>
+      <button class="btn primary" id="btnFinish" style="margin-left:auto; display:none">Finish ✅</button>
+    </div>
+  </section>
+</main>
 
 <script>
-const quizzes = {
-  "quiz1": {
-    name: "PRBCs Quiz",
-    questions: [
-      { q: "Main indication for PRBCs?", options: ["Anemia", "Thrombocytopenia"], answer: 0 }
-    ]
-  }
-};
+/* ====== Configuration (use relative files placed next to index.html) ====== */
+const MASTER_JSON = 'subjects_topics.json'; 
+/* Structure expected:
+{
+  "subjects":[
+    {
+      "name":"Hematology",
+      "topics":[
+        {"name":"Red Blood Cells","file":"hematology_rbc.json"},
+        {"name":"Coagulation","file":"hematology_coagulation.json"}
+      ]
+    },
+    ...
+  ]
+}
+Each *topic file* structure example (hematology_rbc.json):
+{
+  "quizzes":[
+    { "name":"RBC Quiz 01", "questions":[{ "question":"...", "options":[...], "answer":"...", "explanation":"..." }, ... ] },
+    { "name":"RBC Quiz 02", "questions":[ ... ] }
+  ]
+}
+*/
 
-// Load saved progress
-function loadProgress(quizId) {
-  let data = localStorage.getItem(quizId);
-  return data ? JSON.parse(data) : null;
+/* ====== App State ====== */
+let master = null;                 // subjects & topics
+let currentSubject = null;         // {name, topics}
+let currentTopic = null;           // {name, file}
+let currentTopicData = null;       // {quizzes:[...]}
+let currentQuizIndex = -1;         // index inside currentTopicData.quizzes
+let qIndex = 0;                    // question index in current quiz
+let correctCount = 0;              // score during play
+
+/* ====== Utilities ====== */
+const $ = sel => document.querySelector(sel);
+const $grid = $('#grid');
+const $status = $('#status');
+const $crumbs = $('#crumbs');
+const $quizPane = $('#quizPane');
+const $listArea = $('#listArea');
+
+function keyForQuiz(subjectName, topicName, quizName){
+  // Unique key per quiz for localStorage
+  return `quiz::${subjectName}::${topicName}::${quizName}`;
+}
+function getSavedScore(subjectName, topicName, quizName){
+  const raw = localStorage.getItem(keyForQuiz(subjectName, topicName, quizName));
+  if(!raw) return null;
+  try { const {score} = JSON.parse(raw); return Number.isFinite(score) ? score : null; }
+  catch{ return null; }
+}
+function saveScore(subjectName, topicName, quizName, score){
+  localStorage.setItem(keyForQuiz(subjectName, topicName, quizName), JSON.stringify({
+    score, attempts: 1, lastDate: new Date().toISOString().slice(0,10)
+  }));
+}
+function clearScore(subjectName, topicName, quizName){
+  localStorage.removeItem(keyForQuiz(subjectName, topicName, quizName));
 }
 
-// Save progress
-function saveProgress(quizId, score) {
-  localStorage.setItem(quizId, JSON.stringify({score: score}));
-  updateButton(quizId, score);
-}
-
-// Update button color/progress
-function updateButton(quizId, score) {
-  const btn = document.getElementById(quizId + "-btn");
-  const bar = document.getElementById(quizId + "-progress");
-  if(score !== null) {
-    bar.style.width = score + "%";
-    btn.style.background = "#546e7a"; // gray-blue after attempt
-  } else {
-    btn.style.background = "#1976d2"; // blue if not taken
-  }
-}
-
-// Load quiz
-function loadQuiz(quizId) {
-  const quiz = quizzes[quizId];
-  let container = document.getElementById("quiz-container");
-  container.innerHTML = `<h3>${quiz.name}</h3>`;
-  quiz.questions.forEach((q,i) => {
-    let html = `<p>${q.q}</p>`;
-    q.options.forEach((opt,idx) => {
-      html += `<button class='choice-btn' onclick='checkAnswer("${quizId}",${i},${idx},this)'>${opt}</button>`;
-    });
-    container.innerHTML += html;
+/* Compute average score for all quizzes in a topic file */
+function computeTopicAverage(subjectName, topic, topicData){
+  if(!topicData?.quizzes?.length) return null;
+  let have = 0, sum = 0;
+  topicData.quizzes.forEach(qz=>{
+    const s = getSavedScore(subjectName, topic.name, qz.name);
+    if(Number.isFinite(s)){ have++; sum += s; }
   });
-  container.innerHTML += `<button class="reset-btn" onclick="resetQuiz('${quizId}')">🔄 Restart Quiz</button>`;
+  if(!have) return null;
+  return Math.round(sum / have);
 }
 
-function checkAnswer(quizId,qIdx,optIdx,btn){
-  const quiz = quizzes[quizId];
-  let buttons = btn.parentNode.querySelectorAll("button");
-  buttons.forEach(b => b.disabled = true); // disable all
-  if(optIdx === quiz.questions[qIdx].answer){
-    btn.classList.add("correct");
-    saveProgress(quizId,100); // here example: 100% if 1Q quiz
-  } else {
-    btn.classList.add("wrong");
-    saveProgress(quizId,0);
+/* Compute average score across all topics within a subject */
+async function computeSubjectAverage(subject){
+  if(!subject?.topics?.length) return null;
+  let have = 0, sum = 0;
+  for(const t of subject.topics){
+    try{
+      const td = await fetch(t.file).then(r=>r.json());
+      const avg = computeTopicAverage(subject.name, t, td);
+      if(Number.isFinite(avg)){ have++; sum += avg; }
+    }catch(_){}
+  }
+  if(!have) return null;
+  return Math.round(sum / have);
+}
+
+/* Pretty button element with progress stripe */
+function makePrettyButton({title, subtitle='', className='', onClick, progress=null}){
+  const btn = document.createElement('button');
+  btn.className = `pretty-btn ${className}`.trim();
+  btn.innerHTML = `<span class="title">${title}</span><span class="subtitle">${subtitle}</span><div class="stripe"></div>`;
+  btn.onclick = onClick;
+  if(progress !== null){
+    btn.querySelector('.stripe').style.width = Math.max(0, Math.min(100, progress)) + '%';
+  }
+  return btn;
+}
+
+/* Breadcrumbs */
+function setCrumbs(parts){
+  $crumbs.innerHTML = '';
+  parts.forEach(p=>{
+    const b = document.createElement('button');
+    b.className = 'linkish';
+    b.textContent = p.label;
+    b.onclick = p.onClick;
+    $crumbs.appendChild(b);
+  });
+}
+
+/* ====== Rendering: Subjects, Topics, Quizzes List ====== */
+async function showSubjects(){
+  $quizPane.style.display = 'none';
+  $listArea.style.display = 'block';
+  setCrumbs([]);
+  $status.textContent = 'Loading subjects…';
+  $grid.innerHTML = '';
+
+  try{
+    master = await fetch(MASTER_JSON).then(r=>{
+      if(!r.ok) throw new Error(`Failed to load ${MASTER_JSON}`);
+      return r.json();
+    });
+
+    const subjects = master?.subjects ?? [];
+    if(!subjects.length){ $status.innerHTML = ''; $grid.innerHTML = `<div class="err">No subjects found in <b>${MASTER_JSON}</b>.</div>`; return; }
+
+    $status.innerHTML = '';
+    for(const subj of subjects){
+      // Pre-compute subject average (async)
+      let avg = await computeSubjectAverage(subj).catch(()=>null);
+      const btn = makePrettyButton({
+        title: subj.name,
+        subtitle: avg !== null ? `Overall progress: ${avg}%` : 'Start learning!',
+        className: 'subject-btn',
+        onClick: ()=>showTopics(subj),
+        progress: avg ?? 0
+      });
+      $grid.appendChild(btn);
+    }
+  }catch(e){
+    $status.innerHTML = '';
+    $grid.innerHTML = `<div class="err">${e.message}</div>`;
   }
 }
 
-function resetQuiz(quizId){
-  localStorage.removeItem(quizId);
-  document.getElementById("quiz-container").innerHTML = "";
-  updateButton(quizId, null);
+async function showTopics(subj){
+  currentSubject = subj;
+  currentTopic = null;
+  currentTopicData = null;
+  $quizPane.style.display = 'none';
+  $listArea.style.display = 'block';
+  setCrumbs([
+    {label:'🏠 Subjects', onClick: showSubjects},
+    {label: subj.name, onClick: ()=>showTopics(subj)}
+  ]);
+  $status.textContent = 'Loading topics…';
+  $grid.innerHTML = '';
+
+  const topics = subj?.topics ?? [];
+  if(!topics.length){ $status.innerHTML=''; $grid.innerHTML = `<div class="err">No topics in ${subj.name}.</div>`; return; }
+
+  $status.innerHTML = '';
+  for(const t of topics){
+    // Load each topic file to compute its average
+    let avg = null;
+    try{
+      const data = await fetch(t.file).then(r=>r.json());
+      avg = computeTopicAverage(subj.name, t, data);
+    }catch(_){}
+    const btn = makePrettyButton({
+      title: t.name,
+      subtitle: avg !== null ? `Topic progress: ${avg}%` : 'No attempts yet',
+      className: 'topic-btn',
+      onClick: ()=>showQuizzes(t),
+      progress: avg ?? 0
+    });
+    $grid.appendChild(btn);
+  }
 }
 
-// On load update buttons
-updateButton("quiz1", (loadProgress("quiz1")||{}).score ?? null);
+async function showQuizzes(topic){
+  currentTopic = topic;
+  currentTopicData = null;
+  $quizPane.style.display = 'none';
+  $listArea.style.display = 'block';
+  setCrumbs([
+    {label:'🏠 Subjects', onClick: showSubjects},
+    {label: currentSubject.name, onClick: ()=>showTopics(currentSubject)},
+    {label: topic.name, onClick: ()=>showQuizzes(topic)}
+  ]);
+  $status.textContent = 'Loading quizzes…';
+  $grid.innerHTML = '';
+
+  try{
+    currentTopicData = await fetch(topic.file).then(r=>{
+      if(!r.ok) throw new Error(`Failed to load ${topic.file}`);
+      return r.json();
+    });
+
+    const quizzes = currentTopicData?.quizzes ?? [];
+    if(!quizzes.length){ $status.innerHTML=''; $grid.innerHTML = `<div class="err">No quizzes inside <b>${topic.name}</b>.</div>`; return; }
+
+    $status.innerHTML = '';
+    quizzes.forEach((qz, idx)=>{
+      const saved = getSavedScore(currentSubject.name, topic.name, qz.name);
+      const subtitle = (saved !== null) ? `Last score: ${saved}%` : 'Not taken yet';
+      const btn = makePrettyButton({
+        title: qz.name,
+        subtitle,
+        className:'quiz-btn',
+        onClick: ()=>startQuiz(idx),
+        progress: saved ?? 0
+      });
+      $grid.appendChild(btn);
+    });
+  }catch(e){
+    $status.innerHTML = '';
+    $grid.innerHTML = `<div class="err">${e.message}</div>`;
+  }
+}
+
+/* ====== Quiz Player ====== */
+function startQuiz(idx){
+  currentQuizIndex = idx;
+  qIndex = 0;
+  correctCount = 0;
+
+  $listArea.style.display = 'none';
+  $quizPane.style.display = 'block';
+  $('#btnBackToQuizzes').onclick = ()=>showQuizzes(currentTopic);
+  $('#btnRestart').onclick = restartCurrentQuiz;
+  $('#btnNext').onclick = nextQuestion;
+  $('#btnFinish').onclick = finishQuiz;
+
+  $('#scoreBadge').style.display = 'none';
+  renderQuestion();
+}
+
+function currentQuiz(){
+  return currentTopicData.quizzes[currentQuizIndex];
+}
+
+function renderQuestion(){
+  const quiz = currentQuiz();
+  const Q = quiz.questions[qIndex];
+
+  $('#quizTitle').textContent = quiz.name;
+  $('#qCounter').textContent = `Q ${qIndex+1} of ${quiz.questions.length}`;
+  $('#qText').textContent = Q.question;
+
+  const choicesBox = $('#choices'); choicesBox.innerHTML = '';
+  $('#explain').style.display='none'; $('#explain').innerHTML='';
+  $('#btnNext').style.display='none'; $('#btnFinish').style.display='none';
+
+  // Build choice buttons
+  Q.options.forEach((opt, i)=>{
+    const b = document.createElement('button');
+    b.className = 'choice';
+    b.textContent = opt;
+    b.onclick = ()=>onChooseAnswer(b, opt, Q);
+    choicesBox.appendChild(b);
+  });
+}
+
+/* When the user clicks an answer:
+   - Disable ALL choices immediately
+   - Mark selected as correct/wrong and highlight correct one if wrong
+   - Show explanation
+   - Show Next (or Finish) button
+   - Do NOT allow re-select; only restart can re-try the quiz
+*/
+function onChooseAnswer(btn, chosenText, Q){
+  // Disable all
+  document.querySelectorAll('.choice').forEach(c=>c.disabled = true);
+
+  const isCorrect = (chosenText === Q.answer);
+  if(isCorrect){ btn.classList.add('correct'); correctCount++; }
+  else{
+    btn.classList.add('wrong');
+    // highlight the correct one
+    document.querySelectorAll('.choice').forEach(c=>{
+      if(c.textContent.trim() === Q.answer.trim()){ c.classList.add('correct'); }
+    });
+  }
+
+  // Show explanation
+  const exp = $('#explain');
+  exp.style.display='block';
+  exp.innerHTML = `<strong>${isCorrect ? '✅ Correct!' : '❌ Not quite.'}</strong> ` + 
+                  (Q.explanation ? `<div style="margin-top:6px">${Q.explanation}</div>` : '');
+
+  // Show proper nav button
+  const isLast = (qIndex === currentQuiz().questions.length - 1);
+  if(isLast){ $('#btnFinish').style.display='inline-block'; }
+  else{ $('#btnNext').style.display='inline-block'; }
+}
+
+function nextQuestion(){
+  qIndex++;
+  renderQuestion();
+}
+
+function finishQuiz(){
+  const total = currentQuiz().questions.length;
+  const pct = Math.round(100 * (correctCount / total));
+  $('#scoreBadge').style.display = 'inline-block';
+  $('#scoreBadge').textContent = `Your score: ${pct}%`;
+
+  // Save progress
+  saveScore(currentSubject.name, currentTopic.name, currentQuiz().name, pct);
+
+  // After finishing, go back to quizzes list after a short pause so user sees score
+  setTimeout(()=>showQuizzes(currentTopic), 700);
+}
+
+function restartCurrentQuiz(){
+  clearScore(currentSubject.name, currentTopic.name, currentQuiz().name);
+  startQuiz(currentQuizIndex);
+}
+
+/* ====== Boot ====== */
+showSubjects();
 </script>
 </body>
 </html>

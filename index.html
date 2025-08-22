@@ -1,550 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>✨ Medical Quiz Hub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transfusion Medicine - Learn by Quizzes</title>
+  <style>
+    /* ====== GENERAL STYLES ====== */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fb; /* Light Gray-Blue */
+      color: #111827; /* Dark Gray */
+    }
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    header {
+      background: linear-gradient(90deg, #2563eb, #10b981);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
 
-<style>
-  :root{
-    --bg:#fffdfc;
-    --card:#ffffff;
-    --text:#374151;
-    --muted:#6b7280;
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: bold;
+    }
 
-    --pastel-blue:#a3c4f3;
-    --pastel-blue-700:#769fdb;
-    --pastel-green:#80ed99;
-    --pastel-mint:#b5ead7;
-    --pastel-coral:#fbc4ab;
-    --pastel-coral-700:#f4978e;
-    --pastel-peach:#ffdac1;
-    --pastel-peach-700:#ffb997;
-    --pastel-lav:#d5bdfc;
-    --gray-200:#e5e7eb;
-    --gray-300:#d1d5db;
-    --gray-400:#9ca3af;
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1rem;
+      font-style: italic;
+    }
 
-    --radius-xl:20px;
-    --radius-lg:16px;
-    --shadow:0 10px 24px rgba(0,0,0,0.08);
-  }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
 
-  *{box-sizing:border-box}
-  body{
-    margin:0; padding:24px;
-    background:linear-gradient(180deg, #fffefd 0%, #fefaf6 100%);
-    color:var(--text);
-    font-family:'Poppins',sans-serif;
-  }
+    h2 {
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
 
-  header{
-    text-align:center; margin-bottom:24px;
-  }
-  header h1{
-    font-family:'Baloo 2',cursive;
-    font-size:2.2rem; margin:0 0 6px;
-  }
-  header p{ color:var(--muted); margin:0 }
+    /* ====== BUTTON STYLES ====== */
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      margin: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      background-color: #2563eb; /* Primary Blue */
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
 
-  .shell{
-    max-width:1000px; margin:0 auto;
-  }
+    .button:hover {
+      background-color: #1e4ed8;
+      transform: scale(1.05);
+    }
 
-  .card{
-    background:var(--card);
-    border-radius:var(--radius-xl);
-    box-shadow:var(--shadow);
-    padding:18px;
-  }
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: #d1d5db;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-top: 5px;
+    }
 
-  /* Button grid */
-  .grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-    gap:14px;
-    margin-top:14px;
-  }
+    .progress {
+      height: 8px;
+      background: #10b981; /* Emerald Green */
+      width: 0%;
+      transition: width 0.4s ease;
+    }
 
-  /* Generic pretty button with progress bar stripe */
-  .pretty-btn{
-    position:relative;
-    border:none; width:100%;
-    padding:16px 14px 14px;
-    border-radius:var(--radius-lg);
-    background:var(--pastel-blue);
-    color:#fff; font-weight:700;
-    box-shadow:0 6px 14px rgba(0,0,0,0.08);
-    cursor:pointer;
-    transition:transform .15s ease, filter .2s ease, background .2s ease;
-    text-align:left;
-    min-height:72px;
-  }
-  .pretty-btn:hover{ transform:translateY(-2px); filter:saturate(1.06) }
-  .pretty-btn .title{
-    font-family:'Baloo 2',cursive;
-    font-size:1.2rem; line-height:1.2;
-    display:block; margin-bottom:4px;
-  }
-  .pretty-btn .subtitle{ font-size:.9rem; opacity:.9 }
-  .pretty-btn .stripe{
-    position:absolute; left:0; bottom:0; height:8px;
-    background:var(--pastel-green);
-    border-radius:0 0 var(--radius-lg) var(--radius-lg);
-    width:0%;
-    transition:width .4s ease;
-  }
-  /* Color accents by level */
-  .subject-btn{ background:var(--pastel-lav) }
-  .subject-btn:hover{ background:#b79df8 }
-  .topic-btn{ background:var(--pastel-peach) }
-  .topic-btn:hover{ background:var(--pastel-peach-700) }
-  .quiz-btn{ background:var(--pastel-blue) }
-  .quiz-btn:hover{ background:var(--pastel-blue-700) }
+    /* ====== QUIZ STYLES ====== */
+    .quiz-container {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
 
-  /* Breadcrumb + nav */
-  .crumbs{
-    display:flex; flex-wrap:wrap; gap:8px;
-    margin:0 0 12px;
-  }
-  .linkish{
-    background:#eef2ff; color:#3730a3;
-    padding:8px 10px; border-radius:999px; border:none;
-    font-weight:600; cursor:pointer;
-  }
+    .question {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
 
-  /* Quiz pane */
-  .quiz-pane{
-    margin-top:18px;
-    padding:18px;
-    border-radius:var(--radius-xl);
-    background:#fff;
-    box-shadow:var(--shadow);
-  }
-  .q-head{
-    display:flex; align-items:center; justify-content:space-between;
-    gap:10px; margin-bottom:8px;
-  }
-  .q-title{
-    font-family:'Baloo 2',cursive;
-    font-size:1.25rem; margin:0;
-  }
-  .q-num{ color:var(--muted); font-weight:600 }
-  .question{
-    font-size:1.05rem; font-weight:600; margin:10px 0 8px;
-  }
+    .options button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      background-color: #f1f5f9;
+      border: 2px solid #2563eb;
+      border-radius: 8px;
+      text-align: left;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
 
-  .choices{ display:flex; flex-direction:column; gap:10px; margin-top:8px }
-  .choice{
-    border:none; text-align:left; padding:12px 14px;
-    border-radius:14px; background:var(--pastel-coral);
-    color:#2f2f2f; font-weight:600; cursor:pointer;
-    transition:transform .1s ease, background .2s ease, opacity .2s ease;
-  }
-  .choice:hover:not(:disabled){ transform:translateY(-1px); background:var(--pastel-coral-700) }
-  .choice:disabled{ opacity:.7; cursor:not-allowed }
-  .choice.correct{ background:var(--pastel-mint) !important }
-  .choice.wrong{ background:#ffaaa5 !important }
+    .options button:hover {
+      background-color: #e0ecff;
+    }
 
-  .explain{
-    margin-top:12px; padding:12px 14px;
-    background:#f7f7ff; border:1px dashed #c7c9ff;
-    border-radius:12px; color:#3f3d56;
-  }
+    .options button.correct {
+      background-color: #10b981;
+      color: white;
+      border-color: #059669;
+    }
 
-  .controls{
-    margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;
-  }
-  .btn{
-    border:none; border-radius:12px; padding:10px 14px; font-weight:700; cursor:pointer;
-    background:#e5e7eb; color:#111827;
-  }
-  .btn.primary{ background:#86efac }
-  .btn.warn{ background:#fde68a }
-  .btn.secondary{ background:#bae6fd }
-  .score{
-    font-weight:800; padding:8px 12px; border-radius:999px;
-    background:#ecfeff; color:#0369a1;
-  }
+    .options button.wrong {
+      background-color: #ef4444;
+      color: white;
+      border-color: #dc2626;
+    }
 
-  /* Loader & error */
-  .muted{ color:var(--muted) }
-  .err{
-    background:#fff1f2; color:#9f1239; border-left:4px solid #f43f5e;
-    padding:12px; border-radius:12px; margin:10px 0;
-  }
+    .explanation {
+      margin-top: 15px;
+      padding: 12px;
+      border-left: 5px solid #2563eb;
+      background: #f0f9ff;
+      font-size: 0.95rem;
+    }
 
-  @media (max-width:640px){
-    body{ padding:16px }
-    .pretty-btn{ min-height:84px }
-  }
-</style>
+    .next-btn {
+      display: none;
+      margin-top: 15px;
+      background-color: #f97316; /* Orange */
+    }
+
+    .next-btn:hover {
+      background-color: #ea580c;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 600px) {
+      .button {
+        width: 100%;
+        margin: 5px 0;
+      }
+    }
+  </style>
 </head>
 <body>
-<header class="shell">
-  <h1>✨ Medical Quiz Hub</h1>
-  <p class="muted">Pick a subject → topic → quiz. Your progress is saved on this device.</p>
-</header>
+  <header>
+    <h1>Transfusion Medicine</h1>
+    <p>Learn by Quizzes</p>
+  </header>
 
-<main class="shell">
-  <!-- Breadcrumb / nav -->
-  <div class="crumbs" id="crumbs"></div>
-
-  <!-- Dynamic list area (subjects, topics, quizzes) -->
-  <section class="card" id="listArea">
-    <p class="muted" id="status">Loading subjects…</p>
-    <div class="grid" id="grid"></div>
-  </section>
-
-  <!-- Quiz player -->
-  <section class="quiz-pane" id="quizPane" style="display:none">
-    <div class="q-head">
-      <h2 class="q-title" id="quizTitle">Quiz</h2>
-      <div class="q-num" id="qCounter"></div>
+  <main>
+    <h2>Select a Subject</h2>
+    <div id="subjects"></div>
+    <div class="quiz-container" id="quiz-container" style="display: none;">
+      <div id="quiz-content"></div>
     </div>
+  </main>
 
-    <div class="question" id="qText"></div>
-    <div class="choices" id="choices"></div>
-    <div class="explain" id="explain" style="display:none"></div>
-
-    <div class="controls">
-      <button class="btn secondary" id="btnBackToQuizzes">⬅️ Back to quizzes</button>
-      <button class="btn warn" id="btnRestart" title="Erase this quiz progress on this device">🔄 Restart quiz</button>
-      <span class="score" id="scoreBadge" style="display:none"></span>
-      <button class="btn primary" id="btnNext" style="margin-left:auto; display:none">Next ➜</button>
-      <button class="btn primary" id="btnFinish" style="margin-left:auto; display:none">Finish ✅</button>
-    </div>
-  </section>
-</main>
-
-<script>
-/* ====== Configuration (use relative files placed next to index.html) ====== */
-const MASTER_JSON = 'subjects_topics.json'; 
-/* Structure expected:
-{
-  "subjects":[
-    {
-      "name":"Hematology",
-      "topics":[
-        {"name":"Red Blood Cells","file":"hematology_rbc.json"},
-        {"name":"Coagulation","file":"hematology_coagulation.json"}
+  <script>
+    let subjectsData = {
+      "subjects": [
+        {
+          "name": "Hematology",
+          "topics": [
+            { "name": "Red Cell Disorders", "file": "hematology_rbc.json" },
+            { "name": "White Cell Disorders", "file": "hematology_wbc.json" },
+            { "name": "Coagulation", "file": "hematology_coagulation.json" }
+          ]
+        },
+        {
+          "name": "Immunology",
+          "topics": [
+            { "name": "Innate Immunity", "file": "immunology_innate.json" },
+            { "name": "Adaptive Immunity", "file": "immunology_adaptive.json" },
+            { "name": "Hypersensitivity", "file": "immunology_hypersensitivity.json" }
+          ]
+        },
+        {
+          "name": "Transfusion Medicine",
+          "topics": [
+            { "name": "Blood Groups", "file": "transfusion_bloodgroups.json" },
+            { "name": "Transfusion Reactions", "file": "transfusion_reactions.json" },
+            { "name": "Blood Components", "file": "transfusion_components.json" }
+          ]
+        }
       ]
-    },
-    ...
-  ]
-}
-Each *topic file* structure example (hematology_rbc.json):
-{
-  "quizzes":[
-    { "name":"RBC Quiz 01", "questions":[{ "question":"...", "options":[...], "answer":"...", "explanation":"..." }, ... ] },
-    { "name":"RBC Quiz 02", "questions":[ ... ] }
-  ]
-}
-*/
+    };
 
-/* ====== App State ====== */
-let master = null;                 // subjects & topics
-let currentSubject = null;         // {name, topics}
-let currentTopic = null;           // {name, file}
-let currentTopicData = null;       // {quizzes:[...]}
-let currentQuizIndex = -1;         // index inside currentTopicData.quizzes
-let qIndex = 0;                    // question index in current quiz
-let correctCount = 0;              // score during play
+    const subjectsDiv = document.getElementById("subjects");
+    const quizContainer = document.getElementById("quiz-container");
+    const quizContent = document.getElementById("quiz-content");
 
-/* ====== Utilities ====== */
-const $ = sel => document.querySelector(sel);
-const $grid = $('#grid');
-const $status = $('#status');
-const $crumbs = $('#crumbs');
-const $quizPane = $('#quizPane');
-const $listArea = $('#listArea');
-
-function keyForQuiz(subjectName, topicName, quizName){
-  // Unique key per quiz for localStorage
-  return `quiz::${subjectName}::${topicName}::${quizName}`;
-}
-function getSavedScore(subjectName, topicName, quizName){
-  const raw = localStorage.getItem(keyForQuiz(subjectName, topicName, quizName));
-  if(!raw) return null;
-  try { const {score} = JSON.parse(raw); return Number.isFinite(score) ? score : null; }
-  catch{ return null; }
-}
-function saveScore(subjectName, topicName, quizName, score){
-  localStorage.setItem(keyForQuiz(subjectName, topicName, quizName), JSON.stringify({
-    score, attempts: 1, lastDate: new Date().toISOString().slice(0,10)
-  }));
-}
-function clearScore(subjectName, topicName, quizName){
-  localStorage.removeItem(keyForQuiz(subjectName, topicName, quizName));
-}
-
-/* Compute average score for all quizzes in a topic file */
-function computeTopicAverage(subjectName, topic, topicData){
-  if(!topicData?.quizzes?.length) return null;
-  let have = 0, sum = 0;
-  topicData.quizzes.forEach(qz=>{
-    const s = getSavedScore(subjectName, topic.name, qz.name);
-    if(Number.isFinite(s)){ have++; sum += s; }
-  });
-  if(!have) return null;
-  return Math.round(sum / have);
-}
-
-/* Compute average score across all topics within a subject */
-async function computeSubjectAverage(subject){
-  if(!subject?.topics?.length) return null;
-  let have = 0, sum = 0;
-  for(const t of subject.topics){
-    try{
-      const td = await fetch(t.file).then(r=>r.json());
-      const avg = computeTopicAverage(subject.name, t, td);
-      if(Number.isFinite(avg)){ have++; sum += avg; }
-    }catch(_){}
-  }
-  if(!have) return null;
-  return Math.round(sum / have);
-}
-
-/* Pretty button element with progress stripe */
-function makePrettyButton({title, subtitle='', className='', onClick, progress=null}){
-  const btn = document.createElement('button');
-  btn.className = `pretty-btn ${className}`.trim();
-  btn.innerHTML = `<span class="title">${title}</span><span class="subtitle">${subtitle}</span><div class="stripe"></div>`;
-  btn.onclick = onClick;
-  if(progress !== null){
-    btn.querySelector('.stripe').style.width = Math.max(0, Math.min(100, progress)) + '%';
-  }
-  return btn;
-}
-
-/* Breadcrumbs */
-function setCrumbs(parts){
-  $crumbs.innerHTML = '';
-  parts.forEach(p=>{
-    const b = document.createElement('button');
-    b.className = 'linkish';
-    b.textContent = p.label;
-    b.onclick = p.onClick;
-    $crumbs.appendChild(b);
-  });
-}
-
-/* ====== Rendering: Subjects, Topics, Quizzes List ====== */
-async function showSubjects(){
-  $quizPane.style.display = 'none';
-  $listArea.style.display = 'block';
-  setCrumbs([]);
-  $status.textContent = 'Loading subjects…';
-  $grid.innerHTML = '';
-
-  try{
-    master = await fetch(MASTER_JSON).then(r=>{
-      if(!r.ok) throw new Error(`Failed to load ${MASTER_JSON}`);
-      return r.json();
-    });
-
-    const subjects = master?.subjects ?? [];
-    if(!subjects.length){ $status.innerHTML = ''; $grid.innerHTML = `<div class="err">No subjects found in <b>${MASTER_JSON}</b>.</div>`; return; }
-
-    $status.innerHTML = '';
-    for(const subj of subjects){
-      // Pre-compute subject average (async)
-      let avg = await computeSubjectAverage(subj).catch(()=>null);
-      const btn = makePrettyButton({
-        title: subj.name,
-        subtitle: avg !== null ? `Overall progress: ${avg}%` : 'Start learning!',
-        className: 'subject-btn',
-        onClick: ()=>showTopics(subj),
-        progress: avg ?? 0
+    // Render subjects
+    function renderSubjects() {
+      subjectsData.subjects.forEach(subject => {
+        let btn = document.createElement("button");
+        btn.className = "button";
+        btn.textContent = subject.name;
+        btn.onclick = () => renderTopics(subject);
+        subjectsDiv.appendChild(btn);
       });
-      $grid.appendChild(btn);
     }
-  }catch(e){
-    $status.innerHTML = '';
-    $grid.innerHTML = `<div class="err">${e.message}</div>`;
-  }
-}
 
-async function showTopics(subj){
-  currentSubject = subj;
-  currentTopic = null;
-  currentTopicData = null;
-  $quizPane.style.display = 'none';
-  $listArea.style.display = 'block';
-  setCrumbs([
-    {label:'🏠 Subjects', onClick: showSubjects},
-    {label: subj.name, onClick: ()=>showTopics(subj)}
-  ]);
-  $status.textContent = 'Loading topics…';
-  $grid.innerHTML = '';
-
-  const topics = subj?.topics ?? [];
-  if(!topics.length){ $status.innerHTML=''; $grid.innerHTML = `<div class="err">No topics in ${subj.name}.</div>`; return; }
-
-  $status.innerHTML = '';
-  for(const t of topics){
-    // Load each topic file to compute its average
-    let avg = null;
-    try{
-      const data = await fetch(t.file).then(r=>r.json());
-      avg = computeTopicAverage(subj.name, t, data);
-    }catch(_){}
-    const btn = makePrettyButton({
-      title: t.name,
-      subtitle: avg !== null ? `Topic progress: ${avg}%` : 'No attempts yet',
-      className: 'topic-btn',
-      onClick: ()=>showQuizzes(t),
-      progress: avg ?? 0
-    });
-    $grid.appendChild(btn);
-  }
-}
-
-async function showQuizzes(topic){
-  currentTopic = topic;
-  currentTopicData = null;
-  $quizPane.style.display = 'none';
-  $listArea.style.display = 'block';
-  setCrumbs([
-    {label:'🏠 Subjects', onClick: showSubjects},
-    {label: currentSubject.name, onClick: ()=>showTopics(currentSubject)},
-    {label: topic.name, onClick: ()=>showQuizzes(topic)}
-  ]);
-  $status.textContent = 'Loading quizzes…';
-  $grid.innerHTML = '';
-
-  try{
-    currentTopicData = await fetch(topic.file).then(r=>{
-      if(!r.ok) throw new Error(`Failed to load ${topic.file}`);
-      return r.json();
-    });
-
-    const quizzes = currentTopicData?.quizzes ?? [];
-    if(!quizzes.length){ $status.innerHTML=''; $grid.innerHTML = `<div class="err">No quizzes inside <b>${topic.name}</b>.</div>`; return; }
-
-    $status.innerHTML = '';
-    quizzes.forEach((qz, idx)=>{
-      const saved = getSavedScore(currentSubject.name, topic.name, qz.name);
-      const subtitle = (saved !== null) ? `Last score: ${saved}%` : 'Not taken yet';
-      const btn = makePrettyButton({
-        title: qz.name,
-        subtitle,
-        className:'quiz-btn',
-        onClick: ()=>startQuiz(idx),
-        progress: saved ?? 0
+    function renderTopics(subject) {
+      subjectsDiv.innerHTML = `<h2>${subject.name} Topics</h2>`;
+      subject.topics.forEach(topic => {
+        let btn = document.createElement("button");
+        btn.className = "button";
+        btn.textContent = topic.name;
+        btn.onclick = () => loadQuiz(topic.file);
+        subjectsDiv.appendChild(btn);
       });
-      $grid.appendChild(btn);
-    });
-  }catch(e){
-    $status.innerHTML = '';
-    $grid.innerHTML = `<div class="err">${e.message}</div>`;
-  }
-}
 
-/* ====== Quiz Player ====== */
-function startQuiz(idx){
-  currentQuizIndex = idx;
-  qIndex = 0;
-  correctCount = 0;
+      let backBtn = document.createElement("button");
+      backBtn.className = "button";
+      backBtn.textContent = "⬅ Back";
+      backBtn.onclick = () => { subjectsDiv.innerHTML = ""; renderSubjects(); };
+      subjectsDiv.appendChild(backBtn);
+    }
 
-  $listArea.style.display = 'none';
-  $quizPane.style.display = 'block';
-  $('#btnBackToQuizzes').onclick = ()=>showQuizzes(currentTopic);
-  $('#btnRestart').onclick = restartCurrentQuiz;
-  $('#btnNext').onclick = nextQuestion;
-  $('#btnFinish').onclick = finishQuiz;
+    async function loadQuiz(file) {
+      try {
+        let response = await fetch(file);
+        let data = await response.json();
+        startQuiz(data);
+      } catch (error) {
+        quizContent.innerHTML = "<p>⚠️ Failed to load quiz file.</p>";
+      }
+    }
 
-  $('#scoreBadge').style.display = 'none';
-  renderQuestion();
-}
+    let currentQuiz = [];
+    let currentQuestionIndex = 0;
+    let score = 0;
 
-function currentQuiz(){
-  return currentTopicData.quizzes[currentQuizIndex];
-}
+    function startQuiz(data) {
+      currentQuiz = data.quizzes[0].questions; // Load first quiz for simplicity
+      currentQuestionIndex = 0;
+      score = 0;
+      quizContainer.style.display = "block";
+      showQuestion();
+    }
 
-function renderQuestion(){
-  const quiz = currentQuiz();
-  const Q = quiz.questions[qIndex];
+    function showQuestion() {
+      let q = currentQuiz[currentQuestionIndex];
+      quizContent.innerHTML = `
+        <div class="question">${q.question}</div>
+        <div class="options">
+          ${q.options.map((opt, i) => `<button onclick="selectAnswer(${i})">${opt}</button>`).join("")}
+        </div>
+        <div id="explanation"></div>
+        <button class="button next-btn" id="next-btn" onclick="nextQuestion()">Next</button>
+      `;
+    }
 
-  $('#quizTitle').textContent = quiz.name;
-  $('#qCounter').textContent = `Q ${qIndex+1} of ${quiz.questions.length}`;
-  $('#qText').textContent = Q.question;
+    function selectAnswer(index) {
+      let q = currentQuiz[currentQuestionIndex];
+      let options = document.querySelectorAll(".options button");
+      options.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === q.answer) {
+          btn.classList.add("correct");
+        } else if (i === index) {
+          btn.classList.add("wrong");
+        }
+      });
 
-  const choicesBox = $('#choices'); choicesBox.innerHTML = '';
-  $('#explain').style.display='none'; $('#explain').innerHTML='';
-  $('#btnNext').style.display='none'; $('#btnFinish').style.display='none';
+      if (index === q.answer) score++;
 
-  // Build choice buttons
-  Q.options.forEach((opt, i)=>{
-    const b = document.createElement('button');
-    b.className = 'choice';
-    b.textContent = opt;
-    b.onclick = ()=>onChooseAnswer(b, opt, Q);
-    choicesBox.appendChild(b);
-  });
-}
+      document.getElementById("explanation").innerHTML = `<div class="explanation">${q.explanation}</div>`;
+      document.getElementById("next-btn").style.display = "block";
+    }
 
-/* When the user clicks an answer:
-   - Disable ALL choices immediately
-   - Mark selected as correct/wrong and highlight correct one if wrong
-   - Show explanation
-   - Show Next (or Finish) button
-   - Do NOT allow re-select; only restart can re-try the quiz
-*/
-function onChooseAnswer(btn, chosenText, Q){
-  // Disable all
-  document.querySelectorAll('.choice').forEach(c=>c.disabled = true);
+    function nextQuestion() {
+      currentQuestionIndex++;
+      if (currentQuestionIndex < currentQuiz.length) {
+        showQuestion();
+      } else {
+        quizContent.innerHTML = `<h3>Your Score: ${score} / ${currentQuiz.length}</h3>`;
+      }
+    }
 
-  const isCorrect = (chosenText === Q.answer);
-  if(isCorrect){ btn.classList.add('correct'); correctCount++; }
-  else{
-    btn.classList.add('wrong');
-    // highlight the correct one
-    document.querySelectorAll('.choice').forEach(c=>{
-      if(c.textContent.trim() === Q.answer.trim()){ c.classList.add('correct'); }
-    });
-  }
-
-  // Show explanation
-  const exp = $('#explain');
-  exp.style.display='block';
-  exp.innerHTML = `<strong>${isCorrect ? '✅ Correct!' : '❌ Not quite.'}</strong> ` + 
-                  (Q.explanation ? `<div style="margin-top:6px">${Q.explanation}</div>` : '');
-
-  // Show proper nav button
-  const isLast = (qIndex === currentQuiz().questions.length - 1);
-  if(isLast){ $('#btnFinish').style.display='inline-block'; }
-  else{ $('#btnNext').style.display='inline-block'; }
-}
-
-function nextQuestion(){
-  qIndex++;
-  renderQuestion();
-}
-
-function finishQuiz(){
-  const total = currentQuiz().questions.length;
-  const pct = Math.round(100 * (correctCount / total));
-  $('#scoreBadge').style.display = 'inline-block';
-  $('#scoreBadge').textContent = `Your score: ${pct}%`;
-
-  // Save progress
-  saveScore(currentSubject.name, currentTopic.name, currentQuiz().name, pct);
-
-  // After finishing, go back to quizzes list after a short pause so user sees score
-  setTimeout(()=>showQuizzes(currentTopic), 700);
-}
-
-function restartCurrentQuiz(){
-  clearScore(currentSubject.name, currentTopic.name, currentQuiz().name);
-  startQuiz(currentQuizIndex);
-}
-
-/* ====== Boot ====== */
-showSubjects();
-</script>
+    renderSubjects();
+  </script>
 </body>
 </html>

@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Adaptive Immunity Basics",
+      "questions": [
+        {
+          "question": "Which feature best distinguishes adaptive immunity from innate immunity?",
+          "options": ["Immunological memory", "Phagocytosis", "Immediate response", "Inflammation"],
+          "answer": "Immunological memory",
+          "explanation": "Adaptive immunity is unique in its ability to remember previous encounters with pathogens and mount stronger responses upon re-exposure."
+        },
+        {
+          "question": "Which cells are central to adaptive immunity?",
+          "options": ["T and B lymphocytes", "Macrophages and neutrophils", "NK cells and mast cells", "Dendritic cells and basophils"],
+          "answer": "T and B lymphocytes",
+          "explanation": "T and B cells recognize specific antigens and generate adaptive immune responses, unlike innate immune cells."
+        },
+        {
+          "question": "Which molecules provide antigen-specific recognition in adaptive immunity?",
+          "options": ["TCR and BCR", "TLR and NOD", "MHC and complement", "Cytokines and chemokines"],
+          "answer": "TCR and BCR",
+          "explanation": "T-cell receptors (TCR) and B-cell receptors (BCR) are antigen-specific and key for adaptive immune recognition."
+        },
+        {
+          "question": "Which type of immunity develops after vaccination?",
+          "options": ["Active adaptive immunity", "Passive innate immunity", "Passive adaptive immunity", "Immediate innate immunity"],
+          "answer": "Active adaptive immunity",
+          "explanation": "Vaccines stimulate adaptive immunity by generating antigen-specific memory cells."
+        },
+        {
+          "question": "Which molecule is required for antigen presentation to T cells?",
+          "options": ["MHC molecules", "C-reactive protein", "Defensins", "Lysozyme"],
+          "answer": "MHC molecules",
+          "explanation": "Major Histocompatibility Complex (MHC) presents peptides to T cells, enabling adaptive immune activation."
+        }
+      ]
+    },
+    {
+      "name": "T Cell Immunity",
+      "questions": [
+        {
+          "question": "Which cells are activated by MHC class I molecules?",
+          "options": ["CD8+ cytotoxic T cells", "CD4+ helper T cells", "B cells", "NK cells"],
+          "answer": "CD8+ cytotoxic T cells",
+          "explanation": "MHC I presents antigens to CD8+ T cells, which then kill infected or tumor cells."
+        },
+        {
+          "question": "Which cytokine is crucial for T cell proliferation?",
+          "options": ["IL-2", "IL-4", "IL-10", "TNF-α"],
+          "answer": "IL-2",
+          "explanation": "IL-2 is a growth factor produced by activated T cells to promote clonal expansion."
+        },
+        {
+          "question": "Helper T cells (CD4+) primarily function by:",
+          "options": ["Secreting cytokines", "Killing infected cells directly", "Phagocytosis", "Releasing histamine"],
+          "answer": "Secreting cytokines",
+          "explanation": "CD4+ T helper cells regulate immune responses by releasing cytokines that activate other immune cells."
+        },
+        {
+          "question": "Which subset of CD4+ T cells is important for fighting intracellular pathogens?",
+          "options": ["Th1 cells", "Th2 cells", "Th17 cells", "Treg cells"],
+          "answer": "Th1 cells",
+          "explanation": "Th1 cells produce IFN-γ, which activates macrophages and is essential for intracellular pathogen defense."
+        },
+        {
+          "question": "Regulatory T cells (Tregs) are essential for:",
+          "options": ["Preventing autoimmunity", "Killing viruses", "Enhancing inflammation", "Producing antibodies"],
+          "answer": "Preventing autoimmunity",
+          "explanation": "Tregs suppress excessive immune responses, maintaining self-tolerance and preventing autoimmune disease."
+        }
+      ]
+    },
+    {
+      "name": "B Cell and Antibody Immunity",
+      "questions": [
+        {
+          "question": "Which cells are responsible for producing antibodies?",
+          "options": ["Plasma cells", "Helper T cells", "Macrophages", "NK cells"],
+          "answer": "Plasma cells",
+          "explanation": "Activated B cells differentiate into plasma cells, which secrete antibodies."
+        },
+        {
+          "question": "Which immunoglobulin is produced first during a primary immune response?",
+          "options": ["IgM", "IgG", "IgA", "IgE"],
+          "answer": "IgM",
+          "explanation": "IgM is the first antibody produced upon antigen exposure, later followed by IgG."
+        },
+        {
+          "question": "Which process improves antibody affinity after antigen exposure?",
+          "options": ["Affinity maturation", "Opsonization", "Complement activation", "Phagocytosis"],
+          "answer": "Affinity maturation",
+          "explanation": "Through somatic hypermutation in germinal centers, antibodies gain higher affinity for their antigens."
+        },
+        {
+          "question": "Which class of antibody is most abundant in blood?",
+          "options": ["IgG", "IgM", "IgA", "IgE"],
+          "answer": "IgG",
+          "explanation": "IgG is the most abundant immunoglobulin in serum and provides long-term protection."
+        },
+        {
+          "question": "Which antibody is important in mucosal immunity?",
+          "options": ["IgA", "IgG", "IgM", "IgE"],
+          "answer": "IgA",
+          "explanation": "IgA is secreted in mucosal surfaces (saliva, tears, gut) to protect against pathogens."
+        }
+      ]
+    }
+  ]
+}

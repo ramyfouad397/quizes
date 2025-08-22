@@ -2,179 +2,197 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz App</title>
+  <title>Medical Quizzes</title>
   <style>
+    /* Fonts & base style */
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Poppins:wght@400;600&display=swap');
+
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      margin: 0;
-      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fefcfb;
+      color: #444;
       text-align: center;
-    }
-    .container {
-      max-width: 600px;
-      margin: auto;
+      margin: 0;
       padding: 20px;
     }
-    h1, h2 {
-      color: #333;
+
+    h2, h3 {
+      font-family: 'Baloo 2', cursive;
+      color: #444;
     }
-    button {
-      display: block;
-      width: 100%;
-      margin: 10px 0;
-      padding: 12px;
-      font-size: 16px;
+
+    /* Quiz button styles */
+    .quiz-btn {
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 16px;
       border: none;
-      border-radius: 8px;
-      background: #4CAF50;
+      background: #a3c4f3; /* pastel blue */
       color: white;
+      font-weight: bold;
+      font-size: 16px;
+      width: 220px;
+      position: relative;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.2s, background 0.3s;
+    }
+    .quiz-btn:hover {
+      transform: scale(1.05);
+      background: #769fdb;
+    }
+    .progress-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 8px;
+      background: #80ed99; /* pastel green */
+      border-radius: 0 0 16px 16px;
+      transition: width 0.4s;
+    }
+
+    /* Question section */
+    #quiz-container {
+      margin-top: 30px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    /* Choice buttons */
+    .choice-btn {
+      display: block;
+      margin: 10px auto;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 12px;
+      width: 80%;
+      font-size: 16px;
+      background: #fbc4ab; /* pastel coral */
+      color: #333;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .choice-btn:hover:not(:disabled) {
+      transform: scale(1.03);
+      background: #f4978e;
+    }
+    .choice-btn:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+
+    .correct { background: #b5ead7 !important; }  /* pastel mint */
+    .wrong { background: #ffaaa5 !important; }    /* pastel red */
+
+    /* Reset button */
+    .reset-btn {
+      margin-top: 20px;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 12px;
+      background: #ffdac1; /* pastel peach */
+      font-weight: bold;
       cursor: pointer;
       transition: background 0.3s;
     }
-    button:hover { background: #45a049; }
-    .question { font-size: 18px; margin: 20px 0; }
-    .options button { background: #2196F3; }
-    .options button:hover { background: #1976D2; }
-    .explanation {
-      background: #fff3cd;
-      border: 1px solid #ffeeba;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-      text-align: left;
+    .reset-btn:hover {
+      background: #ffb997;
     }
-    .hidden { display: none; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Quiz App</h1>
-    <div id="app">Loading...</div>
-  </div>
 
-  <script>
-    let subjectsData = null;
-    let currentTopic = null;
-    let currentQuiz = null;
-    let currentQuestionIndex = 0;
-    let score = 0;
+<h2>✨ Medical Quizzes ✨</h2>
+<p>Choose a quiz and test your knowledge!</p>
 
-    const app = document.getElementById('app');
+<!-- Example quiz button -->
+<button class="quiz-btn" id="quiz1-btn" onclick="loadQuiz('quiz1')">
+  PRBCs Quiz
+  <div class="progress-bar" id="quiz1-progress"></div>
+</button>
 
-    // Load subjects
-    async function loadSubjects() {
-      try {
-        const res = await fetch('subjects.json');
-        subjectsData = await res.json();
-        showSubjects();
-      } catch (err) {
-        app.innerHTML = "❌ Failed to load subjects.json";
-      }
-    }
+<div id="quiz-container"></div>
 
-    function showSubjects() {
-      app.innerHTML = '<h2>Select a Subject</h2>';
-      subjectsData.subjects.forEach(subject => {
-        const btn = document.createElement('button');
-        btn.textContent = subject.name;
-        btn.onclick = () => showTopics(subject);
-        app.appendChild(btn);
-      });
-    }
+<script>
+const quizzes = {
+  "quiz1": {
+    name: "PRBCs Quiz",
+    questions: [
+      { q: "Main indication for PRBCs?", options: ["Anemia", "Thrombocytopenia"], answer: 0 }
+    ]
+  }
+};
 
-    function showTopics(subject) {
-      app.innerHTML = `<h2>${subject.name}: Select a Topic</h2>`;
-      subject.topics.forEach(topic => {
-        const btn = document.createElement('button');
-        btn.textContent = topic.name;
-        btn.onclick = () => loadTopic(topic.file);
-        app.appendChild(btn);
-      });
+// Load saved progress
+function loadProgress(quizId) {
+  let data = localStorage.getItem(quizId);
+  return data ? JSON.parse(data) : null;
+}
 
-      const backBtn = document.createElement('button');
-      backBtn.textContent = "⬅ Back";
-      backBtn.onclick = showSubjects;
-      app.appendChild(backBtn);
-    }
+// Save progress
+function saveProgress(quizId, score) {
+  localStorage.setItem(quizId, JSON.stringify({score: score}));
+  updateButton(quizId, score);
+}
 
-    async function loadTopic(file) {
-      try {
-        const res = await fetch(file);
-        currentTopic = await res.json();
-        showQuizzes();
-      } catch (err) {
-        app.innerHTML = "❌ Failed to load topic file.";
-      }
-    }
+// Update button color/progress
+function updateButton(quizId, score) {
+  const btn = document.getElementById(quizId + "-btn");
+  const bar = document.getElementById(quizId + "-progress");
+  if(score !== null) {
+    bar.style.width = score + "%";
+    btn.style.background = "#d3d3d3"; // gray after attempt
+  } else {
+    btn.style.background = "#a3c4f3"; // pastel blue not taken
+  }
+}
 
-    function showQuizzes() {
-      app.innerHTML = `<h2>${currentTopic.topic}: Select a Quiz</h2>`;
-      currentTopic.quizzes.forEach((quiz, index) => {
-        const btn = document.createElement('button');
-        btn.textContent = quiz.name;
-        btn.onclick = () => startQuiz(index);
-        app.appendChild(btn);
-      });
+// Load quiz
+function loadQuiz(quizId) {
+  const quiz = quizzes[quizId];
+  let container = document.getElementById("quiz-container");
+  container.innerHTML = `<h3>${quiz.name}</h3>`;
+  quiz.questions.forEach((q,i) => {
+    let html = `<p>${q.q}</p>`;
+    q.options.forEach((opt,idx) => {
+      html += `<button class='choice-btn' onclick='checkAnswer("${quizId}",${i},${idx},this)'>${opt}</button>`;
+    });
+    container.innerHTML += html;
+  });
+  container.innerHTML += `<button class="reset-btn" onclick="resetQuiz('${quizId}')">🔄 Restart Quiz</button>`;
+}
 
-      const backBtn = document.createElement('button');
-      backBtn.textContent = "⬅ Back";
-      backBtn.onclick = showSubjects;
-      app.appendChild(backBtn);
-    }
+function checkAnswer(quizId,qIdx,optIdx,btn){
+  const quiz = quizzes[quizId];
+  let buttons = btn.parentNode.querySelectorAll("button");
+  buttons.forEach(b => b.disabled = true); // disable all
+  if(optIdx === quiz.questions[qIdx].answer){
+    btn.classList.add("correct");
+    saveProgress(quizId,100); // here example: 100% if 1Q quiz
+  } else {
+    btn.classList.add("wrong");
+    saveProgress(quizId,0);
+  }
+}
 
-    function startQuiz(index) {
-      currentQuiz = currentTopic.quizzes[index];
-      currentQuestionIndex = 0;
-      score = 0;
-      showQuestion();
-    }
+function resetQuiz(quizId){
+  localStorage.removeItem(quizId);
+  document.getElementById("quiz-container").innerHTML = "";
+  updateButton(quizId, null);
+}
 
-    function showQuestion() {
-      if (currentQuestionIndex >= currentQuiz.questions.length) {
-        app.innerHTML = `<h2>Quiz Finished!</h2>
-                         <p>Your score: ${score}/${currentQuiz.questions.length}</p>
-                         <button onclick="showQuizzes()">⬅ Back to Quizzes</button>`;
-        return;
-      }
-
-      const q = currentQuiz.questions[currentQuestionIndex];
-      app.innerHTML = `<div class="question"><strong>Q${currentQuestionIndex+1}:</strong> ${q.question}</div>`;
-      const optionsDiv = document.createElement('div');
-      optionsDiv.className = 'options';
-
-      q.options.forEach(opt => {
-        const btn = document.createElement('button');
-        btn.textContent = opt;
-        btn.onclick = () => checkAnswer(opt, q);
-        optionsDiv.appendChild(btn);
-      });
-
-      app.appendChild(optionsDiv);
-    }
-
-    function checkAnswer(selected, question) {
-      const expDiv = document.createElement('div');
-      expDiv.className = 'explanation';
-      if (selected === question.answer) {
-        expDiv.innerHTML = `✅ Correct!<br>${question.explanation}`;
-        score++;
-      } else {
-        expDiv.innerHTML = `❌ Incorrect. Correct answer: <b>${question.answer}</b><br>${question.explanation}`;
-      }
-      app.appendChild(expDiv);
-
-      const nextBtn = document.createElement('button');
-      nextBtn.textContent = "➡ Next Question";
-      nextBtn.onclick = () => {
-        currentQuestionIndex++;
-        showQuestion();
-      };
-      app.appendChild(nextBtn);
-    }
-
-    loadSubjects();
-  </script>
+// On load update buttons
+updateButton("quiz1", (loadProgress("quiz1")||{}).score ?? null);
+</script>
 </body>
 </html>

@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Iron Deficiency Anemia",
+      "questions": [
+        {
+          "question": "What is the most common cause of iron deficiency anemia worldwide?",
+          "options": ["Poor dietary intake", "Hookworm infection", "Chronic blood loss", "Celiac disease"],
+          "answer": "Hookworm infection",
+          "explanation": "Globally, hookworm infection is the leading cause of iron deficiency anemia due to chronic intestinal blood loss. In developed countries, menstrual blood loss and GI bleeding are more common."
+        },
+        {
+          "question": "Which laboratory finding is most consistent with iron deficiency anemia?",
+          "options": ["High ferritin", "Low serum iron", "Normal TIBC", "Macrocytosis"],
+          "answer": "Low serum iron",
+          "explanation": "Iron deficiency anemia shows low serum iron, low ferritin, and increased TIBC. Macrocytosis is typical of B12/folate deficiency."
+        },
+        {
+          "question": "Which red cell morphology is typical of iron deficiency anemia?",
+          "options": ["Microcytic hypochromic", "Normocytic normochromic", "Macrocytic", "Target cells"],
+          "answer": "Microcytic hypochromic",
+          "explanation": "Iron deficiency leads to impaired hemoglobin synthesis, producing smaller, paler (microcytic, hypochromic) red cells."
+        },
+        {
+          "question": "Which symptom is most specific for severe iron deficiency anemia?",
+          "options": ["Fatigue", "Shortness of breath", "Koilonychia", "Palpitations"],
+          "answer": "Koilonychia",
+          "explanation": "Koilonychia (spoon-shaped nails) is a classic but late finding in iron deficiency anemia, while fatigue and dyspnea are nonspecific."
+        },
+        {
+          "question": "Which test is most reliable for confirming iron deficiency?",
+          "options": ["Serum ferritin", "Peripheral smear", "Hemoglobin electrophoresis", "RDW"],
+          "answer": "Serum ferritin",
+          "explanation": "Serum ferritin reflects iron stores and is the best initial test. Low ferritin confirms iron deficiency unless inflammation falsely elevates it."
+        }
+      ]
+    },
+    {
+      "name": "Hereditary Spherocytosis",
+      "questions": [
+        {
+          "question": "What is the genetic basis of hereditary spherocytosis?",
+          "options": ["Enzyme deficiency", "Membrane protein defect", "Hemoglobin mutation", "Autoantibody destruction"],
+          "answer": "Membrane protein defect",
+          "explanation": "Hereditary spherocytosis is due to defects in RBC membrane proteins (ankyrin, spectrin, band 3), leading to spherocyte formation."
+        },
+        {
+          "question": "Which laboratory finding is most characteristic?",
+          "options": ["Increased MCHC", "Low osmotic fragility", "Basophilic stippling", "Howell-Jolly bodies"],
+          "answer": "Increased MCHC",
+          "explanation": "Spherocytes have less surface area relative to volume, causing an increased mean corpuscular hemoglobin concentration (MCHC)."
+        },
+        {
+          "question": "Which test is most commonly used for diagnosis?",
+          "options": ["Osmotic fragility test", "Direct antiglobulin test", "Hb electrophoresis", "Coombs test"],
+          "answer": "Osmotic fragility test",
+          "explanation": "Hereditary spherocytosis shows increased osmotic fragility of RBCs in hypotonic solutions. Coombs test is negative, distinguishing from autoimmune hemolysis."
+        },
+        {
+          "question": "Which clinical complication is most common?",
+          "options": ["Splenomegaly", "Hemarthrosis", "Stroke", "Thrombocytopenia"],
+          "answer": "Splenomegaly",
+          "explanation": "Splenomegaly is a hallmark feature due to increased splenic destruction of spherocytes."
+        },
+        {
+          "question": "What is the definitive treatment for severe hereditary spherocytosis?",
+          "options": ["Iron supplementation", "Splenectomy", "Bone marrow transplant", "Folic acid only"],
+          "answer": "Splenectomy",
+          "explanation": "Splenectomy removes the site of RBC destruction, improving anemia and hemolysis. Folic acid is supportive but not curative."
+        }
+      ]
+    },
+    {
+      "name": "G6PD Deficiency",
+      "questions": [
+        {
+          "question": "Which inheritance pattern does G6PD deficiency follow?",
+          "options": ["Autosomal dominant", "X-linked recessive", "Autosomal recessive", "Mitochondrial"],
+          "answer": "X-linked recessive",
+          "explanation": "G6PD deficiency is inherited in an X-linked recessive pattern, mainly affecting males."
+        },
+        {
+          "question": "Which factor most commonly triggers hemolysis in G6PD deficiency?",
+          "options": ["High altitude", "Fava beans", "Splenectomy", "Cold exposure"],
+          "answer": "Fava beans",
+          "explanation": "Oxidative stress from fava beans, certain drugs (primaquine, sulfa), or infections causes hemolysis in G6PD deficiency."
+        },
+        {
+          "question": "What RBC finding is characteristic?",
+          "options": ["Bite cells", "Sickle cells", "Target cells", "Elliptocytes"],
+          "answer": "Bite cells",
+          "explanation": "Heinz bodies form from denatured hemoglobin and are 'bitten out' by splenic macrophages, creating bite cells."
+        },
+        {
+          "question": "Which laboratory test best confirms G6PD deficiency?",
+          "options": ["G6PD enzyme assay", "Coombs test", "Osmotic fragility", "Hb electrophoresis"],
+          "answer": "G6PD enzyme assay",
+          "explanation": "The gold standard is measuring G6PD enzyme activity, though false negatives may occur during acute hemolysis when young RBCs predominate."
+        },
+        {
+          "question": "Which clinical finding is most typical after hemolytic crisis?",
+          "options": ["Jaundice", "Splenomegaly", "Petechiae", "Lymphadenopathy"],
+          "answer": "Jaundice",
+          "explanation": "Acute intravascular hemolysis releases bilirubin, leading to jaundice and dark urine. Splenomegaly is less prominent than in hereditary spherocytosis."
+        }
+      ]
+    }
+  ]
+}

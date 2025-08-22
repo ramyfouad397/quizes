@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Packed Red Blood Cells (PRBCs)",
+      "questions": [
+        {
+          "question": "What is the main indication for PRBC transfusion?",
+          "options": ["Coagulopathy", "Anemia with symptoms", "Thrombocytopenia", "Volume expansion"],
+          "answer": "Anemia with symptoms",
+          "explanation": "PRBCs are used to restore oxygen-carrying capacity in patients with symptomatic anemia."
+        },
+        {
+          "question": "How much does 1 unit of PRBC typically raise hemoglobin in an adult?",
+          "options": ["0.5 g/dL", "1 g/dL", "2 g/dL", "3 g/dL"],
+          "answer": "1 g/dL",
+          "explanation": "In an average adult, 1 unit of PRBC increases hemoglobin by about 1 g/dL."
+        },
+        {
+          "question": "What is the optimal storage temperature for PRBCs?",
+          "options": ["Room temperature", "4°C", "-20°C", "-80°C"],
+          "answer": "4°C",
+          "explanation": "PRBCs are stored refrigerated at 1–6°C to preserve red cell viability."
+        },
+        {
+          "question": "Which complication is associated with multiple PRBC transfusions?",
+          "options": ["Iron overload", "Thrombocytopenia", "Hypocalcemia", "Allergic reaction"],
+          "answer": "Iron overload",
+          "explanation": "Chronic transfusions lead to iron overload requiring chelation therapy."
+        },
+        {
+          "question": "What is leukoreduction of PRBCs intended to prevent?",
+          "options": ["Bacterial contamination", "CMV transmission and FNHTR", "Iron overload", "TRALI"],
+          "answer": "CMV transmission and FNHTR",
+          "explanation": "Leukoreduction decreases donor leukocytes, reducing FNHTRs and transmission of leukocyte-associated viruses such as CMV."
+        }
+      ]
+    },
+    {
+      "name": "Platelet Transfusions",
+      "questions": [
+        {
+          "question": "What is the main indication for platelet transfusion?",
+          "options": ["Severe anemia", "Thrombocytopenia with bleeding", "Coagulopathy", "Volume replacement"],
+          "answer": "Thrombocytopenia with bleeding",
+          "explanation": "Platelets are transfused to prevent or treat bleeding in patients with low platelet counts."
+        },
+        {
+          "question": "What is the prophylactic platelet transfusion threshold in most patients?",
+          "options": ["5,000/µL", "10,000/µL", "50,000/µL", "100,000/µL"],
+          "answer": "10,000/µL",
+          "explanation": "Asymptomatic patients are typically transfused prophylactically when platelets fall below 10,000/µL."
+        },
+        {
+          "question": "At what temperature are platelets stored?",
+          "options": ["-20°C", "4°C", "20–24°C with agitation", "Room temperature without agitation"],
+          "answer": "20–24°C with agitation",
+          "explanation": "Platelets are stored at room temperature with continuous agitation to maintain function."
+        },
+        {
+          "question": "What is a major risk of platelet transfusion due to room temperature storage?",
+          "options": ["Iron overload", "Alloimmunization", "Bacterial contamination", "Cytokine release"],
+          "answer": "Bacterial contamination",
+          "explanation": "Storage at room temperature increases the risk of bacterial growth in platelet units."
+        },
+        {
+          "question": "Which condition can cause platelet transfusion refractoriness?",
+          "options": ["Iron deficiency", "Alloimmunization to HLA antigens", "Vitamin K deficiency", "Splenectomy"],
+          "answer": "Alloimmunization to HLA antigens",
+          "explanation": "Patients may develop anti-HLA antibodies leading to poor increments after platelet transfusions."
+        }
+      ]
+    },
+    {
+      "name": "Plasma and Cryoprecipitate",
+      "questions": [
+        {
+          "question": "What is the main indication for fresh frozen plasma (FFP)?",
+          "options": ["Anemia", "Platelet dysfunction", "Coagulopathy due to clotting factor deficiency", "Volume replacement"],
+          "answer": "Coagulopathy due to clotting factor deficiency",
+          "explanation": "FFP provides multiple clotting factors and is used to correct coagulopathy."
+        },
+        {
+          "question": "Which vitamin K–dependent factors are replaced by FFP?",
+          "options": ["II, VII, IX, X", "V, VIII, XIII", "I, II, V, VII", "IX, XI, XII, XIII"],
+          "answer": "II, VII, IX, X",
+          "explanation": "FFP contains all clotting factors, including the vitamin K–dependent ones (II, VII, IX, X)."
+        },
+        {
+          "question": "What is cryoprecipitate rich in?",
+          "options": ["Albumin", "Fibrinogen, Factor VIII, vWF, Factor XIII", "Platelets", "Calcium"],
+          "answer": "Fibrinogen, Factor VIII, vWF, Factor XIII",
+          "explanation": "Cryoprecipitate is concentrated with fibrinogen and selected clotting factors."
+        },
+        {
+          "question": "What is the main indication for cryoprecipitate?",
+          "options": ["Hemophilia A", "Von Willebrand disease", "Fibrinogen deficiency", "Platelet deficiency"],
+          "answer": "Fibrinogen deficiency",
+          "explanation": "Cryoprecipitate is primarily given to patients with hypofibrinogenemia or dysfibrinogenemia."
+        },
+        {
+          "question": "At what temperature is FFP stored long-term?",
+          "options": ["Room temperature", "4°C", "-18°C or colder", "-80°C only"],
+          "answer": "-18°C or colder",
+          "explanation": "FFP is frozen at −18°C or colder to preserve clotting factors until thawing for use."
+        }
+      ]
+    }
+  ]
+}

@@ -23,14 +23,6 @@
         { "name": "Transfusion Reactions", "file": "transfusion_reactions.json" },
         { "name": "Component Therapy", "file": "transfusion_components.json" }
       ]
-    },
-    {
-      "name": "Virology",
-      "topics": [
-        { "name": "DNA Viruses", "file": "virology_dna.json" },
-        { "name": "RNA Viruses", "file": "virology_rna.json" },
-        { "name": "Viral Vaccines", "file": "virology_vaccines.json" }
-      ]
     }
   ]
 }

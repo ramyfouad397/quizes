@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "Hypersensitivity Overview",
+      "questions": [
+        {
+          "question": "How many types of hypersensitivity reactions are classically described?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "4",
+          "explanation": "Gell and Coombs classified hypersensitivity into 4 main types: I (immediate), II (cytotoxic), III (immune complex), and IV (delayed)."
+        },
+        {
+          "question": "Which immunoglobulin is central to Type I hypersensitivity?",
+          "options": ["IgA", "IgE", "IgG", "IgM"],
+          "answer": "IgE",
+          "explanation": "Type I hypersensitivity is mediated by IgE binding to allergens and activating mast cells and basophils."
+        },
+        {
+          "question": "Type II hypersensitivity is mainly caused by:",
+          "options": ["Cytotoxic antibodies", "Immune complex deposition", "T cell-mediated injury", "Complement deficiency"],
+          "answer": "Cytotoxic antibodies",
+          "explanation": "Type II involves IgG or IgM antibodies binding to antigens on cell surfaces, leading to complement activation and cell destruction."
+        },
+        {
+          "question": "Which type of hypersensitivity reaction is associated with serum sickness?",
+          "options": ["Type I", "Type II", "Type III", "Type IV"],
+          "answer": "Type III",
+          "explanation": "Type III hypersensitivity involves immune complex deposition, as seen in serum sickness and systemic lupus erythematosus."
+        },
+        {
+          "question": "Which type of hypersensitivity is also called 'delayed type'?",
+          "options": ["Type I", "Type II", "Type III", "Type IV"],
+          "answer": "Type IV",
+          "explanation": "Type IV hypersensitivity is mediated by T cells and typically develops 48–72 hours after antigen exposure."
+        }
+      ]
+    },
+    {
+      "name": "Type I and II Hypersensitivity",
+      "questions": [
+        {
+          "question": "Which cells release histamine in Type I hypersensitivity?",
+          "options": ["Macrophages", "Mast cells and basophils", "Neutrophils", "NK cells"],
+          "answer": "Mast cells and basophils",
+          "explanation": "Upon allergen exposure, IgE cross-links on mast cells and basophils, leading to histamine release."
+        },
+        {
+          "question": "Asthma and allergic rhinitis are examples of which hypersensitivity type?",
+          "options": ["Type I", "Type II", "Type III", "Type IV"],
+          "answer": "Type I",
+          "explanation": "Both asthma and allergic rhinitis are IgE-mediated Type I hypersensitivity reactions."
+        },
+        {
+          "question": "Hemolytic disease of the newborn is an example of which hypersensitivity?",
+          "options": ["Type I", "Type II", "Type III", "Type IV"],
+          "answer": "Type II",
+          "explanation": "Type II cytotoxic reaction occurs when maternal IgG crosses the placenta and destroys fetal red blood cells."
+        },
+        {
+          "question": "Goodpasture syndrome is caused by:",
+          "options": ["IgE binding to mast cells", "Antibodies against basement membrane", "Immune complex deposition", "T cell-mediated attack"],
+          "answer": "Antibodies against basement membrane",
+          "explanation": "Goodpasture syndrome is a Type II hypersensitivity caused by antibodies against the glomerular basement membrane."
+        },
+        {
+          "question": "Which laboratory test is useful for diagnosing Type I hypersensitivity?",
+          "options": ["Skin prick test", "Coombs test", "ANA test", "Tuberculin test"],
+          "answer": "Skin prick test",
+          "explanation": "Skin prick tests identify allergens that trigger IgE-mediated hypersensitivity reactions."
+        }
+      ]
+    },
+    {
+      "name": "Type III and IV Hypersensitivity",
+      "questions": [
+        {
+          "question": "Systemic lupus erythematosus (SLE) is an example of which hypersensitivity?",
+          "options": ["Type I", "Type II", "Type III", "Type IV"],
+          "answer": "Type III",
+          "explanation": "SLE involves immune complex deposition in tissues, characteristic of Type III hypersensitivity."
+        },
+        {
+          "question": "Which condition is a classic example of Type IV hypersensitivity?",
+          "options": ["Asthma", "Contact dermatitis", "Myasthenia gravis", "Hemolytic anemia"],
+          "answer": "Contact dermatitis",
+          "explanation": "Contact dermatitis, such as poison ivy reaction, is mediated by T cells and cytokines (delayed type)."
+        },
+        {
+          "question": "Which immune cells mediate Type IV hypersensitivity?",
+          "options": ["B cells", "T lymphocytes", "Neutrophils", "Eosinophils"],
+          "answer": "T lymphocytes",
+          "explanation": "Type IV is driven by CD4+ Th1 and CD8+ cytotoxic T cells, not antibodies."
+        },
+        {
+          "question": "The tuberculin skin test (Mantoux test) is based on which hypersensitivity?",
+          "options": ["Type I", "Type II", "Type III", "Type IV"],
+          "answer": "Type IV",
+          "explanation": "The tuberculin test depends on T-cell memory response, developing 48–72 hours after exposure."
+        },
+        {
+          "question": "Which type of hypersensitivity is most associated with chronic transplant rejection?",
+          "options": ["Type I", "Type II", "Type III", "Type IV"],
+          "answer": "Type IV",
+          "explanation": "Chronic transplant rejection involves T cell–mediated responses, typical of Type IV hypersensitivity."
+        }
+      ]
+    }
+  ]
+}

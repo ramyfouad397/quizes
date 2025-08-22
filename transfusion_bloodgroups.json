@@ -1,0 +1,109 @@
+{
+  "quizzes": [
+    {
+      "name": "ABO Blood Group System",
+      "questions": [
+        {
+          "question": "Which antigen is present on red blood cells of group A individuals?",
+          "options": ["A antigen", "B antigen", "Both A and B antigens", "No antigens"],
+          "answer": "A antigen",
+          "explanation": "Group A individuals have A antigens on their RBC surface and anti-B antibodies in their plasma."
+        },
+        {
+          "question": "What antibodies are found in the plasma of group O individuals?",
+          "options": ["Anti-A only", "Anti-B only", "Both Anti-A and Anti-B", "No antibodies"],
+          "answer": "Both Anti-A and Anti-B",
+          "explanation": "Group O individuals lack A and B antigens but produce both anti-A and anti-B antibodies."
+        },
+        {
+          "question": "Which blood group is known as the universal donor (for RBC transfusion)?",
+          "options": ["AB", "O", "A", "B"],
+          "answer": "O",
+          "explanation": "Group O negative blood is considered universal donor for RBCs, as it lacks A, B, and Rh antigens."
+        },
+        {
+          "question": "Which enzyme determines whether A or B antigen is expressed on RBCs?",
+          "options": ["Transferase enzyme", "Polymerase", "Kinase", "Amylase"],
+          "answer": "Transferase enzyme",
+          "explanation": "Specific glycosyltransferases add sugars to the H antigen to form A or B antigens."
+        },
+        {
+          "question": "What is the most dangerous ABO incompatibility reaction caused by?",
+          "options": ["Cell-mediated immunity", "Natural antibodies", "Delayed hypersensitivity", "Complement deficiency"],
+          "answer": "Natural antibodies",
+          "explanation": "Naturally occurring IgM antibodies in the ABO system cause rapid complement-mediated hemolysis if incompatible blood is transfused."
+        }
+      ]
+    },
+    {
+      "name": "Rh Blood Group System",
+      "questions": [
+        {
+          "question": "Which antigen is most important in the Rh system?",
+          "options": ["C antigen", "E antigen", "D antigen", "K antigen"],
+          "answer": "D antigen",
+          "explanation": "The D antigen is the most clinically significant antigen in the Rh system and determines Rh positivity."
+        },
+        {
+          "question": "What is the main risk of Rh incompatibility during pregnancy?",
+          "options": ["Maternal anemia", "Neonatal hemolytic disease", "Preeclampsia", "Gestational diabetes"],
+          "answer": "Neonatal hemolytic disease",
+          "explanation": "If an Rh-negative mother is exposed to Rh-positive fetal blood, she may form anti-D antibodies that destroy fetal RBCs."
+        },
+        {
+          "question": "Which prophylactic treatment prevents hemolytic disease of the newborn due to Rh incompatibility?",
+          "options": ["Anti-A serum", "Anti-D immunoglobulin", "Plasmapheresis", "Blood transfusion"],
+          "answer": "Anti-D immunoglobulin",
+          "explanation": "Rh-negative mothers receive anti-D immunoglobulin to prevent sensitization to the Rh D antigen."
+        },
+        {
+          "question": "What type of antibody is typically responsible for Rh incompatibility reactions?",
+          "options": ["IgM", "IgA", "IgE", "IgG"],
+          "answer": "IgG",
+          "explanation": "Unlike ABO, which is mediated by IgM, Rh antibodies are IgG and can cross the placenta to affect the fetus."
+        },
+        {
+          "question": "Which laboratory test is used to detect antibodies in the serum of pregnant women?",
+          "options": ["Direct Coombs test", "Indirect Coombs test", "Skin prick test", "ELISA only"],
+          "answer": "Indirect Coombs test",
+          "explanation": "The indirect Coombs test detects free antibodies in the mother’s serum that can bind to fetal RBCs."
+        }
+      ]
+    },
+    {
+      "name": "Other Blood Group Systems",
+      "questions": [
+        {
+          "question": "Which blood group antigen system is strongly associated with hemolytic transfusion reactions besides ABO and Rh?",
+          "options": ["Kell system", "Lewis system", "MNS system", "Duffy system"],
+          "answer": "Kell system",
+          "explanation": "The Kell system is clinically significant and can cause severe hemolytic transfusion reactions."
+        },
+        {
+          "question": "Which antigen provides resistance to malaria infection?",
+          "options": ["Kell antigen", "Lewis antigen", "Duffy antigen", "Kidd antigen"],
+          "answer": "Duffy antigen",
+          "explanation": "Duffy negative individuals are resistant to Plasmodium vivax infection, as the parasite uses this antigen as a receptor."
+        },
+        {
+          "question": "Which blood group system antigen is expressed on glycophorins of RBC membranes?",
+          "options": ["MNS system", "Lewis system", "Kidd system", "Kell system"],
+          "answer": "MNS system",
+          "explanation": "The M and N antigens are located on glycophorins of red blood cells in the MNS blood group system."
+        },
+        {
+          "question": "The Kidd blood group system is important because:",
+          "options": ["It prevents HIV infection", "It causes delayed hemolytic transfusion reactions", "It determines ABO compatibility", "It is only found in neonates"],
+          "answer": "It causes delayed hemolytic transfusion reactions",
+          "explanation": "Kidd antibodies are notorious for causing delayed hemolytic transfusion reactions as they can disappear and reappear with re-exposure."
+        },
+        {
+          "question": "Which blood group antigen is unique because it is not synthesized by RBCs but secreted into plasma and adsorbed onto RBC surface?",
+          "options": ["Lewis antigen", "Duffy antigen", "MNS antigen", "Kell antigen"],
+          "answer": "Lewis antigen",
+          "explanation": "Lewis antigens are secreted in plasma and secondarily adsorbed onto the red cell surface, unlike other intrinsic blood group antigens."
+        }
+      ]
+    }
+  ]
+}

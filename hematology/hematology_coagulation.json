@@ -775,7 +775,7 @@
     }
   ]
 },
-    {
+{
   "name": "Disseminated Intravascular Coagulation (DIC)",
   "questions": [
     {
@@ -1110,7 +1110,7 @@
     }
   ]
 },
-    {
+{
   "name": "Dysfibrinogenemia",
   "questions": [
     {
@@ -3679,6 +3679,508 @@
       ],
       "answer": "Good, with proper management and avoidance of risk factors.",
       "explanation": "With proper diagnosis and management, including on-demand therapy for bleeds and prophylactic measures for surgery, patients with Glanzmann Thrombasthenia can live a near-normal life. "
+    }
+  ]
+},
+{
+  "name": "Hemolytic-Uremic Syndrome (HUS)",
+  "questions": [
+    {
+      "question": "What is the primary cause of typical Hemolytic-Uremic Syndrome (HUS)?",
+      "options": [
+        "A genetic mutation",
+        "A deficiency of a clotting factor",
+        "A bacterial infection, usually with Shiga toxin-producing E. coli (STEC)",
+        "An autoimmune disorder"
+      ],
+      "answer": "A bacterial infection, usually with Shiga toxin-producing E. coli (STEC)",
+      "explanation": "Typical HUS, also known as STEC-HUS, is most commonly caused by an infection with Shiga toxin-producing bacteria, particularly E. coli O157:H7. The Shiga toxin damages endothelial cells in the kidneys, leading to the characteristic triad of symptoms."
+    },
+    {
+      "question": "What is the classic triad of symptoms in HUS?",
+      "options": [
+        "Fever, rash, and joint pain",
+        "Hemolytic anemia, thrombocytopenia, and acute kidney injury",
+        "Hypercoagulability, inflammation, and pulmonary embolism",
+        "Vomiting, diarrhea, and abdominal pain"
+      ],
+      "answer": "Hemolytic anemia, thrombocytopenia, and acute kidney injury",
+      "explanation": "The core diagnostic features of HUS are a triad of microangiopathic hemolytic anemia (destruction of red blood cells), thrombocytopenia (low platelet count), and acute kidney injury (kidney failure)."
+    },
+    {
+      "question": "Which laboratory finding is most characteristic of microangiopathic hemolytic anemia in HUS?",
+      "options": [
+        "Elevated hemoglobin and hematocrit",
+        "The presence of schistocytes (fragmented red blood cells) on a peripheral blood smear",
+        "A low reticulocyte count",
+        "A positive direct Coombs test"
+      ],
+      "answer": "The presence of schistocytes (fragmented red blood cells) on a peripheral blood smear",
+      "explanation": "As red blood cells are sheared and destroyed when passing through damaged blood vessels, a hallmark of HUS is the presence of fragmented red blood cells, or schistocytes, on a peripheral blood smear."
+    },
+    {
+      "question": "What is the primary mechanism of kidney injury in HUS?",
+      "options": [
+        "Direct bacterial infection of the kidney",
+        "Ischemia from large blood clots in the renal arteries",
+        "Damage to the kidney's glomerular capillaries by microthrombi and Shiga toxin",
+        "An autoimmune attack on the kidney"
+      ],
+      "answer": "Damage to the kidney's glomerular capillaries by microthrombi and Shiga toxin",
+      "explanation": "The Shiga toxin damages the endothelial cells of the glomerular capillaries in the kidneys. This damage leads to platelet activation and the formation of platelet-rich microthrombi, which block blood flow and cause widespread kidney damage."
+    },
+    {
+      "question": "Which of the following is a key difference between typical (STEC-HUS) and atypical HUS (aHUS)?",
+      "options": [
+        "STEC-HUS is a thrombotic disorder; aHUS is not.",
+        "STEC-HUS is triggered by an infection; aHUS is usually caused by a genetic or autoimmune defect.",
+        "STEC-HUS primarily affects adults; aHUS affects children.",
+        "STEC-HUS has a high risk of recurrence; aHUS does not."
+      ],
+      "answer": "STEC-HUS is triggered by an infection; aHUS is usually caused by a genetic or autoimmune defect.",
+      "explanation": "Typical HUS is caused by a toxin-producing infection. Atypical HUS is a more rare form caused by uncontrolled activation of the complement system, often due to a genetic mutation or an autoantibody."
+    },
+    {
+      "question": "What is the primary treatment for typical HUS?",
+      "options": [
+        "Antibiotics to kill the bacteria",
+        "Fluid and electrolyte management, and supportive care (e.g., dialysis)",
+        "Platelet transfusions to correct thrombocytopenia",
+        "Anticoagulation to prevent blood clots"
+      ],
+      "answer": "Fluid and electrolyte management, and supportive care (e.g., dialysis)",
+      "explanation": "Treatment is primarily supportive. Fluid management is critical, and dialysis may be required for acute kidney failure. Antibiotics are generally not recommended as they can increase the release of Shiga toxin and worsen the condition."
+    },
+    {
+      "question": "Which of the following would be an expected finding in a patient with HUS?",
+      "options": [
+        "Normal blood urea nitrogen (BUN) and creatinine",
+        "Elevated lactate dehydrogenase (LDH) and indirect bilirubin",
+        "Low reticulocyte count",
+        "Normal platelet function"
+      ],
+      "answer": "Elevated lactate dehydrogenase (LDH) and indirect bilirubin",
+      "explanation": "Hemolysis (red blood cell destruction) leads to an increase in LDH and indirect bilirubin, which are markers of red blood cell breakdown. The reticulocyte count would be high as the bone marrow tries to compensate for the anemia."
+    },
+    {
+      "question": "What is the most important reason to avoid giving antibiotics to a patient with STEC-HUS?",
+      "options": [
+        "Antibiotics are ineffective against the Shiga toxin.",
+        "Antibiotics can cause kidney damage.",
+        "Antibiotics can increase the release of Shiga toxin, worsening kidney damage and HUS.",
+        "Antibiotics can cause thrombocytopenia."
+      ],
+      "answer": "Antibiotics can increase the release of Shiga toxin, worsening kidney damage and HUS.",
+      "explanation": "Studies have shown that some antibiotics can cause a stress response in the bacteria, leading to the release of more Shiga toxin. This can worsen the endothelial damage and make the HUS more severe."
+    },
+    {
+      "question": "What is the primary treatment for atypical HUS (aHUS)?",
+      "options": [
+        "Antibiotics",
+        "Eculizumab (a complement inhibitor)",
+        "Platelet transfusions",
+        "Plasma exchange"
+      ],
+      "answer": "Eculizumab (a complement inhibitor)",
+      "explanation": "Eculizumab, an antibody that inhibits the C5 component of the complement system, has revolutionized the treatment of aHUS. It blocks the underlying cause of the disease by preventing the uncontrolled complement activation that damages the endothelial cells."
+    },
+    {
+      "question": "What is a major difference in the prognosis between typical and atypical HUS?",
+      "options": [
+        "Typical HUS has a higher mortality rate.",
+        "Typical HUS has a low risk of recurrence; aHUS has a high risk of recurrence.",
+        "Atypical HUS is more likely to resolve spontaneously.",
+        "Atypical HUS is more common."
+      ],
+      "answer": "Typical HUS has a low risk of recurrence; aHUS has a high risk of recurrence.",
+      "explanation": "Once a patient recovers from a typical HUS episode, the risk of recurrence is low. Atypical HUS, being a genetic or chronic autoimmune condition, has a very high risk of recurrence and is often a lifelong disease."
+    },
+    {
+      "question": "Why are platelet transfusions generally not recommended in the treatment of HUS?",
+      "options": [
+        "They can cause an allergic reaction.",
+        "They can worsen the condition by providing more fuel for microthrombi formation.",
+        "They are ineffective because the platelets are consumed immediately.",
+        "They are too expensive."
+      ],
+      "answer": "They can worsen the condition by providing more fuel for microthrombi formation.",
+      "explanation": "The thrombocytopenia in HUS is caused by the consumption of platelets in the formation of microthrombi. Giving a platelet transfusion would simply provide more platelets to be consumed in this process, potentially worsening the microvascular thrombosis."
+    },
+    {
+      "question": "What is the primary role of the kidney in the pathogenesis of HUS?",
+      "options": [
+        "The kidney is the site of the initial bacterial infection.",
+        "The kidney is where the Shiga toxin is produced.",
+        "The kidney is the main target organ for the microvascular damage.",
+        "The kidney is responsible for synthesizing platelets."
+      ],
+      "answer": "The kidney is the main target organ for the microvascular damage.",
+      "explanation": "The microvascular endothelium of the kidneys, particularly in the glomeruli, is highly susceptible to damage from the Shiga toxin or complement activation, making the kidney the primary organ affected in HUS."
+    },
+    {
+      "question": "In a patient with HUS, what is the expected result of a direct Coombs test?",
+      "options": [
+        "Positive, as there are autoantibodies against red blood cells.",
+        "Positive, as there are alloantibodies against red blood cells.",
+        "Negative, as the anemia is due to mechanical fragmentation, not an immune process.",
+        "Variable, depending on the severity of the disease."
+      ],
+      "answer": "Negative, as the anemia is due to mechanical fragmentation, not an immune process.",
+      "explanation": "The hemolytic anemia in HUS is 'non-immune' and caused by the mechanical shearing of red blood cells as they pass through damaged, narrowed blood vessels. Therefore, a direct Coombs test, which detects antibodies on the red cell surface, will be negative."
+    },
+    {
+      "question": "Which of the following is a potential trigger for atypical HUS (aHUS)?",
+      "options": [
+        "Vitamin K deficiency",
+        "A respiratory infection",
+        "A genetic mutation in a complement regulatory protein",
+        "Chronic kidney disease"
+      ],
+      "answer": "A genetic mutation in a complement regulatory protein",
+      "explanation": "Atypical HUS is primarily caused by genetic defects in complement regulatory proteins (e.g., Factor H, Factor I). These mutations lead to an uncontrolled activation of the complement system, causing widespread endothelial damage."
+    },
+    {
+      "question": "What is the primary difference in pathophysiology between HUS and Thrombotic Thrombocytopenic Purpura (TTP)?",
+      "options": [
+        "In HUS, the primary target is the kidney; in TTP, the primary target is the central nervous system.",
+        "HUS is an inherited disorder; TTP is an acquired disorder.",
+        "HUS is caused by a deficiency of ADAMTS13; TTP is caused by a toxin.",
+        "HUS is a thrombotic disorder; TTP is not."
+      ]
+    }
+  ]
+},{
+  "name": "Hemophilia A (Factor VIII Deficiency)",
+  "questions": [
+    {
+      "question": "What is the primary defect in Hemophilia A?",
+      "options": [
+        "A deficiency in Factor VII",
+        "A deficiency in Factor VIII",
+        "A deficiency in Factor IX",
+        "A defect in platelet function"
+      ],
+      "answer": "A deficiency in Factor VIII",
+      "explanation": "Hemophilia A is a congenital bleeding disorder caused by a deficiency or a qualitative defect in Factor VIII, which is a key cofactor in the intrinsic coagulation pathway. "
+    },
+    {
+      "question": "What is the inheritance pattern of Hemophilia A?",
+      "options": [
+        "Autosomal recessive",
+        "Autosomal dominant",
+        "X-linked recessive",
+        "Y-linked"
+      ],
+      "answer": "X-linked recessive",
+      "explanation": "Hemophilia A is an X-linked recessive disorder. This means the gene for Factor VIII is on the X chromosome. Males, who have only one X chromosome, are affected if they inherit the mutated gene. Females are typically carriers and are usually asymptomatic."
+    },
+    {
+      "question": "Which laboratory test is most sensitive to a Factor VIII deficiency?",
+      "options": [
+        "Prothrombin Time (PT)",
+        "Activated Partial Thromboplastin Time (aPTT)",
+        "Thrombin Time (TT)",
+        "Bleeding Time"
+      ],
+      "answer": "Activated Partial Thromboplastin Time (aPTT)",
+      "explanation": "Factor VIII is a crucial component of the intrinsic coagulation pathway, which is measured by the aPTT. A deficiency in Factor VIII will specifically prolong the aPTT, while the PT will remain normal."
+    },
+    {
+      "question": "What is a classic clinical manifestation of severe Hemophilia A?",
+      "options": [
+        "Easy bruising and petechiae",
+        "Delayed bleeding after surgery or trauma",
+        "Spontaneous hemarthrosis (joint bleeding)",
+        "Recurrent venous thromboembolism (VTE)"
+      ],
+      "answer": "Spontaneous hemarthrosis (joint bleeding)",
+      "explanation": "Spontaneous bleeding into joints (hemarthrosis) and muscles is a hallmark of severe hemophilia. This can lead to chronic pain, joint damage, and significant disability over time."
+    },
+    {
+      "question": "How is the severity of Hemophilia A classified?",
+      "options": [
+        "Mild: >10% Factor VIII activity; Moderate: 1-5%; Severe: <1%",
+        "Mild: >5% Factor VIII activity; Moderate: 1-5%; Severe: <1%",
+        "Mild: >25% Factor VIII activity; Moderate: 5-25%; Severe: <5%",
+        "Mild: >1% Factor VIII activity; Moderate: 0.5-1%; Severe: <0.5%"
+      ],
+      "answer": "Mild: >5% Factor VIII activity; Moderate: 1-5%; Severe: <1%",
+      "explanation": "The severity of Hemophilia A is based on the residual Factor VIII activity level. Severe hemophilia (<1%) is associated with spontaneous bleeding. Moderate (1-5%) and mild (>5%) have less frequent bleeding, typically after trauma or surgery."
+    },
+    {
+      "question": "What is the primary treatment for an acute bleeding episode in a patient with Hemophilia A?",
+      "options": [
+        "Platelet transfusion",
+        "Factor VIII concentrate",
+        "Fresh Frozen Plasma (FFP)",
+        "Recombinant Factor VIIa"
+      ],
+      "answer": "Factor VIII concentrate",
+      "explanation": "The standard of care for an acute bleed is to replace the deficient factor. Factor VIII concentrate, either derived from plasma or recombinant, is infused to rapidly increase the patient's Factor VIII levels to a hemostatic range."
+    },
+    {
+      "question": "What is a major challenge in the treatment of Hemophilia A?",
+      "options": [
+        "The short half-life of Factor VIII",
+        "The high cost of treatment",
+        "The development of Factor VIII inhibitors (neutralizing antibodies)",
+        "The risk of thrombosis"
+      ],
+      "answer": "The development of Factor VIII inhibitors (neutralizing antibodies)",
+      "explanation": "The most serious complication of treatment is the development of an inhibitor. The patient's immune system can recognize the infused Factor VIII as foreign and produce antibodies that neutralize its effect, making future infusions ineffective."
+    },
+    {
+      "question": "What is the primary role of von Willebrand factor (vWF) in Factor VIII function?",
+      "options": [
+        "To activate Factor VIII",
+        "To act as a carrier protein for Factor VIII, protecting it from degradation",
+        "To initiate the extrinsic pathway of coagulation",
+        "To mediate platelet-to-platelet aggregation"
+      ],
+      "answer": "To act as a carrier protein for Factor VIII, protecting it from degradation",
+      "explanation": "Von Willebrand factor binds to Factor VIII and protects it from premature degradation in the circulation, significantly extending its half-life. A deficiency in vWF can also lead to a secondary deficiency of Factor VIII."
+    },
+    {
+      "question": "What is the most effective long-term management strategy for a patient with severe Hemophilia A?",
+      "options": [
+        "On-demand treatment for bleeding episodes",
+        "Physical therapy and pain management",
+        "Routine prophylactic infusions of Factor VIII",
+        "Long-term oral anticoagulation"
+      ],
+      "answer": "Routine prophylactic infusions of Factor VIII",
+      "explanation": "Prophylaxis involves regular infusions of Factor VIII concentrate to prevent bleeding episodes from occurring, rather than treating them after they happen. This is the gold standard of care and has been shown to prevent joint damage and improve quality of life."
+    },
+    {
+      "question": "What is the typical half-life of Factor VIII in the circulation?",
+      "options": [
+        "Approximately 4 hours",
+        "Approximately 12 hours",
+        "Approximately 24 hours",
+        "Approximately 36 hours"
+      ],
+      "answer": "Approximately 12 hours",
+      "explanation": "Factor VIII has a relatively short half-life of about 8 to 12 hours, which is why prophylactic infusions are needed multiple times per week to maintain a hemostatic level."
+    },
+    {
+      "question": "What is the primary treatment for a bleeding episode in a patient with a high-titer Factor VIII inhibitor?",
+      "options": [
+        "High-dose Factor VIII concentrate",
+        "Platelet transfusion",
+        "Bypassing agents like recombinant Factor VIIa (rFVIIa) or activated PCC (aPCC)",
+        "Desmopressin (DDAVP)"
+      ],
+      "answer": "Bypassing agents like recombinant Factor VIIa (rFVIIa) or activated PCC (aPCC)",
+      "explanation": "When an inhibitor is present, standard Factor VIII concentrate is ineffective. Bypassing agents are used to bypass the Factor VIII step in the coagulation cascade and promote clot formation downstream to control the bleeding."
+    },
+    {
+      "question": "A patient with Hemophilia A has a history of mild bleeding. What is the likely Factor VIII activity level?",
+      "options": [
+        "Less than 1%",
+        "Between 1% and 5%",
+        "Greater than 5%",
+        "Greater than 50%"
+      ],
+      "answer": "Greater than 5%",
+      "explanation": "Mild hemophilia is defined as a Factor VIII activity level greater than 5%. Patients with mild hemophilia may have no spontaneous bleeding and only bleed in response to a hemostatic challenge like trauma or surgery."
+    },
+    {
+      "question": "What is a potential complication of repeated Factor VIII infusions?",
+      "options": [
+        "Thrombosis",
+        "Anaphylaxis",
+        "All of the above, including inhibitor development, risk of blood-borne disease (in the past), and allergic reactions.",
+        "Development of a Factor VIII inhibitor"
+      ],
+      "answer": "All of the above, including inhibitor development, risk of blood-borne disease (in the past), and allergic reactions.",
+      "explanation": "Repeated infusions can lead to the development of an inhibitor. In the past, plasma-derived products carried a risk of transmitting blood-borne diseases like HIV and hepatitis. There is also a risk of allergic reactions to the infused protein."
+    },
+    {
+      "question": "Which of the following is an effective treatment for mild Hemophilia A before a minor surgical procedure?",
+      "options": [
+        "Oral anticoagulants",
+        "Desmopressin (DDAVP)",
+        "Platelet transfusion",
+        "Recombinant Factor VIIa"
+      ],
+      "answer": "Desmopressin (DDAVP)",
+      "explanation": "For patients with mild Hemophilia A, Desmopressin (DDAVP) can be used. It causes the release of Factor VIII and von Willebrand factor from endothelial cells, temporarily increasing Factor VIII levels to a hemostatic range for a procedure."
+    },
+    {
+      "question": "What is the primary role of thrombin in the coagulation cascade?",
+      "options": [
+        "To activate Factor IX",
+        "To activate Factor VII",
+        "To activate Factor XIII and convert fibrinogen to fibrin",
+        "To inhibit the coagulation cascade"
+      ],
+      "answer": "To activate Factor XIII and convert fibrinogen to fibrin",
+      "explanation": "Thrombin (Factor IIa) is a central enzyme in the coagulation cascade. It cleaves fibrinogen into fibrin, which forms the soft clot, and also activates Factor XIII to stabilize the clot and activate Factor V and VIII to amplify the cascade."
+    },
+    {
+      "question": "What is the purpose of the aPTT mixing study in a patient with a prolonged aPTT?",
+      "options": [
+        "To confirm the presence of a Factor VIII deficiency",
+        "To determine if the prolonged aPTT is due to a factor deficiency or an inhibitor",
+        "To measure the severity of the bleeding",
+        "To identify a Factor VIII inhibitor"
+      ],
+      "answer": "To determine if the prolonged aPTT is due to a factor deficiency or an inhibitor",
+      "explanation": "A mixing study is used to distinguish a factor deficiency from an inhibitor. If the prolonged aPTT corrects to normal after adding normal plasma, it suggests a factor deficiency. If it does not correct, it suggests the presence of an inhibitor."
+    },
+    {
+      "question": "What is a key difference in clinical presentation between Hemophilia A and von Willebrand Disease?",
+      "options": [
+        "Hemophilia A causes mucocutaneous bleeding; vWD causes joint bleeds.",
+        "Hemophilia A is inherited recessively; vWD is inherited dominantly.",
+        "Hemophilia A bleeding is typically spontaneous and into joints; vWD bleeding is typically mucocutaneous and mild.",
+        "Hemophilia A only affects males; vWD only affects females."
+      ],
+      "answer": "Hemophilia A bleeding is typically spontaneous and into joints; vWD bleeding is typically mucocutaneous and mild.",
+      "explanation": "Hemophilia A is a classic joint-bleeding disorder. Von Willebrand disease is more common and typically presents with milder, mucocutaneous bleeding (e.g., nosebleeds, easy bruising)."
+    },
+    {
+      "question": "What is the primary role of Factor VIII in the intrinsic coagulation pathway?",
+      "options": [
+        "To activate Factor XI",
+        "To act as a cofactor for Factor IXa to activate Factor X",
+        "To convert prothrombin to thrombin",
+        "To activate Factor VII"
+      ],
+      "answer": "To act as a cofactor for Factor IXa to activate Factor X",
+      "explanation": "Factor VIII is a cofactor that forms a complex with activated Factor IX. This complex (the tenase complex) is what activates Factor X, a crucial step in amplifying the coagulation cascade."
+    },
+    {
+      "question": "What is the current standard of care for hemophilia patients with a high-titer inhibitor?",
+      "options": [
+        "Immunosuppressive therapy to reduce the inhibitor",
+        "Immune tolerance induction (ITI) to eradicate the inhibitor",
+        "Long-term use of bypassing agents",
+        "Genetic counseling"
+      ],
+      "answer": "Immune tolerance induction (ITI) to eradicate the inhibitor",
+      "explanation": "Immune tolerance induction involves giving frequent, high doses of Factor VIII to overwhelm the immune system and induce tolerance to the infused factor, with the goal of eradicating the inhibitor."
+    },
+    {
+      "question": "Which of the following would be an expected finding in a patient with Hemophilia A?",
+      "options": [
+        "Normal PT and prolonged aPTT",
+        "Prolonged PT and normal aPTT",
+        "Both prolonged PT and aPTT",
+        "Normal PT, normal aPTT, and prolonged bleeding time"
+      ],
+      "answer": "Normal PT and prolonged aPTT",
+      "explanation": "Since Factor VIII is a component of the intrinsic pathway, a deficiency will prolong the aPTT. The extrinsic pathway, measured by the PT, will be unaffected and therefore normal."
+    },
+    {
+      "question": "What is the most effective way to monitor the effectiveness of Factor VIII prophylaxis?",
+      "options": [
+        "PT and aPTT",
+        "Clinical observation for bleeding episodes and joint health",
+        "Specific Factor VIII activity assay",
+        "INR"
+      ],
+      "answer": "Clinical observation for bleeding episodes and joint health",
+      "explanation": "While Factor VIII levels can be measured, the ultimate goal of prophylaxis is to prevent bleeding and preserve joint health. Therefore, the most effective monitoring is a clinical assessment of bleeding frequency and joint status."
+    },
+    {
+      "question": "What is the primary risk of using a bypassing agent (e.g., rFVIIa) in a patient with Hemophilia A?",
+      "options": [
+        "Anaphylaxis",
+        "Thrombosis (blood clots)",
+        "Volume overload",
+        "Development of an inhibitor"
+      ],
+      "answer": "Thrombosis (blood clots)",
+      "explanation": "Bypassing agents can promote clot formation, but they do so in a non-specific way that can lead to a hypercoagulable state and an increased risk of thrombosis."
+    },
+    {
+      "question": "Which of the following is a classic example of an acquired hemophilia?",
+      "options": [
+        "A patient with a history of recurrent hemarthrosis since childhood",
+        "A male with a family history of bleeding",
+        "An older adult with no personal or family history of bleeding who suddenly develops a Factor VIII inhibitor",
+        "A patient with a low Factor VIII level and normal aPTT"
+      ],
+      "answer": "An older adult with no personal or family history of bleeding who suddenly develops a Factor VIII inhibitor",
+      "explanation": "Acquired hemophilia is a rare autoimmune disorder where a person's immune system spontaneously produces an antibody (inhibitor) against their own Factor VIII, leading to sudden, severe bleeding."
+    },
+    {
+      "question": "What is the primary goal of modern hemophilia care?",
+      "options": [
+        "To manage bleeding episodes as they occur.",
+        "To prevent bleeding episodes and joint damage through prophylaxis.",
+        "To cure the disease with genetic therapy.",
+        "To rely solely on bypassing agents."
+      ],
+      "answer": "To prevent bleeding episodes and joint damage through prophylaxis.",
+      "explanation": "The shift from on-demand treatment to routine prophylaxis is a major advance in hemophilia care. The goal is to prevent the long-term, debilitating consequences of bleeding, such as joint destruction, and allow patients to live a normal life."
+    },
+    {
+      "question": "What is the relationship between Hemophilia A and Factor VIII activity levels?",
+      "options": [
+        "There is no correlation.",
+        "Higher activity levels are associated with more severe bleeding.",
+        "Lower activity levels are associated with more severe bleeding.",
+        "The relationship is only relevant in children."
+      ],
+      "answer": "Lower activity levels are associated with more severe bleeding.",
+      "explanation": "The severity of bleeding is directly related to the residual Factor VIII activity level. The lower the level, the more likely a patient is to have spontaneous and severe bleeding episodes."
+    },
+    {
+      "question": "Which of the following is a potential risk of using Desmopressin (DDAVP) in a patient with mild Hemophilia A?",
+      "options": [
+        "Inhibition of platelet function",
+        "Fluid retention and hyponatremia (low sodium)",
+        "Thrombosis",
+        "Development of an inhibitor"
+      ],
+      "answer": "Fluid retention and hyponatremia (low sodium)",
+      "explanation": "DDAVP is a synthetic analog of vasopressin. Its main side effect is fluid retention, which can lead to low sodium levels (hyponatremia), especially with repeated use."
+    },
+    {
+      "question": "What is the primary function of Factor IX?",
+      "options": [
+        "To activate Factor X",
+        "To act as a cofactor for Factor VIII",
+        "To convert fibrinogen to fibrin",
+        "To initiate the extrinsic pathway"
+      ],
+      "answer": "To activate Factor X",
+      "explanation": "Factor IX is a key enzyme in the intrinsic pathway. After it is activated by Factor XIa, it forms a complex with Factor VIIIa to activate Factor X."
+    },
+    {
+      "question": "What is the most effective way to manage joint damage in a patient with hemophilia?",
+      "options": [
+        "Regular physical therapy and rehabilitation",
+        "Long-term use of NSAIDs for pain",
+        "Repeated joint aspirations",
+        "Limiting physical activity"
+      ],
+      "answer": "Regular physical therapy and rehabilitation",
+      "explanation": "Physical therapy is crucial for maintaining joint range of motion and muscle strength. It helps to prevent joint contractures and long-term disability, which are common consequences of recurrent joint bleeds."
+    },
+    {
+      "question": "Which of the following is a potential late-stage complication of severe hemophilia?",
+      "options": [
+        "Recurrent venous thrombosis",
+        "Chronic kidney disease",
+        "Chronic joint pain and arthropathy",
+        "Diabetes"
+      ],
+      "answer": "Chronic joint pain and arthropathy",
+      "explanation": "Chronic, irreversible joint damage (arthropathy) is a major long-term complication of repeated joint bleeds, which is why prophylaxis is so important in modern care."
+    },
+    {
+      "question": "What is the primary function of Factor IX in the coagulation cascade?",
+      "options": [
+        "To act as a cofactor for Factor VIIIa.",
+        "To convert prothrombin to thrombin.",
+        "To activate Factor X.",
+        "To initiate the intrinsic pathway."
+      ],
+      "answer": "To activate Factor X.",
+      "explanation": "After Factor IX is activated by Factor XIa, it forms a complex with Factor VIIIa to activate Factor X, the first step in the common pathway. This is the rate-limiting step of the intrinsic coagulation cascade."
     }
   ]
 }

@@ -22,6 +22,7 @@
       "topics": [
         { "name": "Blood Group Systems", "file": "transfusion_bloodgroups.json" },
          { "name": "ABO system", "file": "transfusion/ABO.json" },
+         { "name": "RH system", "file": "transfusion/RH.json" },
         { "name": "Transfusion Reactions", "file": "transfusion_reactions.json" },
         { "name": "Component Therapy", "file": "transfusion_components.json" }
       ]

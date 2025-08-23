@@ -3,9 +3,9 @@
     {
       "name": "Hematology",
       "topics": [
-        { "name": "Red Cell Disorders", "file": "hematology_rbc.json" },
-        { "name": "Coagulation Disorders", "file": "hematology_coagulation.json" },
-        { "name": "White Cell Disorders", "file": "hematology_wbc.json" }
+        { "name": "Red Cell Disorders", "file": "hematology/hematology_rbc.json" },
+        { "name": "Coagulation Disorders", "file": "hematology/hematology_coagulation.json" },
+        { "name": "White Cell Disorders", "file": "hematology/hematology_wbc.json" }
       ]
     },
     {

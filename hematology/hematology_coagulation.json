@@ -104,6 +104,341 @@
           "explanation": "DIC is secondary to another condition (e.g., sepsis, trauma, obstetric complication), so the primary treatment is correcting the cause. Supportive transfusion may be required."
         }
       ]
+    },
+    {
+  "name": "Acquired Hemophilia A (AHA)",
+  "questions": [
+    {
+      "question": "What is the primary underlying cause of Acquired Hemophilia A (AHA)?",
+      "options": [
+        "Inherited genetic mutation in FVIII gene",
+        "Autoimmune destruction of factor VIII (FVIII)",
+        "Congenital deficiency of factor VIII (FVIII)",
+        "Vitamin K deficiency leading to FVIII synthesis impairment"
+      ],
+      "answer": "Autoimmune destruction of factor VIII (FVIII)",
+      "explanation": "AHA is an autoimmune bleeding disorder caused by autoantibodies (inhibitors) that neutralize the function of Factor VIII (FVIII), leading to a deficiency of this essential clotting factor. It's distinct from congenital hemophilia, which is a genetic disorder."
+    },
+    {
+      "question": "In what patient population is AHA most commonly observed?",
+      "options": [
+        "Children with a family history of hemophilia",
+        "Young adult males",
+        "Previously healthy middle-aged to elderly individuals",
+        "Patients with sickle cell disease"
+      ],
+      "answer": "Previously healthy middle-aged to elderly individuals",
+      "explanation": "AHA is a rare disorder that predominantly affects older adults, with the median age of onset being around 60-70 years. It can also be associated with other autoimmune conditions, malignancy, or pregnancy."
+    },
+    {
+      "question": "Which of the following conditions is most frequently associated with AHA?",
+      "options": [
+        "Asthma",
+        "Rheumatoid arthritis",
+        "Hypertension",
+        "Celiac disease"
+      ],
+      "answer": "Rheumatoid arthritis",
+      "explanation": "Around 50% of AHA cases are idiopathic (no known cause), but among the associated conditions, autoimmune disorders like rheumatoid arthritis, systemic lupus erythematosus (SLE), and malignancy are the most common."
+    },
+    {
+      "question": "What is the most common clinical manifestation of AHA?",
+      "options": [
+        "Joint bleeding (hemarthrosis)",
+        "Spontaneous deep muscle and soft tissue bleeding",
+        "Intracranial hemorrhage",
+        "Prolonged bleeding after minor cuts"
+      ],
+      "answer": "Spontaneous deep muscle and soft tissue bleeding",
+      "explanation": "Unlike congenital hemophilia, which classically presents with hemarthrosis, AHA more often manifests with extensive, spontaneous bleeding into soft tissues, muscles, and the retroperitoneal space. Hemarthrosis is less common but can occur."
+    },
+    {
+      "question": "Which laboratory finding is characteristic of AHA?",
+      "options": [
+        "Isolated prolonged Prothrombin Time (PT)",
+        "Prolonged Activated Partial Thromboplastin Time (aPTT) that does not correct with mixing studies",
+        "Low platelet count (thrombocytopenia)",
+        "Elevated D-dimer"
+      ],
+      "answer": "Prolonged Activated Partial Thromboplastin Time (aPTT) that does not correct with mixing studies",
+      "explanation": "A prolonged aPTT is a key indicator. A mixing study (adding patient plasma to normal plasma) will fail to correct the aPTT because the FVIII inhibitor (autoantibody) in the patient's plasma will inactivate the FVIII in the normal plasma, confirming the presence of an inhibitor."
+    },
+    {
+      "question": "What is the definitive diagnostic test for AHA?",
+      "options": [
+        "Complete Blood Count (CBC)",
+        "Fibrinogen level",
+        "Factor VIII (FVIII) activity assay and Bethesda assay for inhibitor titer",
+        "Genetic testing for FVIII gene mutations"
+      ],
+      "answer": "Factor VIII (FVIII) activity assay and Bethesda assay for inhibitor titer",
+      "explanation": "Diagnosis is confirmed by a low FVIII activity level (<50%) in the presence of an inhibitor, which is measured using the Bethesda assay. The Bethesda assay quantifies the strength of the inhibitor in Bethesda Units (BU)."
+    },
+    {
+      "question": "What is the primary goal of initial management in AHA?",
+      "options": [
+        "Preventing joint damage",
+        "Stopping acute bleeding",
+        "Initiating long-term prophylaxis",
+        "Starting gene therapy"
+      ],
+      "answer": "Stopping acute bleeding",
+      "explanation": "The immediate priority in AHA is to control life-threatening hemorrhage. This is often done using bypassing agents that bypass the need for FVIII, such as recombinant FVIIa or activated prothrombin complex concentrate (aPCC)."
+    },
+    {
+      "question": "Which of the following is considered a first-line treatment for an acute bleeding episode in AHA?",
+      "options": [
+        "Desmopressin (DDAVP)",
+        "Recombinant factor VIII (rFVIII)",
+        "Recombinant activated factor VII (rFVIIa)",
+        "Fresh Frozen Plasma (FFP)"
+      ],
+      "answer": "Recombinant activated factor VII (rFVIIa)",
+      "explanation": "Since FVIII is being inactivated by an inhibitor, FVIII replacement is ineffective. Bypassing agents like rFVIIa (NovoSeven®) and aPCCs (FEIBA®) are used to promote coagulation downstream of FVIII and are the standard of care for acute bleeds."
+    },
+    {
+      "question": "What is the second major goal of AHA management after controlling the bleed?",
+      "options": [
+        "Starting prophylactic infusions",
+        "Eradicating the FVIII inhibitor",
+        "Preventing thrombosis",
+        "Managing pain"
+      ],
+      "answer": "Eradicating the FVIII inhibitor",
+      "explanation": "After stopping a life-threatening bleed, the long-term goal is to suppress the immune system to eliminate the FVIII autoantibody (inhibitor). This is called immune eradication or inhibitor eradication."
+    },
+    {
+      "question": "Which of the following is the most common first-line immunosuppressive agent for inhibitor eradication?",
+      "options": [
+        "Intravenous immunoglobulin (IVIg)",
+        "Corticosteroids (e.g., prednisone)",
+        "Rituximab",
+        "Cyclophosphamide"
+      ],
+      "answer": "Corticosteroids (e.g., prednisone)",
+      "explanation": "High-dose corticosteroids, often combined with cyclophosphamide, are the cornerstone of first-line inhibitor eradication therapy. Rituximab may be used as a second-line or combination therapy."
+    },
+    {
+      "question": "What is the typical timeframe for FVIII inhibitor eradication with first-line immunosuppressive therapy?",
+      "options": [
+        "A few days",
+        "1-3 months",
+        "6-12 months",
+        "Several years"
+      ],
+      "answer": "1-3 months",
+      "explanation": "The majority of patients who respond to first-line therapy (corticosteroids with or without cyclophosphamide) do so within 1 to 3 months. If no response is seen after 4-6 weeks, a second-line agent may be considered."
+    },
+    {
+      "question": "What is the mechanism of action of Rituximab in treating AHA?",
+      "options": [
+        "Increases FVIII production",
+        "Binds to and neutralizes the FVIII inhibitor",
+        "Depletes CD20-positive B cells, the source of the FVIII autoantibody",
+        "Inhibits fibrinolysis"
+      ],
+      "answer": "Depletes CD20-positive B cells, the source of the FVIII autoantibody",
+      "explanation": "Rituximab is a monoclonal antibody that targets CD20, a protein on the surface of B lymphocytes. By depleting these B cells, it removes the source of the FVIII-specific autoantibodies."
+    },
+    {
+      "question": "What is the definition of a 'complete response' to inhibitor eradication therapy?",
+      "options": [
+        "No further bleeding episodes",
+        "Normalization of aPTT and no detectable FVIII inhibitor",
+        "FVIII activity level >50% and no bleeding",
+        "An inhibitor titer <5 Bethesda Units (BU)"
+      ],
+      "answer": "Normalization of aPTT and no detectable FVIII inhibitor",
+      "explanation": "A complete response is defined as normalization of the aPTT and undetectable levels of the FVIII inhibitor, often confirmed by a Bethesda assay titer of <0.6 BU/mL, and a FVIII activity level >60%."
+    },
+    {
+      "question": "What is the approximate mortality rate associated with AHA?",
+      "options": [
+        "Less than 1%",
+        "5-10%",
+        "15-20%",
+        "Over 50%"
+      ],
+      "answer": "15-20%",
+      "explanation": "Despite significant advances in treatment, AHA remains a serious condition with a mortality rate of approximately 15-20%. The causes of death are often related to refractory bleeding or complications from immunosuppressive therapy."
+    },
+    {
+      "question": "Why is it important to differentiate AHA from congenital hemophilia A?",
+      "options": [
+        "The treatment for acute bleeding is different.",
+        "AHA is not a bleeding disorder.",
+        "Patients with AHA do not have low FVIII levels.",
+        "It affects males and females equally."
+      ],
+      "answer": "The treatment for acute bleeding is different.",
+      "explanation": "Treatment differs because patients with AHA have a circulating inhibitor that will neutralize exogenous FVIII. Therefore, bypassing agents are needed for acute bleeds, whereas in congenital hemophilia, FVIII concentrate is the standard of care."
+    },
+    {
+      "question": "In a patient with a known history of AHA, what should be done before any invasive procedure?",
+      "options": [
+        "Administer prophylactic FVIII concentrate",
+        "Administer prophylactic bypassing agent (e.g., rFVIIa)",
+        "Infuse fresh frozen plasma (FFP)",
+        "Wait until the procedure and then treat any bleeding"
+      ],
+      "answer": "Administer prophylactic bypassing agent (e.g., rFVIIa)",
+      "explanation": "Prophylaxis with a bypassing agent is essential to prevent severe bleeding during and after invasive procedures, as the FVIII inhibitor would render standard FVIII prophylaxis ineffective."
+    },
+    {
+      "question": "What is a major risk of treatment with Activated Prothrombin Complex Concentrate (aPCC)?",
+      "options": [
+        "Anaphylactic shock",
+        "Thrombosis (blood clots)",
+        "Hypokalemia",
+        "Severe nausea"
+      ],
+      "answer": "Thrombosis (blood clots)",
+      "explanation": "Both aPCC and rFVIIa carry a risk of thrombosis because they activate the coagulation cascade. However, the risk is higher with aPCC due to its content of multiple activated clotting factors. Care must be taken, especially in patients with underlying cardiovascular disease."
+    },
+    {
+      "question": "Which type of bleeding is rarely seen in AHA but is classic for congenital hemophilia?",
+      "options": [
+        "Gingival bleeding",
+        "Hemarthrosis (joint bleeds)",
+        "Hematoma formation",
+        "Intramuscular bleeding"
+      ],
+      "answer": "Hemarthrosis (joint bleeds)",
+      "explanation": "Joint bleeding is the hallmark of severe congenital hemophilia, leading to chronic arthropathy. While it can occur in AHA, the pattern of bleeding is more often into soft tissues and muscles, which can be extensive and life-threatening."
+    },
+    {
+      "question": "Approximately what percentage of AHA cases are idiopathic?",
+      "options": [
+        "10%",
+        "30%",
+        "50%",
+        "80%"
+      ],
+      "answer": "50%",
+      "explanation": "Approximately half of all AHA cases are idiopathic, meaning there is no identifiable underlying cause. The other half are associated with conditions like autoimmune diseases, malignancy, and pregnancy."
+    },
+    {
+      "question": "What is the typical time frame for resolution of AHA when associated with pregnancy?",
+      "options": [
+        "Within 24 hours of delivery",
+        "Within 1-3 months postpartum",
+        "Within 1 year postpartum",
+        "It never resolves and requires lifelong treatment"
+      ],
+      "answer": "Within 1-3 months postpartum",
+      "explanation": "AHA that occurs in association with pregnancy (postpartum AHA) often resolves spontaneously within several months of delivery, once the hormonal and immunologic changes of pregnancy subside."
+    },
+    {
+      "question": "Which of the following best describes the initial bleeding pattern in AHA?",
+      "options": [
+        "Chronic, low-grade mucosal bleeding",
+        "Recurrent, predictable joint bleeds",
+        "Sudden onset of severe, life-threatening hemorrhage",
+        "Minor bruising and petechiae"
+      ],
+      "answer": "Sudden onset of severe, life-threatening hemorrhage",
+      "explanation": "The clinical presentation of AHA is often dramatic and acute, with spontaneous, severe bleeding into deep tissues that can rapidly become life-threatening, in contrast to the more insidious presentation of some congenital bleeding disorders."
+    },
+    {
+      "question": "What is the role of the Bethesda assay in managing AHA?",
+      "options": [
+        "To confirm the diagnosis of AHA",
+        "To monitor the response to bleeding treatment",
+        "To monitor the response to inhibitor eradication therapy",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "The Bethesda assay is crucial for diagnosis by confirming the presence of an inhibitor and for quantifying its strength. It's also used to monitor the effectiveness of immunosuppressive therapy, as a decrease in the inhibitor titer indicates a positive response."
+    },
+    {
+      "question": "Why is Activated Prothrombin Complex Concentrate (aPCC) often preferred over rFVIIa in AHA treatment?",
+      "options": [
+        "It is less expensive",
+        "It is more effective in all patients",
+        "It has a lower risk of thrombosis",
+        "It is always more readily available"
+      ],
+      "answer": "It is less expensive",
+      "explanation": "The choice between aPCC and rFVIIa often depends on local availability, cost, and patient-specific factors. However, aPCC is generally less expensive than rFVIIa and is considered an equally effective first-line agent for bypassing the FVIII deficiency."
+    },
+    {
+      "question": "Which of the following is NOT a common site of bleeding in AHA?",
+      "options": [
+        "Gastrointestinal tract",
+        "Genitourinary tract",
+        "Central nervous system",
+        "The skin, as petechiae"
+      ],
+      "answer": "The skin, as petechiae",
+      "explanation": "Petechiae (small, pinpoint hemorrhages) are typically associated with thrombocytopenia (low platelet count), not a coagulation factor deficiency like AHA. AHA bleeding is usually more extensive, involving large hematomas, ecchymoses, or mucosal bleeding."
+    },
+    {
+      "question": "A patient with AHA on immunosuppressive therapy develops a fever. What is the most likely cause and what is the next step?",
+      "options": [
+        "Viral infection; continue current therapy",
+        "Treatment-related fever; reduce immunosuppression",
+        "Bacterial infection; evaluate for sepsis and stop immunosuppression if needed",
+        "Fever of unknown origin; start new immunosuppressive agent"
+      ],
+      "answer": "Bacterial infection; evaluate for sepsis and stop immunosuppression if needed",
+      "explanation": "Patients on high-dose immunosuppressive therapy are at significant risk for severe infections. Fever should be considered a sign of a life-threatening infection until proven otherwise, and therapy may need to be adjusted or temporarily held."
+    },
+    {
+      "question": "What is the long-term prognosis for a patient who achieves a complete response to AHA treatment?",
+      "options": [
+        "Life-long risk of severe bleeding",
+        "High chance of relapse",
+        "Excellent, with a low risk of recurrence",
+        "The inhibitor will always come back"
+      ],
+      "answer": "Excellent, with a low risk of recurrence",
+      "explanation": "Patients who achieve a complete response (normalization of FVIII levels and undetectable inhibitor) have a good long-term prognosis. The risk of recurrence is low, and they can often discontinue immunosuppressive therapy."
+    },
+    {
+      "question": "What is the key difference in the pathophysiology of AHA compared to von Willebrand Disease (vWD)?",
+      "options": [
+        "AHA involves a defect in platelet adhesion; vWD involves a clotting factor deficiency.",
+        "AHA is due to an acquired inhibitor to FVIII; vWD is a genetic deficiency or defect in von Willebrand Factor.",
+        "AHA causes a prolonged PT; vWD causes a prolonged aPTT.",
+        "AHA is treated with DDAVP; vWD is treated with bypassing agents."
+      ],
+      "answer": "AHA is due to an acquired inhibitor to FVIII; vWD is a genetic deficiency or defect in von Willebrand Factor.",
+      "explanation": "AHA is an acquired autoimmune condition where the body makes an antibody against FVIII. vWD is an inherited disorder caused by a quantitative or qualitative defect in von Willebrand factor (vWF), which is a carrier protein for FVIII and also essential for platelet adhesion."
+    },
+    {
+      "question": "In a patient with AHA, if a mixing study corrects the aPTT, what is the most likely diagnosis?",
+      "options": [
+        "Acquired Hemophilia A",
+        "Factor VIII deficiency",
+        "Lupus anticoagulant",
+        "Vitamin K deficiency"
+      ],
+      "answer": "Vitamin K deficiency",
+      "explanation": "If a mixing study corrects a prolonged aPTT, it suggests a deficiency in a clotting factor (as seen in vitamin K deficiency or congenital FVIII deficiency), not the presence of a circulating inhibitor (which would prevent correction). The aPTT is also prolonged in lupus anticoagulant, but it's a non-bleeding-related issue."
+    },
+    {
+      "question": "What is the approximate incidence of AHA?",
+      "options": [
+        "1 in 100 people",
+        "1 in 10,000 people",
+        "1 to 2 cases per million people per year",
+        "1 to 2 cases per 100 million people per year"
+      ],
+      "answer": "1 to 2 cases per million people per year",
+      "explanation": "AHA is an extremely rare bleeding disorder, with an incidence of about 1 to 2 new cases per million people per year. Its rarity often contributes to delays in diagnosis."
+    },
+    {
+      "question": "What is the key distinction between AHA and a congenital Factor VIII deficiency with a new inhibitor?",
+      "options": [
+        "AHA is a lifelong condition; congenital is temporary.",
+        "AHA patients have no prior bleeding history; congenital patients have a lifelong history of bleeding.",
+        "AHA is caused by an inherited mutation; congenital is autoimmune.",
+        "AHA is easier to treat."
+      ],
+      "answer": "AHA patients have no prior bleeding history; congenital patients have a lifelong history of bleeding.",
+      "explanation": "The most important clinical distinction is the patient's history. A patient with AHA will typically have a completely normal hemostatic history before the sudden onset of bleeding, whereas a patient with congenital hemophilia has had lifelong bleeding issues."
     }
+  ]
+}
   ]
 }

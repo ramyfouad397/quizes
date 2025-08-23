@@ -290,15 +290,23 @@ function clearScore(subjectName, topicName, quizName){
 
 /* Compute average score for all quizzes in a topic file */
 function computeTopicAverage(subjectName, topic, topicData){
-  if(!topicData?.quizzes?.length) return null;
-  let have = 0, sum = 0;
-  topicData.quizzes.forEach(qz=>{
+  if(!topicData?.quizzes?.length) return 0;
+
+  const totalQuizzes = topicData.quizzes.length;
+  let achieved = 0;
+
+  topicData.quizzes.forEach(qz => {
     const s = getSavedScore(subjectName, topic.name, qz.name);
-    if(Number.isFinite(s)){ have++; sum += s; }
+    if (Number.isFinite(s)) {
+      achieved += s;   // add score if attempted
+    }
+    // if not attempted, add 0 (so it counts as 0%)
   });
-  if(!have) return null;
-  return Math.round(sum / have);
+
+  // progress = sum of scores ÷ (total quizzes × 100)
+  return Math.round((achieved / (totalQuizzes * 100)) * 100);
 }
+
 
 /* Compute average score across all topics within a subject */
 async function computeSubjectAverage(subject){

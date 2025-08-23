@@ -1,340 +1,340 @@
 {
     "quizzes": [
         {
-            "name": "ABO Blood Group System: Advanced Topics",
-            "questions": [
-                {
-                    "question": "The ABO gene is located on which human chromosome?",
-                    "options": [
-                        "Chromosome 1",
-                        "Chromosome 6",
-                        "Chromosome 9",
-                        "Chromosome 19"
-                    ],
-                    "answer": "Chromosome 9",
-                    "explanation": "The gene that codes for the ABO blood group antigens is located on the long arm of chromosome 9 (9q34.2). This gene, formally known as the ABO gene, encodes a glycosyltransferase enzyme that is responsible for adding specific sugar residues to the H antigen on the red blood cell surface, thereby creating the A and B antigens."
-                },
-                {
-                    "question": "Which specific enzyme is encoded by the A allele to produce the A antigen?",
-                    "options": [
-                        "Alpha-D-N-acetylgalactosaminyltransferase",
-                        "Alpha-D-galactosyltransferase",
-                        "Alpha-L-fucosyltransferase",
-                        "Beta-D-galactosidase"
-                    ],
-                    "answer": "Alpha-D-N-acetylgalactosaminyltransferase",
-                    "explanation": "The A allele codes for a specific glycosyltransferase enzyme called alpha-D-N-acetylgalactosaminyltransferase. This enzyme adds an N-acetylgalactosamine sugar residue to the terminal galactose of the H antigen's carbohydrate chain, which modifies it to become the A antigen."
-                },
-                {
-                    "question": "What is the primary role of the H antigen (produced by the FUT1 gene) in ABO blood group expression?",
-                    "options": [
-                        "It determines the Rh factor.",
-                        "It serves as the precursor substance for A and B antigens.",
-                        "It is responsible for blood clotting.",
-                        "It codes for a co-dominant antigen."
-                    ],
-                    "answer": "It serves as the precursor substance for A and B antigens.",
-                    "explanation": "The H antigen, synthesized by the H gene (FUT1), is the foundational carbohydrate structure upon which the A and B antigens are built. The A and B alleles' glycosyltransferase enzymes can only modify this H antigen. Without a functional H gene, the A and B alleles cannot be expressed, leading to the rare Bombay phenotype."
-                },
-                {
-                    "question": "A patient with the Bombay phenotype ($O_h$) will have which of the following characteristics?",
-                    "options": [
-                        "They will have A, B, and H antigens on their red blood cells.",
-                        "They will have O antigens and no antibodies.",
-                        "They will have no A, B, or H antigens and possess anti-A, anti-B, and anti-H antibodies.",
-                        "They will only have the H antigen on their red blood cells."
-                    ],
-                    "answer": "They will have no A, B, or H antigens and possess anti-A, anti-B, and anti-H antibodies.",
-                    "explanation": "The Bombay phenotype is a rare condition caused by a homozygous recessive mutation in the H gene (hh). Since the H antigen is the precursor for A and B antigens, a person with this genotype will not express any A, B, or H antigens on their red blood cells. Consequently, their plasma will contain naturally occurring anti-A, anti-B, and, most importantly, anti-H antibodies. This means they can only receive blood from other individuals with the Bombay phenotype."
-                },
-                {
-                    "question": "Which immunoglobulin class is primarily responsible for naturally occurring anti-A and anti-B antibodies?",
-                    "options": [
-                        "IgG",
-                        "IgA",
-                        "IgM",
-                        "IgE"
-                    ],
-                    "answer": "IgM",
-                    "explanation": "The naturally occurring anti-A and anti-B antibodies in a person's plasma are predominantly of the IgM class. IgM antibodies are large pentameric molecules that are highly efficient at causing agglutination (clumping) and complement activation, leading to a rapid and severe acute hemolytic transfusion reaction upon an ABO mismatch."
-                },
-                {
-                    "question": "What is the key difference between the A1 and A2 subgroups of blood type A?",
-                    "options": [
-                        "A1 is an Rh-positive subtype, while A2 is Rh-negative.",
-                        "A2 is a weaker variant of A, with fewer A antigens expressed on the red cell surface.",
-                        "A1 is a common allele, while A2 is a rare mutation.",
-                        "A2 is a dominant allele over A1."
-                    ],
-                    "answer": "A2 is a weaker variant of A, with fewer A antigens expressed on the red cell surface.",
-                    "explanation": "The A blood type is subdivided into A1 and A2, with A1 being more common (approximately 80% of type A individuals). The A1 allele produces a more active glycosyltransferase, leading to a high density of A antigens on the red blood cell. The A2 allele produces a less efficient enzyme, resulting in fewer A antigens and often some unexpressed H antigens. This can sometimes lead to the development of an 'anti-A1' antibody in an A2 person, which would cause a reaction if they received A1 blood."
-                },
-                {
-                    "question": "A patient is a 'non-secretor.' This means they lack a functional FUT2 gene. What is the clinical implication?",
-                    "options": [
-                        "They cannot produce the H antigen.",
-                        "They cannot express A, B, or H antigens in body fluids like saliva.",
-                        "They have a higher risk of blood clotting.",
-                        "They are more susceptible to certain viral infections."
-                    ],
-                    "answer": "They cannot express A, B, or H antigens in body fluids like saliva.",
-                    "explanation": "The FUT2 gene, or secretor gene (Se), determines whether a person can express ABO blood group antigens in their body fluids (secretions). A person who is a 'non-secretor' (genotype se/se) lacks a functional FUT2 gene and therefore cannot express these antigens in their saliva, tears, or semen. This has been linked to susceptibility to certain bacterial and viral infections, as some pathogens use these antigens as binding sites."
-                },
-                {
-                    "question": "Which specific condition is the most common cause of an acute hemolytic transfusion reaction (AHTR)?",
-                    "options": [
-                        "Rh incompatibility",
-                        "Platelet incompatibility",
-                        "ABO incompatibility",
-                        "HLA incompatibility"
-                    ],
-                    "answer": "ABO incompatibility",
-                    "explanation": "An acute hemolytic transfusion reaction (AHTR) is a medical emergency characterized by rapid red blood cell destruction. The most common cause of AHTR is a clerical or procedural error resulting in the transfusion of ABO-incompatible blood. This triggers an immediate, massive immune response due to the pre-existing, potent IgM anti-A or anti-B antibodies in the recipient's plasma."
-                },
-                {
-                    "question": "A person with blood type B can have which of the following genotypes?",
-                    "options": [
-                        "AA or AO",
-                        "BB or BO",
-                        "AB or BB",
-                        "AB or AO"
-                    ],
-                    "answer": "BB or BO",
-                    "explanation": "Blood type B is determined by the presence of at least one dominant B allele. Therefore, a person can have either two B alleles (homozygous dominant, genotype BB) or one B allele and one recessive O allele (heterozygous, genotype BO)."
-                },
-                {
-                    "question": "What is the principle behind the forward typing portion of a blood type test?",
-                    "options": [
-                        "Testing the patient's plasma for antibodies using known red cells.",
-                        "Testing the patient's red cells for antigens using known antibodies.",
-                        "Testing for the Rh factor only.",
-                        "Testing for platelet compatibility."
-                    ],
-                    "answer": "Testing the patient's red cells for antigens using known antibodies.",
-                    "explanation": "Forward typing is the standard method for determining a person's blood type. It involves mixing the patient's red blood cells with commercially prepared anti-A and anti-B sera (known antibodies). Agglutination (clumping) indicates the presence of the corresponding antigen on the red blood cell surface."
-                },
-                {
-                    "question": "A patient with no agglutination in either the anti-A or anti-B serum in a forward typing test would have which blood type?",
-                    "options": [
-                        "Type A",
-                        "Type B",
-                        "Type AB",
-                        "Type O"
-                    ],
-                    "answer": "Type O",
-                    "explanation": "Forward typing is a direct test for antigens. The lack of agglutination when the patient's red blood cells are mixed with both anti-A and anti-B sera means that their red blood cells possess neither the A nor the B antigen, which is the defining characteristic of blood type O."
-                },
-                {
-                    "question": "Which blood group is associated with a lower risk of gastric ulcers caused by Helicobacter pylori?",
-                    "options": [
-                        "Type A",
-                        "Type B",
-                        "Type AB",
-                        "Type O"
-                    ],
-                    "answer": "Type O",
-                    "explanation": "Epidemiological studies have shown that individuals with blood type O have a higher incidence of gastric ulcers caused by H. pylori. Conversely, individuals with blood type A have a lower risk. The mechanism is thought to be related to the specific adhesion molecules and carbohydrate structures that H. pylori uses to bind to gastric mucosa."
-                },
-                {
-                    "question": "What is the primary clinical manifestation of a delayed hemolytic transfusion reaction (DHTR) due to Rh incompatibility?",
-                    "options": [
-                        "Immediate shock and death.",
-                        "Rapid onset of fever and chills.",
-                        "Gradual decrease in hemoglobin and jaundice.",
-                        "Formation of a large blood clot."
-                    ],
-                    "answer": "Gradual decrease in hemoglobin and jaundice.",
-                    "explanation": "Unlike the immediate reaction from an ABO mismatch, a delayed hemolytic transfusion reaction typically occurs 3 to 10 days after a transfusion. It is caused by a low concentration of recipient IgG antibodies (often from prior sensitization) that slowly destroy the transfused red blood cells, leading to symptoms like a gradual drop in hemoglobin (anemia) and jaundice due to bilirubin accumulation."
-                },
-                {
-                    "question": "Which of the following is a key feature of the blood group antigen's structure?",
-                    "options": [
-                        "They are proteins.",
-                        "They are glycoproteins or glycolipids.",
-                        "They are pure lipids.",
-                        "They are nucleic acids."
-                    ],
-                    "answer": "They are glycoproteins or glycolipids.",
-                    "explanation": "Blood group antigens in the ABO system are carbohydrate molecules (oligosaccharides) that are attached to proteins (glycoproteins) or lipids (glycolipids) on the surface of the red blood cell membrane. This carbohydrate structure, or epitope, is what determines the antigen's specificity."
-                },
-                {
-                    "question": "The presence of a weak expression of A or B antigens on red cells, sometimes due to a genetic variant, is known as a:",
-                    "options": [
-                        "Null phenotype",
-                        "Subgroup",
-                        "Serological anomaly",
-                        "Allelic dominance"
-                    ],
-                    "answer": "Subgroup",
-                    "explanation": "Blood group subgroups, such as $A_1$ and $A_2$, are variants within a blood type that are characterized by differences in the number or quality of antigens expressed on the red blood cell surface. A 'weak' subgroup, like $A_x$, might express so few antigens that it appears to be blood type O on a standard test, requiring further investigation."
-                },
-                {
-                    "question": "A patient with blood type A requires a platelet transfusion. Is ABO compatibility always required for platelet transfusions?",
-                    "options": [
-                        "Yes, it is always a strict requirement.",
-                        "No, platelets do not have ABO antigens.",
-                        "No, but it is preferred to prevent passive transfer of antibodies from donor plasma.",
-                        "Yes, because platelets carry hemoglobin."
-                    ],
-                    "answer": "No, but it is preferred to prevent passive transfer of antibodies from donor plasma.",
-                    "explanation": "Platelets do express some ABO antigens, but a reaction is less common than with red blood cells. However, platelet concentrates are suspended in donor plasma. If the donor's plasma contains high titers of anti-A or anti-B antibodies, these antibodies can cause a mild hemolytic reaction in the recipient. Therefore, ABO-identical or compatible platelet transfusions are preferred to avoid this complication."
-                },
-                {
-                    "question": "In forensic medicine, which blood group is the most useful for excluding a suspect?",
-                    "options": [
-                        "Type O",
-                        "Type A",
-                        "Type B",
-                        "Type O-negative"
-                    ],
-                    "answer": "Type O",
-                    "explanation": "In forensic applications, blood type O is considered the most useful for exclusion. Since a person with type O can only have an OO genotype, if a blood sample from a crime scene is type O and the suspect's blood type is A, B, or AB, the suspect can be excluded as a potential source of the blood."
-                },
-                {
-                    "question": "A baby is born with hemolytic disease of the newborn (HDN) due to ABO incompatibility. What is the most common maternal-fetal blood type combination causing this?",
-                    "options": [
-                        "Mother O, Fetus A or B",
-                        "Mother A, Fetus B",
-                        "Mother B, Fetus A",
-                        "Mother O, Fetus AB"
-                    ],
-                    "answer": "Mother O, Fetus A or B",
-                    "explanation": "ABO-related HDN is less severe than Rh-related HDN but is more common. It occurs most often when a mother with blood type O (who has naturally occurring anti-A and anti-B IgG antibodies) is pregnant with a fetus with blood type A or B. Unlike the large IgM antibodies, these smaller IgG antibodies can cross the placenta and attack the fetal red blood cells."
-                },
-                {
-                    "question": "What is the biological reason that O blood type is considered the universal red cell donor?",
-                    "options": [
-                        "It contains no antigens on the cell surface.",
-                        "It contains no antibodies in the plasma.",
-                        "It is the most common blood type in the population.",
-                        "It is the least likely to cause an allergic reaction."
-                    ],
-                    "answer": "It contains no antigens on the cell surface.",
-                    "explanation": "Blood type O red cells are considered universal donors because they lack the A and B antigens that trigger the most severe immune responses. While O plasma contains antibodies, transfusions of red cell units are carefully processed to remove most of the plasma, minimizing the risk of a reaction from the donor's antibodies."
-                },
-                {
-                    "question": "In a cross-matching test, a major crossmatch involves mixing:",
-                    "options": [
-                        "Recipient plasma with donor red blood cells.",
-                        "Recipient red blood cells with donor plasma.",
-                        "Recipient red blood cells with donor white blood cells.",
-                        "Recipient plasma with donor white blood cells."
-                    ],
-                    "answer": "Recipient plasma with donor red blood cells.",
-                    "explanation": "The major crossmatch is the most critical part of pre-transfusion testing. It mimics the potential in-vivo reaction by combining the recipient's plasma (containing their antibodies) with a sample of the donor's red blood cells. Agglutination in this test indicates an incompatibility and a high risk of a transfusion reaction."
-                },
-                {
-                    "question": "Why might a person with blood type O plasma be considered a 'universal donor' for plasma transfusions?",
-                    "options": [
-                        "They have no antibodies in their plasma.",
-                        "Their plasma contains anti-A and anti-B antibodies.",
-                        "Their plasma is compatible with all red blood cell types.",
-                        "They have low levels of albumin."
-                    ],
-                    "answer": "Their plasma contains anti-A and anti-B antibodies.",
-                    "explanation": "The term 'universal donor' for plasma is misleading because type O plasma contains both anti-A and anti-B antibodies. These would react with the antigens on a non-O recipient's red blood cells. The 'universal' status for plasma is actually held by type AB, as their plasma lacks these antibodies and is therefore safe to give to any recipient."
-                },
-                {
-                    "question": "Individuals with blood type A have been found to have a slightly higher risk of which of the following diseases?",
-                    "options": [
-                        "Malaria",
-                        "Severe Cholera",
-                        "Pancreatic cancer and venous thromboembolism",
-                        "Rheumatoid arthritis"
-                    ],
-                    "answer": "Pancreatic cancer and venous thromboembolism",
-                    "explanation": "Studies have shown correlations between specific blood types and disease risk. Individuals with blood types A, B, and AB have a higher risk of pancreatic cancer and venous thromboembolism (blood clots) compared to individuals with blood type O. The exact mechanisms are still under investigation, but are thought to be related to the influence of ABO glycosyltransferases on cell signaling and hemostasis."
-                },
-                {
-                    "question": "Which of the following describes the term 'lectin' as it applies to blood typing?",
-                    "options": [
-                        "A protein that binds specifically to ABO antigens and can be used to distinguish subgroups.",
-                        "An antibody produced in response to a bacterial infection.",
-                        "A component of the Rh system.",
-                        "A type of blood clotting factor."
-                    ],
-                    "answer": "A protein that binds specifically to ABO antigens and can be used to distinguish subgroups.",
-                    "explanation": "Lectins are proteins, usually derived from plants, that have the ability to bind specifically to certain carbohydrate epitopes. In blood typing, lectins such as Ulex europaeus are used to identify the H antigen, and others like Dolichos biflorus are used to differentiate the A1 and A2 subgroups based on their specific antigen binding."
-                },
-                {
-                    "question": "What is a potential risk of a minor crossmatch incompatibility in a whole blood transfusion?",
-                    "options": [
-                        "Severe acute hemolysis.",
-                        "The donor's antibodies can attack the recipient's red blood cells, causing a reaction.",
-                        "The recipient's white blood cells would attack the donor's red blood cells.",
-                        "There is no risk of reaction."
-                    ],
-                    "answer": "The donor's antibodies can attack the recipient's red blood cells, causing a reaction.",
-                    "explanation": "A minor crossmatch tests the compatibility of the donor's plasma with the recipient's red blood cells. While typically less severe due to the lower volume and dilution of donor plasma, a mismatch can still lead to a reaction where the donor's antibodies attack the recipient's red blood cells. This is a primary reason why transfusions typically use packed red cells with minimal plasma."
-                },
-                {
-                    "question": "What is the genetic basis for a person having a 'cis-AB' blood type?",
-                    "options": [
-                        "Inheritance of an A allele and a B allele from different parents.",
-                        "Inheritance of both A and B antigens on a single chromosome from one parent.",
-                        "A mutation causing the O allele to become dominant.",
-                        "An extra copy of the chromosome containing the ABO gene."
-                    ],
-                    "answer": "Inheritance of both A and B antigens on a single chromosome from one parent.",
-                    "explanation": "Cis-AB is a rare genetic phenomenon where the A and B genes are inherited together on the same chromosome from one parent, rather than separately from each parent as in the typical AB blood type. This results in a person with the genotype $AB/O$, leading to an AB phenotype with certain unique serological properties."
-                },
-                {
-                    "question": "What is the biological function of the ABO antigens on the red blood cell membrane?",
-                    "options": [
-                        "To transport oxygen.",
-                        "To provide a framework for the cell membrane.",
-                        "Their exact function is not fully understood, but they may play a role in cell signaling and adhesion.",
-                        "To act as primary immune defense proteins."
-                    ],
-                    "answer": "Their exact function is not fully understood, but they may play a role in cell signaling and adhesion.",
-                    "explanation": "While the clinical importance of ABO antigens is clear in transfusion medicine, their exact physiological function is still a subject of research. They are known to be part of the cell surface's glycocalyx and may serve as adhesion molecules or receptors. They also influence the binding of certain pathogens, which can affect disease susceptibility."
-                },
-                {
-                    "question": "The primary cause of the naturally occurring anti-A and anti-B antibodies in plasma is exposure to what?",
-                    "options": [
-                        "Previous incompatible blood transfusions.",
-                        "Environmental bacteria and viruses with similar antigens.",
-                        "Specific dietary proteins.",
-                        "The mother's blood type during gestation."
-                    ],
-                    "answer": "Environmental bacteria and viruses with similar antigens.",
-                    "explanation": "The production of anti-A and anti-B antibodies is not triggered by exposure to foreign red blood cells but rather by common environmental factors. Gut bacteria and various viruses possess surface antigens that are structurally similar to the A and B antigens. Exposure to these pathogens during infancy prompts the immune system to produce antibodies against the foreign antigens, while tolerating the individual's own antigens."
-                },
-                {
-                    "question": "What is the genetic difference between a person with blood type A and a person with blood type B?",
-                    "options": [
-                        "They have different alleles on the same chromosome.",
-                        "They have different alleles on different chromosomes.",
-                        "Their genes code for different proteins.",
-                        "The difference lies in a single nucleotide polymorphism (SNP) in the ABO gene."
-                    ],
-                    "answer": "The difference lies in a single nucleotide polymorphism (SNP) in the ABO gene.",
-                    "explanation": "The molecular difference between the A and B alleles is incredibly subtle. They differ by a few single nucleotide polymorphisms (SNPs), which change a few amino acids in the glycosyltransferase enzyme. These changes are enough to alter the substrate specificity of the enzyme, so that the B-enzyme adds a galactose residue while the A-enzyme adds an N-acetylgalactosamine residue to the H antigen."
-                },
-                {
-                    "question": "Which blood group is considered protective against severe forms of Cholera?",
-                    "options": [
-                        "Type A",
-                        "Type B",
-                        "Type AB",
-                        "Type O"
-                    ],
-                    "answer": "Type O",
-                    "explanation": "Individuals with blood type O have been found to be more susceptible to severe forms of cholera, while those with blood type B have a degree of protection. This is due to the fact that the cholera toxin binds more effectively to the surface antigens of blood type A and O individuals. The B antigen appears to offer some level of resistance to the toxin's binding, reducing the severity of the disease."
-                },
-                {
-                    "question": "What is the significance of the IgG antibodies in ABO incompatibility, particularly in the context of HDN?",
-                    "options": [
-                        "They are the primary antibodies in the blood and always cause immediate reactions.",
-                        "They are a class of antibodies that can cross the placenta and attack fetal red blood cells.",
-                        "They are non-reactive and do not cause any clinical issues.",
-                        "They are only produced in response to a transfusion mismatch."
-                    ],
-                    "answer": "They are a class of antibodies that can cross the placenta and attack fetal red blood cells.",
-                    "explanation": "While the primary antibodies in the ABO system are IgM, a subset of anti-A and anti-B antibodies are of the smaller IgG class. The significance of IgG is their ability to cross the placenta from mother to fetus. This is the mechanism by which a type O mother's anti-A or anti-B IgG antibodies can enter the bloodstream of a type A or B fetus, leading to hemolytic disease of the newborn (HDN)."
-                }
-            ]
-        },
+  "name": "ABO Blood Group System - intro",
+  "questions": [
+    {
+      "question": "Which antigens are present on the surface of red blood cells in an individual with blood type A?",
+      "options": [
+        "Antigen B",
+        "Antigen A",
+        "Both Antigen A and B",
+        "No antigens"
+      ],
+      "answer": "Antigen A",
+      "explanation": "Individuals with blood type A have A antigens present on the surface of their red blood cells. The presence of these specific antigens determines the blood type in the ABO classification system. In response to these antigens, their plasma contains anti-B antibodies."
+    },
+    {
+      "question": "An individual with blood type O possesses which antibodies in their plasma?",
+      "options": [
+        "Anti-A antibodies only",
+        "Anti-B antibodies only",
+        "No antibodies",
+        "Both anti-A and anti-B antibodies"
+      ],
+      "answer": "Both anti-A and anti-B antibodies",
+      "explanation": "A person with blood type O has neither A nor B antigens on their red blood cells. Because of this, their immune system develops antibodies against both A and B antigens. These antibodies would cause a severe transfusion reaction if they were to receive blood from a type A, B, or AB donor."
+    },
+    {
+      "question": "Which blood type is considered the universal donor for ABO transfusions?",
+      "options": [
+        "A",
+        "B",
+        "AB",
+        "O"
+      ],
+      "answer": "O",
+      "explanation": "Blood type O is considered the universal donor because its red blood cells lack both A and B antigens. Therefore, when transfused, these red blood cells will not be recognized and attacked by the anti-A or anti-B antibodies present in the plasma of recipients with blood types A, B, or AB."
+    },
+    {
+      "question": "What is the process called when antibodies in the recipient's plasma react with antigens on the donor's red blood cells, causing them to clump together?",
+      "options": [
+        "Hemolysis",
+        "Thrombosis",
+        "Agglutination",
+        "Hemostasis"
+      ],
+      "answer": "Agglutination",
+      "explanation": "Agglutination is the clumping of red blood cells that occurs when antibodies in the plasma bind to their specific antigens on the red cell surface. This clumping is a key indicator of an incompatible blood transfusion and can lead to serious complications."
+    },
+    {
+      "question": "A person with blood type B can safely receive blood from which other blood types?",
+      "options": [
+        "Type A and Type O",
+        "Type A and Type AB",
+        "Type O and Type B",
+        "Type AB and Type O"
+      ],
+      "answer": "Type O and Type B",
+      "explanation": "A person with blood type B has B antigens on their red blood cells and anti-A antibodies in their plasma. Therefore, they can safely receive blood from a type B donor (no foreign antigens) and from a type O donor (no A or B antigens), as neither would trigger an immune response from the anti-A antibodies."
+    },
+    {
+      "question": "What would happen if a person with blood type A was mistakenly transfused with blood type B?",
+      "options": [
+        "The patient would develop an allergic reaction.",
+        "The patient's body would produce new anti-B antibodies.",
+        "The anti-B antibodies in the recipient's plasma would agglutinate the donor's red blood cells.",
+        "The patient's body would adapt to the new blood type."
+      ],
+      "answer": "The anti-B antibodies in the recipient's plasma would agglutinate the donor's red blood cells.",
+      "explanation": "A person with blood type A has A antigens on their red blood cells and anti-B antibodies in their plasma. When transfused with type B blood, the recipient's anti-B antibodies would bind to the B antigens on the donor's red blood cells, causing them to clump together (agglutinate) and subsequently be destroyed (hemolysis). This is a life-threatening acute hemolytic transfusion reaction."
+    },
+    {
+      "question": "A person with blood type AB is considered the 'universal recipient.' Why?",
+      "options": [
+        "They have no antigens on their red blood cells.",
+        "They have both A and B antibodies in their plasma.",
+        "They have both A and B antigens on their red blood cells and no anti-A or anti-B antibodies in their plasma.",
+        "Their plasma has both A and B antigens."
+      ],
+      "answer": "They have both A and B antigens on their red blood cells and no anti-A or anti-B antibodies in their plasma.",
+      "explanation": "A person with blood type AB has both A and B antigens, so they don't produce any antibodies against either of them. This allows them to receive red blood cells from types A, B, O, and AB without triggering an immune response, as they lack the antibodies to cause agglutination."
+    },
+    {
+      "question": "What is the genetic basis for a person having blood type O?",
+      "options": [
+        "They inherit one A allele and one B allele.",
+        "They inherit at least one A allele.",
+        "They inherit at least one B allele.",
+        "They inherit two O alleles."
+      ],
+      "answer": "They inherit two O alleles.",
+      "explanation": "The O allele is recessive. Therefore, for an individual to have blood type O, they must inherit two copies of the O allele, one from each parent. This results in no A or B antigens being produced on the red blood cell surface."
+    },
+    {
+      "question": "A person with blood type A can donate blood to which of the following recipients?",
+      "options": [
+        "Type B and Type O",
+        "Type O and Type AB",
+        "Type A and Type AB",
+        "Type A only"
+      ],
+      "answer": "Type A and Type AB",
+      "explanation": "A person with blood type A can safely donate to a type A recipient, as there is no antigen-antibody mismatch. They can also donate to a type AB recipient, as the type AB person has no anti-A or anti-B antibodies in their plasma to react with the A antigens."
+    },
+    {
+      "question": "What is the primary substance that determines the blood type in the ABO system?",
+      "options": [
+        "Plasma proteins",
+        "Hemoglobin",
+        "Antigens on the red blood cell surface",
+        "Antibodies in the plasma"
+      ],
+      "answer": "Antigens on the red blood cell surface",
+      "explanation": "The ABO blood group system is defined by the presence or absence of specific A and B antigens, which are carbohydrate-based molecules found on the surface of red blood cells. These antigens are the key identifying markers that the immune system uses to recognize 'self' versus 'non-self'."
+    },
+    {
+      "question": "If a person has the genotype AO, what is their blood type?",
+      "options": [
+        "Type A",
+        "Type O",
+        "Type AO",
+        "Type B"
+      ],
+      "answer": "Type A",
+      "explanation": "The A allele is dominant over the O allele. When a person inherits one of each, the A antigen will be expressed on the red blood cell surface, resulting in blood type A."
+    },
+    {
+      "question": "Which antibodies would be produced in a person with blood type AB?",
+      "options": [
+        "Anti-A and anti-B antibodies",
+        "Anti-A antibodies only",
+        "Anti-B antibodies only",
+        "No antibodies"
+      ],
+      "answer": "No antibodies",
+      "explanation": "Individuals with blood type AB have both A and B antigens on their red blood cells. To prevent an autoimmune reaction, their immune system does not produce anti-A or anti-B antibodies in their plasma. This is the reason they are considered 'universal recipients'."
+    },
+    {
+      "question": "What is the most common blood type in the United States?",
+      "options": [
+        "Type A",
+        "Type B",
+        "Type AB",
+        "Type O"
+      ],
+      "answer": "Type O",
+      "explanation": "Globally and in the United States, blood type O is the most common blood type. Approximately 45% of the US population has type O blood, making it a critical blood type for emergency transfusions as it is the universal donor."
+    },
+    {
+      "question": "If a father has blood type A and a mother has blood type B, what are the possible blood types of their child?",
+      "options": [
+        "Only A and B",
+        "Only AB",
+        "A, B, AB, and O",
+        "Only O"
+      ],
+      "answer": "A, B, AB, and O",
+      "explanation": "If the father is heterozygous (AO) and the mother is heterozygous (BO), a Punnett square reveals that all four blood types are possible. The possible genotypes are AB, AO, BO, and OO, which correspond to blood types AB, A, B, and O, respectively. This demonstrates the co-dominance of the A and B alleles and the recessiveness of the O allele."
+    },
+    {
+      "question": "What is the key difference between a positive (+) and a negative (-) blood type?",
+      "options": [
+        "The presence or absence of the Rh factor.",
+        "The presence or absence of plasma proteins.",
+        "The presence or absence of red blood cells.",
+        "The presence or absence of anti-B antibodies."
+      ],
+      "answer": "The presence or absence of the Rh factor.",
+      "explanation": "The 'positive' or 'negative' designation refers to the presence or absence of the Rh factor, a specific antigen (D antigen) on the surface of red blood cells. A person who is Rh-positive (Rh+) has the Rh antigen, while a person who is Rh-negative (Rh-) does not."
+    },
+    {
+      "question": "If a patient with B+ blood receives a transfusion of A- blood, what will be the result?",
+      "options": [
+        "A safe transfusion with no reaction.",
+        "A severe reaction due to ABO incompatibility.",
+        "A severe reaction due to Rh incompatibility.",
+        "The patient's body would adapt to the new blood type."
+      ],
+      "answer": "A severe reaction due to ABO incompatibility.",
+      "explanation": "A person with B+ blood has anti-A antibodies in their plasma. When transfused with A- blood, their anti-A antibodies will react with the A antigens on the donor's red blood cells, causing a rapid and life-threatening acute hemolytic transfusion reaction. The Rh factor does not play a role in this initial severe reaction."
+    },
+    {
+      "question": "Why is blood type O-negative considered the universal donor for red blood cells?",
+      "options": [
+        "It has no A, B, or Rh antigens.",
+        "It has no antibodies in its plasma.",
+        "It is the rarest blood type.",
+        "It can be transfused into any recipient without any risk."
+      ],
+      "answer": "It has no A, B, or Rh antigens.",
+      "explanation": "Type O-negative blood is considered the universal donor because it lacks the A, B, and Rh antigens on the surface of its red blood cells. Since these are the key antigens that trigger an immune response, type O-negative red blood cells will not be attacked by antibodies in the plasma of any recipient, regardless of their blood type."
+    },
+    {
+      "question": "Which of the following describes the relationship between A and B alleles in the ABO blood group system?",
+      "options": [
+        "They are completely dominant over each other.",
+        "They are co-dominant.",
+        "They are recessive to each other.",
+        "A is dominant over B."
+      ],
+      "answer": "They are co-dominant.",
+      "explanation": "The A and B alleles are co-dominant, meaning that when an individual inherits one of each, both are expressed equally. This results in the presence of both A and B antigens on the red blood cells, which is the defining characteristic of blood type AB."
+    },
+    {
+      "question": "What is the function of antibodies in the ABO blood group system?",
+      "options": [
+        "To carry oxygen throughout the body.",
+        "To defend against foreign antigens.",
+        "To aid in blood clotting.",
+        "To maintain blood pressure."
+      ],
+      "answer": "To defend against foreign antigens.",
+      "explanation": "Antibodies are proteins in the plasma that are part of the immune system. Their main function is to identify and neutralize foreign objects, such as incompatible antigens on transfused red blood cells, by binding to them and causing an immune response."
+    },
+    {
+      "question": "What is a potential complication of an Rh-incompatible pregnancy?",
+      "options": [
+        "Severe allergic reaction in the mother.",
+        "Fetal death or hemolytic disease of the newborn.",
+        "The baby will be born with a different blood type than the parents.",
+        "The mother's blood type will change to positive."
+      ],
+      "answer": "Fetal death or hemolytic disease of the newborn.",
+      "explanation": "An Rh-incompatible pregnancy can occur if an Rh-negative mother carries an Rh-positive fetus. The mother's immune system can develop antibodies against the fetal Rh antigens, which can cross the placenta in subsequent pregnancies and attack the fetus's red blood cells, leading to severe anemia, brain damage, or even death, a condition known as hemolytic disease of the newborn."
+    },
+    {
+      "question": "Why is it crucial to test for both ABO and Rh factors before a blood transfusion?",
+      "options": [
+        "Only the ABO system is important for compatibility.",
+        "To prevent both immediate (ABO) and delayed (Rh) transfusion reactions.",
+        "To determine the patient's cholesterol levels.",
+        "To check for genetic mutations."
+      ],
+      "answer": "To prevent both immediate (ABO) and delayed (Rh) transfusion reactions.",
+      "explanation": "Testing for both ABO and Rh factors is essential because an ABO mismatch can cause an immediate, life-threatening transfusion reaction, while an Rh mismatch can cause a delayed, but still serious, reaction, particularly in previously sensitized individuals. Both systems are critical for ensuring patient safety."
+    },
+    {
+      "question": "Which antigens are present on the red blood cells of a person with the genotype BB?",
+      "options": [
+        "A antigens only",
+        "B antigens only",
+        "A and B antigens",
+        "No antigens"
+      ],
+      "answer": "B antigens only",
+      "explanation": "A person with the genotype BB has two alleles for the B antigen. This means that only B antigens will be expressed on the surface of their red blood cells, resulting in a blood type B phenotype."
+    },
+    {
+      "question": "A patient is given a transfusion of red blood cells. Which of the following components of the donor's blood is most likely to cause a severe reaction?",
+      "options": [
+        "Plasma",
+        "Antigens on the red blood cells",
+        "Water",
+        "White blood cells"
+      ],
+      "answer": "Antigens on the red blood cells",
+      "explanation": "The antigens on the surface of the donor's red blood cells are the foreign substances that the recipient's immune system recognizes as 'non-self.' If the recipient's plasma contains antibodies that match these antigens, a severe immune reaction will occur, leading to agglutination and hemolysis."
+    },
+    {
+      "question": "What is the genetic basis for the O allele being recessive to both A and B?",
+      "options": [
+        "It codes for a defective protein.",
+        "It is a silent or 'null' allele that does not produce a functional antigen.",
+        "It produces a different type of antigen that is easily broken down.",
+        "It only produces antigens in a homozygous state."
+      ],
+      "answer": "It is a silent or 'null' allele that does not produce a functional antigen.",
+      "explanation": "The O allele is a recessive allele because it is essentially a 'null' allele. It contains a single nucleotide deletion that causes a frameshift mutation, leading to a non-functional enzyme. This means that no A or B antigens are produced on the red blood cell surface, so the phenotype is only expressed when a person inherits two O alleles."
+    },
+    {
+      "question": "A mother has blood type O and a father has blood type AB. What is the chance that their child will have blood type O?",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "0%"
+      ],
+      "answer": "0%",
+      "explanation": "A person with blood type O has the genotype OO, meaning they can only pass on an O allele to their child. A person with blood type AB has the genotype AB, so they can pass on either an A allele or a B allele. For a child to have blood type O, they must inherit two O alleles, which is impossible in this cross. The possible blood types for the child are A and B."
+    },
+    {
+      "question": "Which blood type is considered the universal recipient for fresh frozen plasma transfusions?",
+      "options": [
+        "Type A",
+        "Type O",
+        "Type B",
+        "Type AB"
+      ],
+      "answer": "Type AB",
+      "explanation": "Since fresh frozen plasma contains antibodies, the universal donor for plasma is the blood type with no antibodies. A person with blood type AB has no anti-A or anti-B antibodies in their plasma, so they can receive plasma from any ABO type without an immune reaction. Therefore, type AB is the universal plasma recipient."
+    },
+    {
+      "question": "What is the key clinical concern in the case of a transfusion of whole blood from an incompatible donor?",
+      "options": [
+        "Antibodies in the donor's blood reacting with antigens in the recipient's blood.",
+        "Antigens on the donor's red blood cells reacting with antibodies in the recipient's plasma.",
+        "The patient's blood pressure will drop to dangerous levels.",
+        "The patient's white blood cell count will increase."
+      ],
+      "answer": "Antigens on the donor's red blood cells reacting with antibodies in the recipient's plasma.",
+      "explanation": "This is the primary and most dangerous reaction. The recipient's plasma contains a large volume of antibodies, which will bind to the antigens on the donor's red blood cells, leading to massive agglutination and hemolysis, which can cause kidney failure, shock, and death."
+    },
+    {
+      "question": "If a person has blood type O, which blood types would cause a severe transfusion reaction?",
+      "options": [
+        "Type A only",
+        "Type A, Type B, and Type AB",
+        "No reaction would occur.",
+        "Type AB only"
+      ],
+      "answer": "Type A, Type B, and Type AB",
+      "explanation": "A person with blood type O has neither A nor B antigens on their red blood cells but has both anti-A and anti-B antibodies in their plasma. Therefore, transfusing blood from a type A, B, or AB donor would introduce foreign antigens that would be immediately attacked by the recipient's antibodies, causing a severe, life-threatening transfusion reaction."
+    },
+    {
+      "question": "What is the name of the substance that is used to prevent an Rh-negative mother from developing Rh antibodies?",
+      "options": [
+        "Fibrinogen",
+        "Rho(D) immune globulin (RhoGAM)",
+        "Albumin",
+        "Heparin"
+      ],
+      "answer": "Rho(D) immune globulin (RhoGAM)",
+      "explanation": "RhoGAM is an injection given to an Rh-negative mother who is pregnant with an Rh-positive fetus. It works by destroying any fetal Rh-positive red blood cells that have entered the mother's circulation, thus preventing her immune system from producing its own long-lasting Rh antibodies."
+    },
+    {
+      "question": "In a blood typing test, a person's blood clumps when mixed with anti-A serum but not with anti-B serum. What is their blood type?",
+      "options": [
+        "Type B",
+        "Type A",
+        "Type AB",
+        "Type O"
+      ],
+      "answer": "Type A",
+      "explanation": "Agglutination with anti-A serum indicates the presence of A antigens on the red blood cells. The lack of agglutination with anti-B serum confirms the absence of B antigens. Therefore, the blood type is A."
+    }
+  ]
+},
         {
             "name": "ABO Blood Group System: Advanced Topics",
             "questions": [

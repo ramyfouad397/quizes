@@ -941,7 +941,7 @@
         "Increased production of antithrombin"
       ],
       "answer": "Release of procoagulant cytokines and tissue factor from endothelial cells",
-      "explanation": "Sepsis leads to a systemic inflammatory response. Inflammatory cytokines (e.g., TNF-$\alpha$, IL-1) cause endothelial damage and the expression of tissue factor, initiating the extrinsic coagulation pathway and leading to DIC."
+      "explanation": "Sepsis leads to a systemic inflammatory response. Inflammatory cytokines (e.g., TNF-alpha, IL-1) cause endothelial damage and the expression of tissue factor, initiating the extrinsic coagulation pathway and leading to DIC."
     },
     {
       "question": "In a patient with DIC and a low fibrinogen level, what is a potential therapy to address the bleeding?",

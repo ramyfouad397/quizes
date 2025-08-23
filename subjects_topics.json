@@ -5,7 +5,8 @@
       "topics": [
         { "name": "Red Cell Disorders", "file": "hematology/hematology_rbc.json" },
         { "name": "Coagulation Disorders", "file": "hematology/hematology_coagulation.json" },
-        { "name": "White Cell Disorders", "file": "hematology/hematology_wbc.json" }
+        { "name": "White Cell Disorders", "file": "hematology/hematology_wbc.json" },
+        { "name": "Blood Components and Function", "file": "hematology/hematology_componantes.json" }
       ]
     },
     {

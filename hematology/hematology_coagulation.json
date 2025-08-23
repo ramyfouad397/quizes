@@ -4257,6 +4257,2049 @@
                     "explanation": "After Factor IX is activated by Factor XIa, it forms a complex with Factor VIIIa to activate Factor X, the first step in the common pathway. This is the rate-limiting step of the intrinsic coagulation cascade."
                 }
             ]
-        }
+        },
+        {
+  "name": "Hemophilia B (Factor IX Deficiency)",
+  "questions": [
+    {
+      "question": "What is the primary protein deficient in Hemophilia B?",
+      "options": [
+        "Factor VIII",
+        "Factor IX",
+        "Factor VII",
+        "Factor XIII"
+      ],
+      "answer": "Factor IX",
+      "explanation": "Hemophilia B, also known as Christmas disease, is a congenital bleeding disorder caused by a deficiency or qualitative defect in Factor IX, a key component of the intrinsic coagulation pathway."
+    },
+    {
+      "question": "What is the inheritance pattern of Hemophilia B?",
+      "options": [
+        "Autosomal recessive",
+        "Autosomal dominant",
+        "X-linked recessive",
+        "Mitochondrial"
+      ],
+      "answer": "X-linked recessive",
+      "explanation": "The gene for Factor IX is located on the X chromosome. Because males have only one X chromosome, they are affected if they inherit the mutated gene. Females are typically carriers and are usually asymptomatic."
+    },
+    {
+      "question": "Which laboratory finding is characteristic of Hemophilia B?",
+      "options": [
+        "A prolonged Prothrombin Time ($PT$)",
+        "A prolonged Activated Partial Thromboplastin Time ($aPTT$)",
+        "A prolonged Thrombin Time ($TT$)",
+        "A low platelet count"
+      ],
+      "answer": "A prolonged Activated Partial Thromboplastin Time ($aPTT$)",
+      "explanation": "Factor IX is a key component of the intrinsic coagulation pathway, which is measured by the $aPTT$. A deficiency in Factor IX will specifically prolong the $aPTT$, while the $PT$ and platelet count will remain normal."
+    },
+    {
+      "question": "What is a classic clinical manifestation of severe Hemophilia B?",
+      "options": [
+        "Easy bruising and petechiae",
+        "Delayed bleeding from the umbilical stump",
+        "Spontaneous hemarthrosis (joint bleeding)",
+        "Recurrent venous thromboembolism ($VTE$)"
+      ],
+      "answer": "Spontaneous hemarthrosis (joint bleeding)",
+      "explanation": "Similar to Hemophilia A, severe Hemophilia B is characterized by spontaneous bleeding into joints and muscles. This can lead to chronic pain, joint damage, and significant disability over time."
+    },
+    {
+      "question": "What is the primary treatment for an acute bleeding episode in a patient with Hemophilia B?",
+      "options": [
+        "Platelet transfusion",
+        "Recombinant Factor IX concentrate",
+        "Fresh Frozen Plasma ($FFP$)",
+        "Desmopressin ($DDAVP$)"
+      ],
+      "answer": "Recombinant Factor IX concentrate",
+      "explanation": "The standard of care for an acute bleed is to replace the deficient factor. Recombinant Factor IX concentrate is the most effective and specific treatment, providing a pure source of the missing factor."
+    },
+    {
+      "question": "What is a major advantage of modern recombinant Factor IX concentrates over older plasma-derived products?",
+      "options": [
+        "They are less expensive.",
+        "They have a longer half-life.",
+        "They carry a lower risk of transmitting blood-borne diseases.",
+        "They are less likely to cause a thrombotic event."
+      ],
+      "answer": "They carry a lower risk of transmitting blood-borne diseases.",
+      "explanation": "Recombinant products are not derived from human plasma, eliminating the risk of transmitting blood-borne diseases like $HIV$ and hepatitis, which was a major concern with older products."
+    },
+    {
+      "question": "What is a common complication of Hemophilia B treatment?",
+      "options": [
+        "Chronic kidney disease",
+        "Thrombosis (blood clots)",
+        "Development of Factor IX inhibitors",
+        "Fluid retention"
+      ],
+      "answer": "Development of Factor IX inhibitors",
+      "explanation": "The most serious complication is the development of neutralizing antibodies (inhibitors) against the infused Factor IX, which can make future treatments ineffective."
+    },
+    {
+      "question": "What is the typical half-life of Factor IX in the circulation?",
+      "options": [
+        "Approximately 4 hours",
+        "Approximately 12 hours",
+        "Approximately 24-30 hours",
+        "Approximately 48 hours"
+      ],
+      "answer": "Approximately 24-30 hours",
+      "explanation": "Factor IX has a longer half-life than Factor VIII, which allows for less frequent prophylactic infusions (e.g., 2-3 times per week) compared to Hemophilia A."
+    },
+    {
+      "question": "Why is Desmopressin ($DDAVP$) not an effective treatment for Hemophilia B?",
+      "options": [
+        "It can cause fluid retention and hyponatremia.",
+        "It does not cause the release of Factor IX.",
+        "It is only effective for platelet disorders.",
+        "It can cause severe thrombosis."
+      ],
+      "answer": "It does not cause the release of Factor IX.",
+      "explanation": "Desmopressin works by releasing von Willebrand factor and Factor VIII from endothelial cells. It has no effect on Factor IX levels."
+    },
+    {
+      "question": "What is the primary management strategy for a patient with severe Hemophilia B to prevent long-term joint damage?",
+      "options": [
+        "On-demand treatment for each bleed",
+        "Routine prophylactic infusions of Factor IX",
+        "Long-term oral anticoagulation",
+        "Regular physical therapy without infusions"
+      ],
+      "answer": "Routine prophylactic infusions of Factor IX",
+      "explanation": "Prophylaxis, which involves regular infusions of Factor IX, is the standard of care for severe Hemophilia B. It prevents bleeding episodes and the subsequent joint damage, significantly improving quality of life."
+    },
+    {
+      "question": "Which of the following is a potential risk of using a bypassing agent (e.g., recombinant Factor VIIa) in a patient with an inhibitor?",
+      "options": [
+        "Anaphylaxis",
+        "Thrombosis (blood clots)",
+        "Ineffectiveness",
+        "Volume overload"
+      ],
+      "answer": "Thrombosis (blood clots)",
+      "explanation": "Bypassing agents are used to promote clot formation when Factor IX is ineffective. However, they do so in a less controlled manner, which can lead to a hypercoagulable state and an increased risk of blood clots."
+    },
+    {
+      "question": "What is the main purpose of an Immune Tolerance Induction ($ITI$) protocol?",
+      "options": [
+        "To reduce the frequency of prophylactic infusions.",
+        "To treat an acute bleeding episode.",
+        "To eradicate a Factor IX inhibitor.",
+        "To diagnose the severity of the disease."
+      ],
+      "answer": "To eradicate a Factor IX inhibitor.",
+      "explanation": "ITI involves giving frequent, high doses of Factor IX to a patient with an inhibitor, with the goal of inducing immune tolerance and eliminating the antibody."
+    }
+  ]
+}, {
+  "name": "Heparin-Induced Thrombocytopenia (HIT)",
+  "questions": [
+    {
+      "question": "What is the primary mechanism of Heparin-Induced Thrombocytopenia ($HIT$)?",
+      "options": [
+        "Direct toxicity of heparin to platelets.",
+        "An autoimmune reaction causing platelet destruction.",
+        "An antibody-mediated reaction to the heparin-platelet factor 4 ($PF4$) complex.",
+        "A genetic deficiency in platelet production."
+      ],
+      "answer": "An antibody-mediated reaction to the heparin-platelet factor 4 ($PF4$) complex.",
+      "explanation": "$HIT$ is an immune-mediated disorder. Heparin binds to $PF4$ released from platelets, forming a complex that becomes a neoantigen. The body produces antibodies ($IgG$) against this complex, which then bind to and activate platelets, leading to both thrombocytopenia and a hypercoagulable state."
+    },
+    {
+      "question": "What is the hallmark clinical finding of $HIT$?",
+      "options": [
+        "A low platelet count and bleeding.",
+        "A high platelet count and thrombosis.",
+        "A low platelet count and thrombosis.",
+        "Normal platelet count and a prolonged $PT$."
+      ],
+      "answer": "A low platelet count and thrombosis.",
+      "explanation": "This is a paradoxical condition. The antibody-mediated platelet activation leads to platelet consumption, causing thrombocytopenia. Simultaneously, the activated platelets release procoagulant factors, leading to severe and life-threatening arterial and venous thromboses."
+    },
+    {
+      "question": "What is the typical time frame for the onset of thrombocytopenia after starting heparin?",
+      "options": [
+        "Within 1-2 hours.",
+        "Within 24 hours.",
+        "5-10 days after starting heparin.",
+        "2-3 weeks after starting heparin."
+      ],
+      "answer": "5-10 days after starting heparin.",
+      "explanation": "In most cases, $HIT$ occurs 5 to 10 days after the initiation of heparin therapy, as it takes time for the body to mount an immune response and produce antibodies. However, if a patient has had recent heparin exposure, it can occur much sooner."
+    },
+    {
+      "question": "What is the first and most critical step in the management of suspected or confirmed $HIT$?",
+      "options": [
+        "Immediate platelet transfusion.",
+        "Immediate cessation of all forms of heparin.",
+        "Initiation of warfarin therapy.",
+        "Administration of a Factor Xa inhibitor."
+      ],
+      "answer": "Immediate cessation of all forms of heparin.",
+      "explanation": "The most crucial step is to stop all heparin products, including low molecular weight heparins ($LMWH$), unfractionated heparin, and heparin flushes. Continuing heparin will worsen the condition."
+    },
+    {
+      "question": "Which of the following anticoagulants is the most appropriate replacement therapy for a patient with $HIT$?",
+      "options": [
+        "Warfarin ($Coumadin$)",
+        "Dabigatran ($Pradaxa$)",
+        "Argatroban ($Acova$) or Bivalirudin ($Angiomax$)",
+        "Aspirin ($Acetylsalicylic acid$)"
+      ],
+      "answer": "Argatroban ($Acova$) or Bivalirudin ($Angiomax$)",
+      "explanation": "Direct thrombin inhibitors ($DTIs$) like Argatroban and Bivalirudin are the agents of choice. They act on thrombin directly and do not interact with the heparin-$PF4$ complex, making them safe and effective."
+    },
+    {
+      "question": "Why are platelet transfusions generally not recommended in patients with $HIT$?",
+      "options": [
+        "They are ineffective because the platelets are consumed immediately.",
+        "They can worsen the condition by providing more fuel for platelet activation and thrombosis.",
+        "They carry a high risk of transmitting blood-borne diseases.",
+        "They are too expensive and not readily available."
+      ],
+      "answer": "They can worsen the condition by providing more fuel for platelet activation and thrombosis.",
+      "explanation": "Giving new platelets can exacerbate the hypercoagulable state by providing more targets for the circulating $HIT$ antibodies, potentially leading to more widespread microthrombi."
+    },
+    {
+      "question": "What is the name of the widely used clinical scoring system to assess the pretest probability of $HIT$?",
+      "options": [
+        "The $CHA_2DS_2-VASc$ Score",
+        "The Wells Score",
+        "The $4T$'s Score",
+        "The $SIRS$ Criteria"
+      ],
+      "answer": "The $4T$'s Score",
+      "explanation": "The $4T$'s Score assesses Thrombocytopenia, Timing of platelet fall, Thrombosis or other sequelae, and other potential causes for thrombocytopenia. It helps clinicians quickly estimate the likelihood of $HIT$ and guide subsequent testing."
+    },
+    {
+      "question": "Which laboratory test is considered the gold standard for confirming the diagnosis of $HIT$?",
+      "options": [
+        "Platelet count",
+        "Antifactor Xa assay",
+        "Heparin-induced platelet aggregation assay (HIPA) or Serotonin Release Assay ($SRA$)",
+        "Prothrombin Time ($PT$)"
+      ],
+      "answer": "Heparin-induced platelet aggregation assay (HIPA) or Serotonin Release Assay ($SRA$)",
+      "explanation": "Functional assays like the $SRA$ or HIPA are considered the gold standard. They directly measure the ability of a patient's serum to activate donor platelets in the presence of heparin. Antibody tests ($ELISA$) are more sensitive but less specific."
+    },
+    {
+      "question": "What is the primary risk of using warfarin to treat $HIT$ in the acute phase?",
+      "options": [
+        "It can cause an allergic reaction.",
+        "It can worsen bleeding.",
+        "It can cause a paradoxical thrombosis and skin necrosis.",
+        "It is not effective in preventing thrombosis."
+      ],
+      "answer": "It can cause a paradoxical thrombosis and skin necrosis.",
+      "explanation": "Warfarin depletes protein C, a natural anticoagulant, faster than other vitamin K-dependent factors. In a state of extreme hypercoagulability (as in $HIT$), this can lead to a severe prothrombotic state and microthrombosis in the skin, a condition known as coumarin-induced skin necrosis."
+    },
+    {
+      "question": "A patient is on heparin for a pulmonary embolism and their platelet count drops from 250,000 to 100,000 in 7 days. They also develop a new leg swelling. What is the most likely diagnosis?",
+      "options": [
+        "Disseminated Intravascular Coagulation ($DIC$)",
+        "Thrombotic Thrombocytopenic Purpura ($TTP$)",
+        "Heparin-Induced Thrombocytopenia ($HIT$)",
+        "Sepsis"
+      ],
+      "answer": "Heparin-Induced Thrombocytopenia ($HIT$)",
+      "explanation": "This is a classic presentation of $HIT$: a significant drop in platelet count (more than 50%) in a patient on heparin for 5-10 days, accompanied by a new thrombotic event (leg swelling suggests deep vein thrombosis)."
+    }
+  ]
+},{
+  "name": "Hereditary and Acquired Hypercoagulability",
+  "questions": [
+    {
+      "question": "What is the most common inherited cause of hypercoagulability?",
+      "options": [
+        "Antithrombin deficiency",
+        "Protein C deficiency",
+        "Protein S deficiency",
+        "Factor V Leiden ($FVL$) mutation"
+      ],
+      "answer": "Factor V Leiden ($FVL$) mutation",
+      "explanation": "$FVL$ is the most prevalent inherited thrombophilia. It is a point mutation in the gene for Factor V that makes the protein resistant to inactivation by activated Protein C, leading to an increased risk of thrombosis."
+    },
+    {
+      "question": "The Prothrombin G20210A mutation leads to which of the following?",
+      "options": [
+        "A deficiency of Protein S.",
+        "A deficiency of Antithrombin.",
+        "An increased level of circulating prothrombin.",
+        "Resistance to activated Protein C."
+      ],
+      "answer": "An increased level of circulating prothrombin.",
+      "explanation": "This mutation is in the promoter region of the prothrombin gene, resulting in higher-than-normal levels of prothrombin. The increased prothrombin leads to an overproduction of thrombin and a heightened risk of thrombosis."
+    },
+    {
+      "question": "A deficiency in which of the following natural anticoagulants can be either hereditary or acquired and is a risk factor for thrombosis?",
+      "options": [
+        "Tissue Factor",
+        "Factor IX",
+        "Antithrombin",
+        "von Willebrand factor"
+      ],
+      "answer": "Antithrombin",
+      "explanation": "Antithrombin is a key anticoagulant that neutralizes thrombin and Factor Xa. Its deficiency, whether inherited or acquired (e.g., from liver disease or nephrotic syndrome), increases the risk of both arterial and venous thrombosis."
+    },
+    {
+      "question": "What is the primary mechanism of thrombosis in Antiphospholipid Syndrome ($APS$)?",
+      "options": [
+        "A deficiency of Factor V.",
+        "A deficiency of Protein C.",
+        "Antibodies against activated Protein C.",
+        "Autoantibodies against phospholipid-binding proteins, causing a hypercoagulable state."
+      ],
+      "answer": "Autoantibodies against phospholipid-binding proteins, causing a hypercoagulable state.",
+      "explanation": "$APS$ is an acquired autoimmune disorder characterized by autoantibodies ($e.g.$, lupus anticoagulant, anticardiolipin antibodies) that bind to phospholipid-binding proteins. These antibodies interfere with coagulation regulation and promote a prothrombotic state."
+    },
+    {
+      "question": "A patient is on long-term warfarin therapy and suddenly develops skin necrosis. This rare complication is most likely to occur in a patient with an underlying deficiency of which protein?",
+      "options": [
+        "Factor VIII",
+        "Antithrombin",
+        "Protein C",
+        "Protein S"
+      ],
+      "answer": "Protein C",
+      "explanation": "Warfarin initially depletes Protein C faster than other vitamin K-dependent clotting factors ($e.g.$, Factor II, VII, IX, X). In a patient with an underlying Protein C deficiency, this can lead to a severe prothrombotic state, microvascular thrombosis, and skin necrosis."
+    },
+    {
+      "question": "Which of the following is an acquired cause of hypercoagulability?",
+      "options": [
+        "Factor V Leiden mutation",
+        "Prothrombin G20210A mutation",
+        "Malignancy",
+        "Protein S deficiency"
+      ],
+      "answer": "Malignancy",
+      "explanation": "Cancer is a well-established acquired risk factor for thrombosis. Tumor cells can release procoagulant substances and activate the clotting cascade, leading to a high risk of both venous and arterial thrombosis."
+    },
+    {
+      "question": "Oral contraceptives containing estrogen increase the risk of thrombosis by affecting which of the following?",
+      "options": [
+        "Increasing Antithrombin levels.",
+        "Increasing levels of coagulation factors and decreasing natural anticoagulants.",
+        "Decreasing platelet function.",
+        "Causing a direct endothelial injury."
+      ],
+      "answer": "Increasing levels of coagulation factors and decreasing natural anticoagulants.",
+      "explanation": "Estrogen increases the synthesis of several clotting factors ($e.g.$, Factor VII, X, fibrinogen) and decreases the levels of natural anticoagulants like Protein S and Antithrombin, creating a hypercoagulable state."
+    },
+    {
+      "question": "A young, otherwise healthy patient presents with a deep vein thrombosis. What is the most likely initial diagnostic step to screen for an underlying hereditary thrombophilia?",
+      "options": [
+        "Protein C and S levels.",
+        "Genetic testing for all known mutations.",
+        "Activated Protein C resistance assay.",
+        "Lupus anticoagulant testing."
+      ],
+      "answer": "Activated Protein C resistance assay.",
+      "explanation": "The most common inherited thrombophilia is $FVL$, which causes activated Protein C resistance. The $APC$ resistance assay is the most cost-effective and sensitive initial screen for this condition."
+    },
+    {
+      "question": "A high level of homocysteine in the blood, a condition known as hyperhomocysteinemia, can lead to thrombosis by affecting which of the following?",
+      "options": [
+        "A deficiency of Antithrombin.",
+        "Directly activating platelets and causing endothelial injury.",
+        "Increasing Factor VIII levels.",
+        "Causing a deficiency of Factor VII."
+      ],
+      "answer": "Directly activating platelets and causing endothelial injury.",
+      "explanation": "Elevated homocysteine levels can damage endothelial cells and make platelets hyper-responsive. This can also lead to the activation of coagulation factors and a heightened risk of blood clots."
+    },
+    {
+      "question": "Which of the following is a key feature that distinguishes Antiphospholipid Syndrome from most hereditary thrombophilias?",
+      "options": [
+        "It primarily causes venous thrombosis.",
+        "It is always a lifelong condition.",
+        "It can cause both arterial and venous thrombosis as well as recurrent pregnancy loss.",
+        "It is only found in patients with underlying malignancy."
+      ],
+      "answer": "It can cause both arterial and venous thrombosis as well as recurrent pregnancy loss.",
+      "explanation": "$APS$ is unique among thrombophilias for its association with arterial thrombosis (e.g., stroke, heart attack) and a high rate of recurrent miscarriages and other pregnancy-related complications."
+    }
+  ]
+},{
+  "name": "Immune Thrombocytopenia ($ITP$)",
+  "questions": [
+    {
+      "question": "What is the primary pathophysiology of Immune Thrombocytopenia ($ITP$)?",
+      "options": [
+        "Decreased production of platelets in the bone marrow.",
+        "An antibody-mediated destruction of platelets in the spleen.",
+        "A defect in platelet adhesion.",
+        "An autoimmune reaction against red blood cells."
+      ],
+      "answer": "An antibody-mediated destruction of platelets in the spleen.",
+      "explanation": "$ITP$ is an autoimmune disorder where the body produces antibodies ($IgG$ autoantibodies) that bind to platelet surface antigens. The antibody-coated platelets are then recognized and destroyed by macrophages, primarily in the spleen."
+    },
+    {
+      "question": "What is the most common clinical manifestation of $ITP$?",
+      "options": [
+        "Spontaneous joint bleeding ($hemarthrosis$)",
+        "Deep vein thrombosis ($DVT$)",
+        "Mucocutaneous bleeding ($e.g.$, petechiae, purpura, nosebleeds)",
+        "Severe, life-threatening internal bleeding"
+      ],
+      "answer": "Mucocutaneous bleeding ($e.g.$, petechiae, purpura, nosebleeds)",
+      "explanation": "Because $ITP$ affects platelets, which are essential for primary hemostasis, the most common symptoms are related to microvascular bleeding in the skin and mucous membranes. Petechiae and purpura are classic signs of a low platelet count."
+    },
+    {
+      "question": "A bone marrow biopsy in a patient with $ITP$ would typically show which of the following?",
+      "options": [
+        "Hypocellularity with decreased megakaryocytes.",
+        "Normal cellularity with normal megakaryocytes.",
+        "Hypercellularity with increased or normal megakaryocytes.",
+        "Infiltration by abnormal plasma cells."
+      ],
+      "answer": "Hypercellularity with increased or normal megakaryocytes.",
+      "explanation": "The bone marrow in $ITP$ is typically trying to compensate for the rapid destruction of platelets. Therefore, it is often hypercellular with a normal or increased number of megakaryocytes (platelet-producing cells) to ramp up production."
+    },
+    {
+      "question": "In which age group is acute $ITP$ most commonly seen, often following a viral illness?",
+      "options": [
+        "Infants ($<1$ year)",
+        "Toddlers and young children ($2-6$ years)",
+        "Adolescents ($13-18$ years)",
+        "Adults ($>65$ years)"
+      ],
+      "answer": "Toddlers and young children ($2-6$ years)",
+      "explanation": "Acute $ITP$ is most common in children, where it often follows a recent viral infection. It typically has a sudden onset and often resolves spontaneously within a few weeks to months."
+    },
+    {
+      "question": "What is the first-line treatment for a newly diagnosed adult with severe $ITP$ and a low platelet count?",
+      "options": [
+        "Splenectomy",
+        "Rituximab",
+        "Thrombopoietin receptor agonists ($TPO-RAs$)",
+        "Corticosteroids ($e.g.$, prednisone)"
+      ],
+      "answer": "Corticosteroids ($e.g.$, prednisone)",
+      "explanation": "Corticosteroids are the initial standard treatment for adults with symptomatic $ITP$ and a low platelet count. They work by suppressing the immune system's production of anti-platelet antibodies."
+    },
+    {
+      "question": "What is the role of intravenous immunoglobulin ($IVIG$) in the treatment of $ITP$?",
+      "options": [
+        "To provide a permanent cure for the disease.",
+        "To suppress platelet production in the bone marrow.",
+        "To provide a rapid, temporary increase in the platelet count.",
+        "To activate the patient's own immune system."
+      ],
+      "answer": "To provide a rapid, temporary increase in the platelet count.",
+      "explanation": "$IVIG$ works by saturating the $Fc$ receptors on macrophages, preventing them from destroying the antibody-coated platelets. This provides a rapid but temporary increase in the platelet count and is often used in cases of severe bleeding."
+    },
+    {
+      "question": "A splenectomy is considered a second-line treatment for $ITP$. Why is this procedure often effective?",
+      "options": [
+        "It removes the primary site of platelet destruction.",
+        "It stimulates the bone marrow to produce more platelets.",
+        "It removes the source of the anti-platelet antibodies.",
+        "It directly destroys the abnormal platelets."
+      ],
+      "answer": "It removes the primary site of platelet destruction.",
+      "explanation": "The spleen is the main organ where antibody-coated platelets are cleared from the circulation. Removing the spleen effectively removes the site of destruction and can lead to a sustained increase in the platelet count."
+    },
+    {
+      "question": "A patient with $ITP$ is on corticosteroids and has a platelet count of $20 \times 10^9/L$. They are asymptomatic. What is the most appropriate management plan?",
+      "options": [
+        "Hospitalize for an urgent platelet transfusion.",
+        "Increase the dose of corticosteroids and add $IVIG$.",
+        "Initiate a second-line therapy such as Rituximab.",
+        "Continue to monitor and taper the corticosteroids as planned."
+      ],
+      "answer": "Continue to monitor and taper the corticosteroids as planned.",
+      "explanation": "Treatment decisions in $ITP$ are based on bleeding risk, not just the platelet count. Since the patient is asymptomatic and not actively bleeding, the risk of a complication from treatment (e.g., thrombosis from a transfusion, side effects of more drugs) may outweigh the benefit. A conservative approach is appropriate here."
+    },
+    {
+      "question": "Which of the following is a key diagnostic feature that distinguishes $ITP$ from Thrombotic Thrombocytopenic Purpura ($TTP$)?",
+      "options": [
+        "The presence of a low platelet count.",
+        "The presence of purpura and petechiae.",
+        "The presence of schistocytes on a peripheral blood smear.",
+        "The presence of both a low platelet count and a low red blood cell count."
+      ],
+      "answer": "The presence of schistocytes on a peripheral blood smear.",
+      "explanation": "$TTP$ is a microangiopathic hemolytic anemia, a key feature of which is the shearing of red blood cells, resulting in fragmented cells called schistocytes on the blood smear. These are not seen in $ITP$."
+    },
+    {
+      "question": "What is a major difference between acute $ITP$ in children and chronic $ITP$ in adults?",
+      "options": [
+        "Acute $ITP$ is more common in adults.",
+        "Chronic $ITP$ in adults often has a spontaneous, rapid resolution.",
+        "Chronic $ITP$ in adults is often less responsive to first-line therapies.",
+        "Acute $ITP$ in children requires a splenectomy."
+      ],
+      "answer": "Chronic $ITP$ in adults is often less responsive to first-line therapies.",
+      "explanation": "Chronic $ITP$ in adults is less likely to resolve spontaneously and often requires multiple lines of therapy to maintain a safe platelet count, unlike acute childhood $ITP$ which has a high rate of spontaneous resolution."
+    }
+  ]
+}, {
+  "name": "Immune Thrombocytopenia and Pregnancy",
+  "questions": [
+    {
+      "question": "What is the key difference between Gestational Thrombocytopenia ($GT$) and Immune Thrombocytopenia ($ITP$) in pregnancy?",
+      "options": [
+        "GT causes severe bleeding; ITP does not.",
+        "GT is an autoimmune condition; ITP is not.",
+        "GT is typically mild, occurs in the second or third trimester, and resolves postpartum; ITP is a primary diagnosis that often predates pregnancy.",
+        "GT is a complication of preeclampsia; ITP is a complication of HELLP syndrome."
+      ],
+      "answer": "GT is typically mild, occurs in the second or third trimester, and resolves postpartum; ITP is a primary diagnosis that often predates pregnancy.",
+      "explanation": "GT is the most common cause of a low platelet count in pregnancy, is usually mild ($>70 \times 10^9/L$), and spontaneously resolves after delivery. ITP is a pre-existing autoimmune condition that is not exclusive to pregnancy."
+    },
+    {
+      "question": "In a pregnant patient with $ITP$, what is the primary cause of thrombocytopenia in the fetus or neonate?",
+      "options": [
+        "Transfusion-related complications in the mother.",
+        "The mother's $IgG$ anti-platelet antibodies crossing the placenta and destroying fetal platelets.",
+        "A genetic mutation inherited from the mother.",
+        "Direct viral infection from the mother."
+      ],
+      "answer": "The mother's $IgG$ anti-platelet antibodies crossing the placenta and destroying fetal platelets.",
+      "explanation": "The $IgG$ antibodies produced by the mother in $ITP$ are able to cross the placental barrier. These antibodies can then bind to and destroy the fetus's platelets, leading to neonatal thrombocytopenia."
+    },
+    {
+      "question": "A pregnant patient with a known history of $ITP$ has a platelet count of $50 \times 10^9/L$ but no bleeding symptoms. What is the most appropriate management plan?",
+      "options": [
+        "Initiate corticosteroids immediately.",
+        "Administer intravenous immunoglobulin ($IVIG$).",
+        "Monitor the platelet count and clinical symptoms without treatment.",
+        "Perform an emergency C-section."
+      ],
+      "answer": "Monitor the platelet count and clinical symptoms without treatment.",
+      "explanation": "Treatment for $ITP$ in pregnancy is typically reserved for symptomatic bleeding or for very low platelet counts, usually below $30 \times 10^9/L$. A count of $50 \times 10^9/L$ is generally considered a low risk for spontaneous bleeding."
+    },
+    {
+      "question": "What is the recommended platelet count threshold for a planned vaginal delivery in a pregnant patient with $ITP$?",
+      "options": [
+        "Greater than $20 \times 10^9/L$",
+        "Greater than $30 \times 10^9/L$",
+        "Greater than $50 \times 10^9/L$",
+        "Greater than $80 \times 10^9/L$"
+      ],
+      "answer": "Greater than $50 \times 10^9/L$",
+      "explanation": "A platelet count of at least $50 \times 10^9/L$ is generally considered safe for vaginal delivery. This threshold is chosen to ensure adequate hemostasis during labor and delivery without the need for additional interventions."
+    },
+    {
+      "question": "Which of the following is considered a first-line treatment for a pregnant patient with $ITP$ requiring therapy?",
+      "options": [
+        "Rituximab",
+        "Splenectomy",
+        "Thrombopoietin receptor agonists ($TPO-RAs$)",
+        "Corticosteroids"
+      ],
+      "answer": "Corticosteroids",
+      "explanation": "Corticosteroids, such as prednisone, are the standard first-line therapy for $ITP$ in pregnancy. They are relatively safe and effective, and their use in the third trimester is not associated with significant fetal risk."
+    },
+    {
+      "question": "Why is a cesarean section ($C$-section) not recommended as a routine practice to prevent intracranial hemorrhage in a fetus of an $ITP$ mother?",
+      "options": [
+        "It increases the mother's risk of bleeding.",
+        "It does not prevent the risk of fetal bleeding and exposes the mother to surgical risks.",
+        "The fetal platelet count is always normal.",
+        "It is too expensive."
+      ],
+      "answer": "It does not prevent the risk of fetal bleeding and exposes the mother to surgical risks.",
+      "explanation": "Studies have shown that a C-section does not reduce the risk of intracranial hemorrhage in the neonate. The risk of fetal bleeding is not related to the mode of delivery, and a C-section carries additional risks for the mother."
+    },
+    {
+      "question": "A pregnant patient with a history of $ITP$ delivers a newborn with a platelet count of $10 \times 10^9/L$. What is the most likely cause?",
+      "options": [
+        "Gestational thrombocytopenia passed from the mother.",
+        "A separate, unrelated autoimmune condition in the newborn.",
+        "The mother's anti-platelet antibodies crossing the placenta.",
+        "A viral infection acquired during delivery."
+      ],
+      "answer": "The mother's anti-platelet antibodies crossing the placenta.",
+      "explanation": "The most common cause of neonatal thrombocytopenia in this setting is the transplacental passage of maternal antibodies. The low platelet count is a result of the destruction of the newborn's platelets by these antibodies."
+    },
+    {
+      "question": "Which of the following treatments is generally avoided during pregnancy due to potential fetal risks?",
+      "options": [
+        "Corticosteroids",
+        "$IVIG$",
+        "Platelet transfusions",
+        "Rituximab"
+      ],
+      "answer": "Rituximab",
+      "explanation": "Rituximab, an anti-$CD20$ antibody, is a second-line treatment for $ITP$ that can cross the placenta and cause B-cell depletion in the fetus, leading to potential complications. Its use in pregnancy is generally avoided."
+    },
+    {
+      "question": "After birth, a newborn with thrombocytopenia from an $ITP$ mother is monitored. What is the expected course of the newborn's platelet count?",
+      "options": [
+        "It will remain low indefinitely.",
+        "It will require lifelong treatment with $IVIG$.",
+        "It will gradually increase as maternal antibodies are cleared from the baby's circulation.",
+        "It will require a bone marrow transplant to correct the count."
+      ],
+      "answer": "It will gradually increase as maternal antibodies are cleared from the baby's circulation.",
+      "explanation": "Neonatal thrombocytopenia due to maternal $ITP$ is transient. As the maternal antibodies are cleared from the newborn's circulation over several weeks, the platelet count will naturally rise to a normal level without long-term intervention."
+    },
+    {
+      "question": "A pregnant patient with $ITP$ has a platelet count of $20 \times 10^9/L$ and experiences a severe nosebleed. What is the most appropriate immediate intervention?",
+      "options": [
+        "Oral corticosteroids alone.",
+        "Platelet transfusion.",
+        "A combination of $IVIG$ and corticosteroids.",
+        "Splenectomy."
+      ],
+      "answer": "A combination of $IVIG$ and corticosteroids.",
+      "explanation": "For severe bleeding, a rapid increase in the platelet count is needed. $IVIG$ provides this by blocking macrophage receptors, while corticosteroids provide a more sustained immunosuppressive effect. A platelet transfusion is typically not effective because the transfused platelets will also be rapidly destroyed by the circulating antibodies."
+    }
+  ]
+}, {
+  "name": "Superior Vena Cava Syndrome (SVCS)",
+  "questions": [
+    {
+      "question": "What is the primary pathophysiology of Superior Vena Cava Syndrome?",
+      "options": [
+        "Obstruction of the inferior vena cava.",
+        "Obstruction of blood flow through the superior vena cava.",
+        "Obstruction of blood flow in the pulmonary artery.",
+        "A sudden drop in systemic blood pressure."
+      ],
+      "answer": "Obstruction of blood flow through the superior vena cava.",
+      "explanation": "SVCS occurs when blood flow through the superior vena cava, a major vein draining the head, neck, and upper extremities, is partially or completely blocked."
+    },
+    {
+      "question": "What is the most common cause of Superior Vena Cava Syndrome?",
+      "options": [
+        "Deep vein thrombosis in the arm.",
+        "Aortic aneurysm.",
+        "Malignancy, particularly lung cancer.",
+        "Infection, such as a localized abscess."
+      ],
+      "answer": "Malignancy, particularly lung cancer.",
+      "explanation": "In over 80% of cases, SVCS is caused by malignancy. The most frequent cause is a mass from lung cancer (e.g., small cell or non-small cell) or lymphoma compressing the superior vena cava."
+    },
+    {
+      "question": "Which of the following is a classic sign or symptom of Superior Vena Cava Syndrome?",
+      "options": [
+        "Unilateral leg swelling.",
+        "Ascites and peripheral edema.",
+        "Facial and neck swelling, with distended collateral veins on the chest.",
+        "Severe abdominal pain and jaundice."
+      ],
+      "answer": "Facial and neck swelling, with distended collateral veins on the chest.",
+      "explanation": "The obstruction of venous return from the head and upper body causes swelling (edema) in the face, neck, and arms. The body's attempt to reroute blood flow results in the visible dilation of collateral veins on the chest wall."
+    },
+    {
+      "question": "A patient with newly diagnosed lung cancer presents with facial swelling, dyspnea, and a prominent jugular venous distention. What is the most appropriate initial diagnostic study?",
+      "options": [
+        "Chest X-ray.",
+        "Doppler ultrasound of the neck.",
+        "CT scan of the chest with contrast.",
+        "A D-dimer blood test."
+      ],
+      "answer": "CT scan of the chest with contrast.",
+      "explanation": "A CT scan with intravenous contrast is the best imaging modality to confirm the diagnosis of SVCS. It can visualize the site of obstruction, the presence of collateral circulation, and often identify the underlying cause, such as a mediastinal mass."
+    },
+    {
+      "question": "What is the recommended initial management for a patient with symptomatic SVCS due to malignancy?",
+      "options": [
+        "Immediate surgical bypass of the superior vena cava.",
+        "Start high-dose chemotherapy immediately.",
+        "Treat the underlying cause with radiation therapy or chemotherapy.",
+        "Place a central venous catheter for immediate fluid resuscitation."
+      ],
+      "answer": "Treat the underlying cause with radiation therapy or chemotherapy.",
+      "explanation": "The primary management of SVCS due to malignancy is to address the cancer itself. Radiation therapy or chemotherapy can shrink the tumor and relieve the compression. Stent placement may be used for immediate symptom relief."
+    },
+    {
+      "question": "Which of the following is a potential non-malignant cause of Superior Vena Cava Syndrome?",
+      "options": [
+        "Myocardial infarction.",
+        "Chronic obstructive pulmonary disease ($COPD$).",
+        "Central venous catheter-related thrombosis.",
+        "Aortic dissection."
+      ],
+      "answer": "Central venous catheter-related thrombosis.",
+      "explanation": "The increasing use of central venous catheters, pacemaker wires, and implantable cardioverter-defibrillators ($ICDs$) has made catheter-related thrombosis a significant non-malignant cause of SVCS."
+    },
+    {
+      "question": "What is the primary goal of palliative care in a patient with untreatable malignant SVCS?",
+      "options": [
+        "To cure the underlying cancer.",
+        "To perform a surgical resection of the tumor.",
+        "To provide symptom relief and improve quality of life.",
+        "To extend life by a few weeks."
+      ],
+      "answer": "To provide symptom relief and improve quality of life.",
+      "explanation": "In cases where the underlying malignancy is incurable, the focus shifts to palliative measures to relieve symptoms such as dyspnea, pain, and facial swelling. This can include radiation, steroids, or stenting."
+    },
+    {
+      "question": "A patient with $SVCS$ has severe dyspnea and headache. Which of the following may be administered for immediate symptom relief?",
+      "options": [
+        "Corticosteroids and diuretics.",
+        "Long-term anticoagulation.",
+        "Platelet transfusion.",
+        "High-flow oxygen."
+      ],
+      "answer": "Corticosteroids and diuretics.",
+      "explanation": "Corticosteroids can reduce peritumoral edema, while diuretics can help reduce fluid volume and alleviate symptoms like swelling and dyspnea. This is a common part of initial symptomatic management."
+    },
+    {
+      "question": "Why is a biopsy of the underlying mass in the mediastinum often deferred in a patient with a strong clinical suspicion of malignant SVCS?",
+      "options": [
+        "It is too risky and can cause severe bleeding.",
+        "The diagnosis of cancer can be made without it.",
+        "It is a complex procedure that is not readily available.",
+        "Treatment is typically initiated empirically to relieve symptoms before obtaining a tissue diagnosis."
+      ],
+      "answer": "Treatment is typically initiated empirically to relieve symptoms before obtaining a tissue diagnosis.",
+      "explanation": "In a patient with a known or suspected cancer and symptomatic SVCS, initial treatment with radiation or chemotherapy is often started urgently to relieve the obstruction before a definitive tissue diagnosis is made. However, a biopsy is still the gold standard for diagnosis if possible."
+    },
+    {
+      "question": "How does Superior Vena Cava Syndrome differ from a typical deep vein thrombosis ($DVT$)?",
+      "options": [
+        "SVCS is a venous thrombosis; a $DVT$ is an arterial thrombosis.",
+        "SVCS is almost always caused by infection; a $DVT$ is caused by stasis.",
+        "SVCS presents with upper body swelling and distended collateral veins; a $DVT$ typically affects the legs and has different risk factors.",
+        "SVCS is treated with surgery; a $DVT$ is treated with anticoagulation."
+      ],
+      "answer": "SVCS presents with upper body swelling and distended collateral veins; a $DVT$ typically affects the legs and has different risk factors.",
+      "explanation": "While both involve venous thrombosis, SVCS is a unique syndrome affecting the upper body's venous drainage. The distinct symptoms and most common etiologies (malignancy) differentiate it from a typical lower extremity $DVT$."
+    }
+  ]
+}, {
+  "name": "Pulmonary Embolism (PE)",
+  "questions": [
+    {
+      "question": "What is the primary source of a pulmonary embolism ($PE$) in most cases?",
+      "options": [
+        "A clot from the left side of the heart.",
+        "A clot from the deep veins of the lower extremities.",
+        "A clot from the superficial veins of the upper extremities.",
+        "A clot from the carotid arteries."
+      ],
+      "answer": "A clot from the deep veins of the lower extremities.",
+      "explanation": "The vast majority of pulmonary emboli originate from a deep vein thrombosis ($DVT$) in the legs or pelvis. The clot dislodges and travels through the inferior vena cava and right heart to the pulmonary arteries."
+    },
+    {
+      "question": "According to Virchow's triad, which of the following is a key factor in the development of venous thrombosis?",
+      "options": [
+        "Hypercoagulability, fever, and genetic predisposition.",
+        "Vascular inflammation, venous stasis, and hyperlipidemia.",
+        "Endothelial injury, venous stasis, and hypercoagulability.",
+        "Hypertension, obesity, and diabetes."
+      ],
+      "answer": "Endothelial injury, venous stasis, and hypercoagulability.",
+      "explanation": "Virchow's triad describes the three broad categories of factors thought to contribute to venous thrombosis: venous stasis (slow blood flow), endothelial injury (damage to the vessel wall), and hypercoagulability (an increased tendency for blood to clot)."
+    },
+    {
+      "question": "What is the most common presenting symptom of a pulmonary embolism?",
+      "options": [
+        "Fever",
+        "Pleuritic chest pain",
+        "Hemoptysis (coughing up blood)",
+        "Dyspnea (shortness of breath)"
+      ],
+      "answer": "Dyspnea (shortness of breath)",
+      "explanation": "Dyspnea is the most common symptom of a $PE$, present in a high percentage of cases. The sudden obstruction of blood flow to the lungs causes a ventilation-perfusion mismatch, leading to shortness of breath."
+    },
+    {
+      "question": "Which of the following blood tests is most useful for ruling out a $PE$ in a patient with a low clinical probability?",
+      "options": [
+        "Complete Blood Count (CBC)",
+        "D-dimer",
+        "Prothrombin Time ($PT$)",
+        "C-reactive Protein ($CRP$)"
+      ],
+      "answer": "D-dimer",
+      "explanation": "D-dimer is a fibrin degradation product. A normal D-dimer test has a high negative predictive value, meaning a negative result can effectively rule out a $PE$ in patients with a low pre-test probability."
+    },
+    {
+      "question": "What is the gold standard imaging modality for diagnosing a pulmonary embolism?",
+      "options": [
+        "Chest X-ray",
+        "V/Q (Ventilation/Perfusion) scan",
+        "CT Pulmonary Angiogram ($CTPA$)",
+        "Magnetic Resonance Angiography ($MRA$)"
+      ],
+      "answer": "CT Pulmonary Angiogram ($CTPA$)",
+      "explanation": "$CTPA$ is the gold standard because it can directly visualize the thrombus in the pulmonary arteries and provide information about the lung parenchyma and mediastinum. It has largely replaced the V/Q scan as the first-line imaging test."
+    },
+    {
+      "question": "A patient with a $PE$ presents with hypotension, syncope, and shock. How would this patient's $PE$ be classified?",
+      "options": [
+        "Low-risk PE",
+        "Submassive PE",
+        "Massive PE",
+        "Chronic PE"
+      ],
+      "answer": "Massive PE",
+      "explanation": "A massive $PE$ is defined by hemodynamic instability, including systolic blood pressure less than $90\ mmHg$ or a drop of at least $40\ mmHg$ from baseline, and signs of shock or syncope. It is a life-threatening medical emergency."
+    },
+    {
+      "question": "Which of the following is an appropriate initial anticoagulant for most patients with a low-risk $PE$?",
+      "options": [
+        "Warfarin",
+        "Aspirin",
+        "Unfractionated heparin ($UFH$) or Low Molecular Weight Heparin ($LMWH$)",
+        "Tissue plasminogen activator ($tPA$)"
+      ],
+      "answer": "Unfractionated heparin ($UFH$) or Low Molecular Weight Heparin ($LMWH$)",
+      "explanation": "Heparin is the initial treatment of choice as it provides rapid anticoagulation. $LMWH$ is often preferred over $UFH$ due to its predictable dose-response, once-daily dosing, and lack of need for frequent laboratory monitoring."
+    },
+    {
+      "question": "What is the primary management for a massive $PE$?",
+      "options": [
+        "Observation and supportive care.",
+        "Immediate surgical embolectomy.",
+        "Thrombolytic therapy ($e.g.$, $tPA$) to dissolve the clot.",
+        "Long-term anticoagulation with warfarin."
+      ],
+      "answer": "Thrombolytic therapy ($e.g.$, $tPA$) to dissolve the clot.",
+      "explanation": "For a massive $PE$, the goal is to rapidly restore blood flow. Thrombolytic agents are administered to dissolve the clot and restore hemodynamic stability. Surgical embolectomy is an alternative for patients who have contraindications to thrombolytics or who fail to respond."
+    },
+    {
+      "question": "A patient with a history of recurrent $PE$s despite adequate anticoagulation may be a candidate for what interventional device?",
+      "options": [
+        "Cardiac pacemaker",
+        "Internal cardioverter-defibrillator ($ICD$)",
+        "Aortic stent",
+        "Inferior Vena Cava ($IVC$) filter"
+      ],
+      "answer": "Inferior Vena Cava ($IVC$) filter",
+      "explanation": "An $IVC$ filter is a device placed in the inferior vena cava to trap emboli originating from the lower extremities and prevent them from reaching the lungs. It is typically used for patients with contraindications to anticoagulation or those with recurrent $PE$ despite therapy."
+    },
+    {
+      "question": "What is the purpose of the Wells' Score for $PE$?",
+      "options": [
+        "To determine the severity of a diagnosed $PE$.",
+        "To calculate the risk of bleeding from anticoagulation.",
+        "To estimate the pre-test probability of a $PE$.",
+        "To guide the choice of anticoagulation medication."
+      ],
+      "answer": "To estimate the pre-test probability of a $PE$.",
+      "explanation": "The Wells' Score is a clinical prediction tool used to categorize patients as having a low, moderate, or high probability of having a $PE$. This score guides the subsequent diagnostic workup, such as whether to order a D-dimer or a $CTPA$."
+    },
+    {
+      "question": "In a patient with a $PE$, a $V/Q$ (Ventilation/Perfusion) scan is a good alternative to a $CTPA$ in which of the following scenarios?",
+      "options": [
+        "In patients with a history of kidney disease or iodine allergy.",
+        "In patients with severe dyspnea.",
+        "In patients with a positive D-dimer test.",
+        "In patients who are hemodynamically unstable."
+      ],
+      "answer": "In patients with a history of kidney disease or iodine allergy.",
+      "explanation": "The $CTPA$ requires the injection of iodinated contrast, which can be harmful to patients with pre-existing kidney disease or a known iodine allergy. In these cases, a $V/Q$ scan is a safer alternative that does not require contrast and uses inhaled and injected radioisotopes to assess lung function."
+    },
+    {
+      "question": "A patient with a submassive $PE$ is defined by which of the following?",
+      "options": [
+        "Hemodynamic instability with a systolic BP < $90\ mmHg$.",
+        "Normal blood pressure with signs of right ventricular ($RV$) dysfunction.",
+        "Mild symptoms with a low-risk Wells' Score.",
+        "No symptoms at all."
+      ],
+      "answer": "Normal blood pressure with signs of right ventricular ($RV$) dysfunction.",
+      "explanation": "A submassive $PE$ is characterized by the absence of systemic hypotension but with evidence of significant right ventricular strain, such as $RV$ dilation or elevated cardiac biomarkers ($e.g.$, troponin). This group has a higher risk of decompensation than low-risk patients."
+    },
+    {
+      "question": "What is the typical duration of anticoagulation for a first, unprovoked $PE$?",
+      "options": [
+        "1-3 months",
+        "6 weeks",
+        "3-6 months",
+        "Lifelong"
+      ],
+      "answer": "3-6 months",
+      "explanation": "For a first $PE$ that is unprovoked (no identifiable risk factor), the standard duration of anticoagulation is 3-6 months. The decision to extend or stop treatment is based on the risk of recurrence and the risk of bleeding."
+    },
+    {
+      "question": "Which of the following is a major risk factor for a $PE$ in a hospitalized patient?",
+      "options": [
+        "Hypertension",
+        "Obesity",
+        "Prolonged immobility or surgery",
+        "Type 2 diabetes"
+      ],
+      "answer": "Prolonged immobility or surgery",
+      "explanation": "Prolonged immobility, such as during a long hospital stay or after major surgery, is a significant risk factor for venous stasis and subsequent $DVT$ and $PE$ formation. Post-operative prophylaxis is a key part of hospital care to prevent this."
+    },
+    {
+      "question": "Which of the following conditions can mimic a pulmonary embolism?",
+      "options": [
+        "Appendicitis",
+        "Pneumonia or congestive heart failure",
+        "Irritable bowel syndrome",
+        "Urinary tract infection"
+      ],
+      "answer": "Pneumonia or congestive heart failure",
+      "explanation": "The symptoms of $PE$, such as dyspnea, chest pain, and cough, are non-specific and can be similar to those seen in pneumonia, myocardial infarction, or acute exacerbations of congestive heart failure, making diagnosis challenging."
+    },
+    {
+      "question": "What is the primary mechanism of action of Heparin in treating a $PE$?",
+      "options": [
+        "It directly dissolves the existing clot.",
+        "It prevents the formation of new clots by enhancing the activity of antithrombin.",
+        "It activates plasmin to break down fibrin.",
+        "It directly inhibits thrombin."
+      ],
+      "answer": "It prevents the formation of new clots by enhancing the activity of antithrombin.",
+      "explanation": "Heparin does not dissolve an existing clot. Its primary function is to enhance the activity of antithrombin, a natural anticoagulant, thereby inhibiting the activity of several clotting factors ($e.g.$, thrombin, Factor Xa) and preventing the clot from growing or new clots from forming."
+    },
+    {
+      "question": "A fat embolism is most commonly associated with which clinical scenario?",
+      "options": [
+        "Orthopedic trauma, such as a long bone fracture.",
+        "Severe burns.",
+        "Liver disease.",
+        "Prolonged immobilization."
+      ],
+      "answer": "Orthopedic trauma, such as a long bone fracture.",
+      "explanation": "Fat embolism syndrome is a non-thrombotic cause of $PE$ most commonly seen after major orthopedic trauma, particularly fractures of long bones. Fat globules from the bone marrow are released into the circulation and travel to the lungs."
+    },
+    {
+      "question": "Why is warfarin not used as the initial treatment for a $PE$?",
+      "options": [
+        "It is too expensive.",
+        "It has a slow onset of action.",
+        "It has a high risk of bleeding.",
+        "It is only effective for arterial clots."
+      ],
+      "answer": "It has a slow onset of action.",
+      "explanation": "Warfarin inhibits vitamin K-dependent clotting factors, but it takes several days to reach a therapeutic effect. Therefore, it is typically started with a bridging anticoagulant ($e.g.$, heparin) to provide immediate protection."
+    },
+    {
+      "question": "What is the most common finding on an electrocardiogram ($ECG$) in a patient with a $PE$?",
+      "options": [
+        "Atrial fibrillation.",
+        "The classic $S1Q3T3$ pattern.",
+        "Sinus tachycardia.",
+        "ST-segment elevation."
+      ],
+      "answer": "Sinus tachycardia.",
+      "explanation": "Sinus tachycardia is the most common $ECG$ abnormality in patients with a $PE$. While the classic $S1Q3T3$ pattern is specific for a $PE$, it is a rare finding."
+    },
+    {
+      "question": "Which of the following patients would have the highest Wells' Score for $PE$?",
+      "options": [
+        "A 30-year-old with pleuritic chest pain and a positive D-dimer.",
+        "A 70-year-old on oral contraceptives with unilateral leg swelling and a history of cancer.",
+        "A 45-year-old with a sudden cough and a normal chest X-ray.",
+        "A 60-year-old with a family history of $DVT$ and a fever."
+      ],
+      "answer": "A 70-year-old on oral contraceptives with unilateral leg swelling and a history of cancer.",
+      "explanation": "This patient has multiple high-risk factors for $PE$ (active cancer, oral contraceptive use, and signs of $DVT$), which would give them a high Wells' Score and a high pre-test probability."
+    },
+    {
+      "question": "What is the most likely cause of a $PE$ in a young, otherwise healthy female?",
+      "options": [
+        "Hereditary thrombophilia.",
+        "Oral contraceptive use or pregnancy.",
+        "Prolonged air travel.",
+        "Factor V Leiden mutation."
+      ],
+      "answer": "Oral contraceptive use or pregnancy.",
+      "explanation": "Estrogen-containing oral contraceptives and pregnancy are major acquired risk factors for thrombosis due to their effects on coagulation factors and venous stasis."
+    },
+    {
+      "question": "What is a key difference between a $PE$ and a myocardial infarction ($MI$) on a CT scan?",
+      "options": [
+        "A $PE$ shows a clot in a coronary artery; an $MI$ shows a clot in a pulmonary artery.",
+        "A $PE$ shows a clot in a pulmonary artery; an $MI$ shows a blockage in a coronary artery.",
+        "A $PE$ shows a pericardial effusion; an $MI$ shows a pleural effusion.",
+        "A $PE$ shows an enlarged left ventricle; an $MI$ shows an enlarged right ventricle."
+      ],
+      "answer": "A $PE$ shows a clot in a pulmonary artery; an $MI$ shows a blockage in a coronary artery.",
+      "explanation": "The core distinction is anatomical. A $PE$ is a blockage in the pulmonary circulation, while an $MI$ is a blockage in the systemic circulation to the heart muscle."
+    },
+    {
+      "question": "How does chronic thromboembolic pulmonary hypertension ($CTEPH$) develop?",
+      "options": [
+        "As a result of a massive, sudden $PE$.",
+        "Due to the failure of the lungs to clear organized thrombi after a $PE$.",
+        "As a complication of long-term anticoagulation.",
+        "As a primary, unprovoked condition."
+      ],
+      "answer": "Due to the failure of the lungs to clear organized thrombi after a $PE$.",
+      "explanation": "$CTEPH$ is a rare but serious long-term complication of a $PE$. It occurs when a $PE$ fails to resolve and the organized, fibrotic clot obstructs the pulmonary arteries, leading to chronic pulmonary hypertension."
+    },
+    {
+      "question": "Which of the following is an absolute contraindication to thrombolytic therapy for a massive $PE$?",
+      "options": [
+        "Recent major surgery.",
+        "History of prior stroke.",
+        "Pregnancy.",
+        "Active internal bleeding."
+      ],
+      "answer": "Active internal bleeding.",
+      "explanation": "Active internal bleeding is a major contraindication to thrombolysis, as these agents can exacerbate the bleeding and lead to a life-threatening hemorrhage."
+    },
+    {
+      "question": "What is a major risk factor for upper extremity $DVT$ and subsequent $PE$?",
+      "options": [
+        "Obesity.",
+        "Hypertension.",
+        "Presence of a central venous catheter.",
+        "Peripheral arterial disease."
+      ],
+      "answer": "Presence of a central venous catheter.",
+      "explanation": "The increasing use of central venous catheters ($e.g.$, for chemotherapy, total parenteral nutrition) has made them a leading cause of upper extremity $DVT$ and a potential source of $PE$."
+    },
+    {
+      "question": "Which of the following is a symptom of a $PE$ that may be mistaken for a musculoskeletal condition?",
+      "options": [
+        "Pleuritic chest pain.",
+        "Syncope.",
+        "Dyspnea.",
+        "Tachycardia."
+      ],
+      "answer": "Pleuritic chest pain.",
+      "explanation": "Pleuritic chest pain, or pain that worsens with breathing, can be mistaken for a muscle strain or costochondritis, delaying the diagnosis of $PE$."
+    },
+    {
+      "question": "What is the recommended platelet count threshold below which $UFH$ is typically not administered?",
+      "options": [
+        "$>200 \times 10^9/L$",
+        "$<150 \times 10^9/L$",
+        "$<100 \times 10^9/L$",
+        "$<50 \times 10^9/L$"
+      ],
+      "answer": "$<100 \times 10^9/L$",
+      "explanation": "While there is no single universally accepted threshold, a platelet count below $100 \times 10^9/L$ may raise concerns for heparin-induced thrombocytopenia ($HIT$), and alternative anticoagulants may be considered."
+    },
+    {
+      "question": "A patient is diagnosed with a submassive $PE$. In addition to anticoagulation, what other therapy might be considered to prevent clinical deterioration?",
+      "options": [
+        "IVC filter.",
+        "Platelet transfusion.",
+        "Catheter-directed thrombolysis.",
+        "Aspirin."
+      ],
+      "answer": "Catheter-directed thrombolysis.",
+      "explanation": "In submassive $PE$, catheter-directed thrombolysis is a potential option. It involves administering a thrombolytic agent directly to the clot via a catheter, which can reduce the dose and the risk of systemic bleeding while rapidly improving hemodynamics."
+    },
+    {
+      "question": "How does a pulmonary embolism typically affect the heart's right ventricle ($RV$)?",
+      "options": [
+        "It causes an increase in cardiac output.",
+        "It causes $RV$ hypertrophy and decreased afterload.",
+        "It causes an increase in pulmonary artery pressure and $RV$ strain.",
+        "It causes a decrease in $RV$ contractility."
+      ],
+      "answer": "It causes an increase in pulmonary artery pressure and $RV$ strain.",
+      "explanation": "The sudden blockage of the pulmonary arteries increases the afterload on the right ventricle. The $RV$ struggles to pump blood against this high pressure, leading to dilation, strain, and potential failure."
+    },
+    {
+      "question": "What is the primary benefit of using Direct Oral Anticoagulants ($DOACs$) over warfarin for long-term $PE$ treatment?",
+      "options": [
+        "They are more effective at dissolving clots.",
+        "They are less expensive.",
+        "They do not require routine laboratory monitoring and have fewer drug-food interactions.",
+        "They have a longer half-life."
+      ],
+      "answer": "They do not require routine laboratory monitoring and have fewer drug-food interactions.",
+      "explanation": "$DOACs$ have become the preferred long-term treatment due to their ease of use. Unlike warfarin, they do not require frequent monitoring of the International Normalized Ratio ($INR$) and have fewer interactions with food and other medications."
+    }
+  ]
+},{
+  "name": "Platelet Disorders",
+  "questions": [
+    {
+      "question": "What is the term for a platelet count below the normal range, typically less than $150 \times 10^9/L$?",
+      "options": [
+        "Thrombocytosis",
+        "Thrombocytopenia",
+        "Thrombocytopathy",
+        "Leukopenia"
+      ],
+      "answer": "Thrombocytopenia",
+      "explanation": "Thrombocytopenia is a condition characterized by an abnormally low number of platelets in the blood. It can be caused by decreased production, increased destruction, or splenic sequestration."
+    },
+    {
+      "question": "What is the primary function of platelets in hemostasis?",
+      "options": [
+        "To initiate the coagulation cascade.",
+        "To form a primary hemostatic plug at the site of vascular injury.",
+        "To dissolve blood clots.",
+        "To transport oxygen to tissues."
+      ],
+      "answer": "To form a primary hemostatic plug at the site of vascular injury.",
+      "explanation": "Platelets are essential for primary hemostasis. They adhere to the site of an injury, become activated, and aggregate to form a temporary plug that stops bleeding."
+    },
+    {
+      "question": "Which of the following is an example of an inherited qualitative platelet disorder?",
+      "options": [
+        "Immune Thrombocytopenia ($ITP$)",
+        "Hemolytic-Uremic Syndrome ($HUS$)",
+        "Bernard-Soulier syndrome",
+        "Essential Thrombocythemia"
+      ],
+      "answer": "Bernard-Soulier syndrome",
+      "explanation": "Bernard-Soulier syndrome is a rare autosomal recessive disorder caused by a deficiency in the $GPIb-IX-V$ complex, a platelet receptor for von Willebrand factor. This leads to impaired platelet adhesion."
+    },
+    {
+      "question": "Immune Thrombocytopenia ($ITP$) is primarily a disorder of which of the following?",
+      "options": [
+        "Decreased platelet production.",
+        "Increased platelet sequestration in the spleen.",
+        "Increased peripheral platelet destruction.",
+        "Impaired platelet function."
+      ],
+      "answer": "Increased peripheral platelet destruction.",
+      "explanation": "$ITP$ is an autoimmune disorder where antibodies ($IgG$) are produced against platelet surface antigens, leading to the rapid destruction of platelets, primarily in the spleen."
+    },
+    {
+      "question": "A peripheral blood smear showing giant platelets and thrombocytopenia is characteristic of which inherited disorder?",
+      "options": [
+        "Glanzmann's thrombasthenia",
+        "von Willebrand disease",
+        "Bernard-Soulier syndrome",
+        "May-Hegglin anomaly"
+      ],
+      "answer": "Bernard-Soulier syndrome",
+      "explanation": "Bernard-Soulier syndrome is characterized by the presence of abnormally large platelets (giant platelets) in the peripheral smear, in addition to a low platelet count."
+    },
+    {
+      "question": "What is the main defect in Glanzmann's thrombasthenia?",
+      "options": [
+        "Impaired platelet adhesion.",
+        "A deficiency in the $GPIIb/IIIa$ receptor.",
+        "A deficiency in von Willebrand factor.",
+        "An antibody-mediated destruction of platelets."
+      ],
+      "answer": "A deficiency in the $GPIIb/IIIa$ receptor.",
+      "explanation": "Glanzmann's thrombasthenia is a rare autosomal recessive bleeding disorder caused by a deficiency in the $GPIIb/IIIa$ receptor, which is essential for platelet aggregation via fibrinogen binding."
+    },
+    {
+      "question": "What is the most common cause of acquired qualitative platelet disorders?",
+      "options": [
+        "Chronic infection.",
+        "Uremia and drug use ($e.g.$, NSAIDs).",
+        "Hypersplenism.",
+        "Liver disease."
+      ],
+      "answer": "Uremia and drug use ($e.g.$, NSAIDs).",
+      "explanation": "Acquired platelet function defects are most commonly caused by kidney failure (uremia), which causes platelet dysfunction, and by drugs like aspirin and NSAIDs that inhibit platelet cyclooxygenase."
+    },
+    {
+      "question": "Thrombotic Thrombocytopenic Purpura ($TTP$) is characterized by a deficiency of which enzyme?",
+      "options": [
+        "Thrombin",
+        "ADAMTS13",
+        "Protein S",
+        "Factor V"
+      ],
+      "answer": "ADAMTS13",
+      "explanation": "$TTP$ is a thrombotic microangiopathy caused by a severe deficiency of the enzyme $ADAMTS13$. This leads to an accumulation of large von Willebrand factor multimers, causing platelet aggregation and microthrombi."
+    },
+    {
+      "question": "Which of the following is a potential cause of drug-induced thrombocytopenia?",
+      "options": [
+        "Vitamin K",
+        "Penicillin",
+        "Protamine sulfate",
+        "Heparin"
+      ],
+      "answer": "Heparin",
+      "explanation": "Heparin-induced thrombocytopenia ($HIT$) is a serious immune-mediated reaction to heparin, where antibodies target the heparin-platelet factor 4 complex, leading to platelet destruction and a paradoxically hypercoagulable state."
+    },
+    {
+      "question": "Essential Thrombocythemia is a chronic myeloproliferative neoplasm characterized by an increase in which of the following?",
+      "options": [
+        "White blood cells.",
+        "Red blood cells.",
+        "Platelets.",
+        "Eosinophils."
+      ],
+      "answer": "Platelets.",
+      "explanation": "Essential Thrombocythemia is a disorder of the bone marrow where the megakaryocytes are overproduced, leading to a persistently high platelet count. It is often associated with the JAK2 mutation."
+    },
+    {
+      "question": "What is the defining feature of Disseminated Intravascular Coagulation ($DIC$) in terms of platelets?",
+      "options": [
+        "Platelet overproduction.",
+        "Platelet clumping in the spleen.",
+        "Increased platelet consumption and formation of microthrombi.",
+        "Impaired platelet adhesion."
+      ],
+      "answer": "Increased platelet consumption and formation of microthrombi.",
+      "explanation": "$DIC$ is a systemic disorder that results in widespread activation of coagulation, leading to the consumption of platelets and clotting factors. This can paradoxically cause both thrombosis and severe bleeding."
+    },
+    {
+      "question": "Which of the following is a hallmark of Thrombotic Thrombocytopenic Purpura ($TTP$) and Hemolytic-Uremic Syndrome ($HUS$) on a peripheral blood smear?",
+      "options": [
+        "Large, giant platelets.",
+        "Aplastic bone marrow.",
+        "Schistocytes (fragmented red blood cells).",
+        "Abnormal platelet aggregation."
+      ],
+      "answer": "Schistocytes (fragmented red blood cells).",
+      "explanation": "Both $TTP$ and $HUS$ are microangiopathic hemolytic anemias. The presence of microthrombi in the small vessels causes a shearing force on red blood cells as they pass through, leading to fragmentation and the formation of schistocytes."
+    },
+    {
+      "question": "What is the most common cause of a low platelet count in hospitalized patients?",
+      "options": [
+        "Thrombotic Thrombocytopenic Purpura ($TTP$)",
+        "Heparin-induced thrombocytopenia ($HIT$)",
+        "Sepsis",
+        "Disseminated Intravascular Coagulation ($DIC$)"
+      ],
+      "answer": "Sepsis",
+      "explanation": "Sepsis is the most common cause of thrombocytopenia in a hospitalized patient. The underlying mechanisms are multifactorial, including platelet consumption, sequestration, and direct bone marrow suppression."
+    },
+    {
+      "question": "A patient with liver cirrhosis and portal hypertension develops thrombocytopenia. What is the likely mechanism?",
+      "options": [
+        "Increased platelet production.",
+        "Increased platelet destruction by antibodies.",
+        "Platelet sequestration in an enlarged spleen ($hypersplenism$).",
+        "Increased platelet consumption in the liver."
+      ],
+      "answer": "Platelet sequestration in an enlarged spleen ($hypersplenism$).",
+      "explanation": "Portal hypertension due to liver cirrhosis often leads to an enlarged spleen ($splenomegaly$). The spleen sequesters a larger-than-normal proportion of platelets, leading to a low count in the circulating blood."
+    },
+    {
+      "question": "Which of the following is a cause of reactive thrombocytosis?",
+      "options": [
+        "Iron deficiency anemia",
+        "Aplastic anemia",
+        "Myelodysplastic syndrome ($MDS$)",
+        "Chemotherapy-induced bone marrow suppression"
+      ],
+      "answer": "Iron deficiency anemia",
+      "explanation": "Reactive thrombocytosis is a benign condition where the platelet count is elevated in response to another condition. Iron deficiency anemia, infection, inflammation, and asplenia are common causes."
+    },
+    {
+      "question": "What is the key diagnostic test for a suspected platelet function disorder?",
+      "options": [
+        "Complete blood count ($CBC$)",
+        "Activated partial thromboplastin time ($aPTT$)",
+        "Platelet aggregation studies",
+        "Bone marrow biopsy"
+      ],
+      "answer": "Platelet aggregation studies",
+      "explanation": "Platelet aggregation studies are a specialized laboratory test that assesses the ability of platelets to clump together in response to various agonists ($e.g.$, ADP, collagen). This test is crucial for diagnosing inherited platelet function disorders."
+    },
+    {
+      "question": "Which of the following is a characteristic of von Willebrand disease that distinguishes it from other platelet disorders?",
+      "options": [
+        "It is always caused by a genetic mutation.",
+        "It involves both a qualitative platelet defect and a factor deficiency.",
+        "It is always associated with a low platelet count.",
+        "It is only an acquired disorder."
+      ],
+      "answer": "It involves both a qualitative platelet defect and a factor deficiency.",
+      "explanation": "von Willebrand factor is essential for platelet adhesion and also acts as a carrier protein for Factor VIII. Therefore, a deficiency in vWF can cause both a qualitative platelet defect and a secondary coagulation factor deficiency."
+    },
+    {
+      "question": "In a patient with a known platelet disorder, which of the following is a common presenting symptom?",
+      "options": [
+        "Deep muscle hematomas.",
+        "Hemarthrosis (joint bleeding).",
+        "Petechiae and mucocutaneous bleeding.",
+        "Deep venous thrombosis."
+      ],
+      "answer": "Petechiae and mucocutaneous bleeding.",
+      "explanation": "Platelets are involved in primary hemostasis and small vessel integrity. Their dysfunction or low number leads to bleeding in the skin and mucous membranes, which presents as petechiae, purpura, and nosebleeds."
+    },
+    {
+      "question": "Which of the following drugs can cause a platelet function defect?",
+      "options": [
+        "Warfarin",
+        "Clopidogrel ($Plavix$)",
+        "Heparin",
+        "Vitamin K"
+      ],
+      "answer": "Clopidogrel ($Plavix$)",
+      "explanation": "Clopidogrel is an antiplatelet medication that inhibits the $P2Y_{12}$ receptor, a key pathway for platelet activation and aggregation. It is a common cause of acquired platelet dysfunction."
+    },
+    {
+      "question": "In Thrombotic Thrombocytopenic Purpura ($TTP$), a key finding on a blood smear is the presence of fragmented red blood cells. What is this condition called?",
+      "options": [
+        "Thrombocytosis",
+        "Microcytic anemia",
+        "Macrocytic anemia",
+        "Microangiopathic hemolytic anemia"
+      ],
+      "answer": "Microangiopathic hemolytic anemia",
+      "explanation": "$TTP$ is a type of microangiopathic hemolytic anemia, a condition where red blood cells are fragmented as they pass through small vessels obstructed by microthrombi."
+    },
+    {
+      "question": "Which of the following is a common cause of thrombocytopenia in a newborn?",
+      "options": [
+        "Neonatal alloimmune thrombocytopenia ($NAIT$)",
+        "Hereditary thrombocytopenia",
+        "Drug-induced thrombocytopenia",
+        "Liver disease"
+      ],
+      "answer": "Neonatal alloimmune thrombocytopenia ($NAIT$)",
+      "explanation": "$NAIT$ is a condition similar to Rh disease in which the mother produces antibodies against the baby's platelets. These antibodies cross the placenta and destroy the baby's platelets, causing severe thrombocytopenia."
+    },
+    {
+      "question": "What is the primary treatment for severe, symptomatic Immune Thrombocytopenia ($ITP$)?",
+      "options": [
+        "Platelet transfusion.",
+        "Corticosteroids.",
+        "Heparin.",
+        "Aspirin."
+      ],
+      "answer": "Corticosteroids.",
+      "explanation": "Corticosteroids ($e.g.$, prednisone) are the first-line treatment for severe, symptomatic $ITP$ to suppress the autoimmune destruction of platelets."
+    },
+    {
+      "question": "Which condition is a cause of thrombocytopenia due to sequestration?",
+      "options": [
+        "Aplastic anemia.",
+        "Hypersplenism.",
+        "Disseminated intravascular coagulation ($DIC$).",
+        "Drug-induced platelet destruction."
+      ],
+      "answer": "Hypersplenism.",
+      "explanation": "Hypersplenism is a condition where an enlarged spleen sequesters and destroys a large number of platelets and other blood cells, leading to thrombocytopenia."
+    },
+    {
+      "question": "A patient with a very high platelet count and no evidence of bleeding or clotting is found to have a $JAK2$ mutation. What is the likely diagnosis?",
+      "options": [
+        "Reactive thrombocytosis.",
+        "Essential Thrombocythemia ($ET$).",
+        "Chronic myeloid leukemia ($CML$).",
+        "von Willebrand disease."
+      ],
+      "answer": "Essential Thrombocythemia ($ET$).",
+      "explanation": "$ET$ is a myeloproliferative neoplasm characterized by a high platelet count and is often associated with the $JAK2$ mutation. In contrast, reactive thrombocytosis does not have this mutation."
+    },
+    {
+      "question": "Why is platelet transfusion generally avoided in Thrombotic Thrombocytopenic Purpura ($TTP$)?",
+      "options": [
+        "It can worsen the condition by providing more fuel for microthrombi formation.",
+        "The transfused platelets are immediately destroyed.",
+        "It can cause a severe allergic reaction.",
+        "It is not effective in increasing the platelet count."
+      ],
+      "answer": "It can worsen the condition by providing more fuel for microthrombi formation.",
+      "explanation": "In $TTP$, the underlying issue is the formation of microthrombi. Adding more platelets through a transfusion can worsen the condition by providing more fuel for this ongoing thrombotic process."
+    },
+    {
+      "question": "Which of the following conditions is a primary cause of thrombocytopenia due to decreased production in the bone marrow?",
+      "options": [
+        "Systemic lupus erythematosus ($SLE$).",
+        "Aplastic anemia.",
+        "Sepsis.",
+        "Hypersplenism."
+      ],
+      "answer": "Aplastic anemia.",
+      "explanation": "Aplastic anemia is a condition in which the bone marrow fails to produce an adequate number of blood cells, including platelets, leading to pancytopenia (a low count of all blood cell types)."
+    },
+    {
+      "question": "What is the primary role of a platelet count in a patient with a bleeding disorder?",
+      "options": [
+        "To determine the type of bleeding disorder.",
+        "To assess the severity of bleeding.",
+        "To distinguish between quantitative and qualitative disorders.",
+        "To measure the overall effectiveness of hemostasis."
+      ],
+      "answer": "To distinguish between quantitative and qualitative disorders.",
+      "explanation": "The platelet count is a crucial first step in evaluating a bleeding disorder. A low count points to a quantitative disorder (thrombocytopenia), while a normal count with bleeding symptoms suggests a qualitative disorder (thrombocytopathy)."
+    },
+    {
+      "question": "What is the most common cause of a platelet count below $50 \times 10^9/L$ in the inpatient setting?",
+      "options": [
+        "Disseminated intravascular coagulation ($DIC$)",
+        "Immune thrombocytopenia ($ITP$)",
+        "Sepsis",
+        "Drug-induced thrombocytopenia"
+      ],
+      "answer": "Sepsis",
+      "explanation": "Sepsis is the most common cause of significant thrombocytopenia in the hospital due to a combination of platelet consumption, bone marrow suppression, and sequestration."
+    },
+    {
+      "question": "What is the defining clinical feature of thrombocytopenia in terms of bleeding?",
+      "options": [
+        "Deep tissue hematomas.",
+        "Bleeding into joints.",
+        "Spontaneous bruising and petechiae.",
+        "Delayed bleeding after a wound."
+      ],
+      "answer": "Spontaneous bruising and petechiae.",
+      "explanation": "A low platelet count affects primary hemostasis, leading to spontaneous bleeding from small vessels. This manifests as petechiae (small, pinpoint hemorrhages) and ecchymoses (bruising)."
+    },
+    {
+      "question": "A patient with uremia and bleeding has a normal platelet count. What is the likely cause of their bleeding?",
+      "options": [
+        "Deficiency of Factor V.",
+        "Impaired platelet function.",
+        "Thrombocytopenia that is not detected by the count.",
+        "A coagulation factor deficiency."
+      ],
+      "answer": "Impaired platelet function.",
+      "explanation": "Uremia ($kidney$ failure) is a well-known cause of acquired platelet dysfunction. The uremic toxins interfere with platelet adhesion and aggregation, leading to bleeding despite a normal platelet count."
+    }
+  ]
+}, {
+  "name": "Thrombotic Thrombocytopenic Purpura (TTP)",
+  "questions": [
+    {
+      "question": "What is the primary pathophysiology of Thrombotic Thrombocytopenic Purpura ($TTP$)?",
+      "options": [
+        "Platelet sequestration in an enlarged spleen.",
+        "Increased platelet production in the bone marrow.",
+        "An antibody-mediated deficiency of the $ADAMTS13$ enzyme.",
+        "A defect in platelet aggregation."
+      ],
+      "answer": "An antibody-mediated deficiency of the $ADAMTS13$ enzyme.",
+      "explanation": "TTP is an autoimmune disorder where autoantibodies inhibit the function of the $ADAMTS13$ enzyme, which is responsible for cleaving large von Willebrand factor ($vWF$) multimers. This leads to the spontaneous aggregation of platelets and the formation of microthrombi."
+    },
+    {
+      "question": "What is the role of the $ADAMTS13$ enzyme in hemostasis?",
+      "options": [
+        "To activate platelets.",
+        "To cleave large von Willebrand factor multimers.",
+        "To break down fibrin clots.",
+        "To convert prothrombin to thrombin."
+      ],
+      "answer": "To cleave large von Willebrand factor multimers.",
+      "explanation": "$ADAMTS13$ is a metalloprotease that cleaves large $vWF$ multimers into smaller, less adhesive fragments. This process is crucial for preventing spontaneous platelet aggregation in the microcirculation."
+    },
+    {
+      "question": "Which of the following is a classic component of the $TTP$ clinical pentad?",
+      "options": [
+        "Fever, joint pain, rash, hypertension, and renal failure.",
+        "Thrombocytopenia, microangiopathic hemolytic anemia, fever, neurologic abnormalities, and renal abnormalities.",
+        "Hypotension, tachycardia, abdominal pain, fever, and leukocytosis.",
+        "Hemarthrosis, easy bruising, prolonged bleeding, anemia, and splenomegaly."
+      ],
+      "answer": "Thrombocytopenia, microangiopathic hemolytic anemia, fever, neurologic abnormalities, and renal abnormalities.",
+      "explanation": "The classic pentad of $TTP$ includes thrombocytopenia, microangiopathic hemolytic anemia (with schistocytes on smear), fever, neurologic symptoms, and kidney dysfunction. However, the full pentad is rare; the first two are the most common and essential for diagnosis."
+    },
+    {
+      "question": "A key finding on a peripheral blood smear in a patient with $TTP$ would be the presence of which of the following?",
+      "options": [
+        "Giant platelets.",
+        "Target cells.",
+        "Schistocytes (fragmented red blood cells).",
+        "Howell-Jolly bodies."
+      ],
+      "answer": "Schistocytes (fragmented red blood cells).",
+      "explanation": "The formation of microthrombi in small blood vessels causes a shearing force on red blood cells as they pass, leading to their fragmentation. These fragmented cells, known as schistocytes, are a hallmark of microangiopathic hemolytic anemia."
+    },
+    {
+      "question": "What is the single most important diagnostic test for confirming acquired $TTP$?",
+      "options": [
+        "Platelet count.",
+        "Direct Coombs test.",
+        "Plasma $ADAMTS13$ activity assay.",
+        "Bone marrow biopsy."
+      ],
+      "answer": "Plasma $ADAMTS13$ activity assay.",
+      "explanation": "A severely reduced $ADAMTS13$ activity level ($<10\%$) is the definitive diagnostic marker for $TTP$. A normal level effectively rules out the diagnosis."
+    },
+    {
+      "question": "Which of the following is the cornerstone of acute treatment for $TTP$?",
+      "options": [
+        "Platelet transfusion.",
+        "Corticosteroids.",
+        "Fresh frozen plasma ($FFP$) infusion.",
+        "Daily plasma exchange ($PLEX$)."
+      ],
+      "answer": "Daily plasma exchange ($PLEX$).",
+      "explanation": "Plasma exchange is the most crucial treatment for acute $TTP$. It removes the inhibitory antibodies and introduces functional $ADAMTS13$ from donor plasma, rapidly correcting the underlying pathology."
+    },
+    {
+      "question": "Why is platelet transfusion contraindicated in most cases of acute $TTP$?",
+      "options": [
+        "The transfused platelets are immediately destroyed.",
+        "It can worsen the condition by fueling microthrombi formation.",
+        "It causes a severe allergic reaction.",
+        "It is not effective in raising the platelet count."
+      ],
+      "answer": "It can worsen the condition by fueling microthrombi formation.",
+      "explanation": "Adding more platelets in a prothrombotic state can be dangerous. The transfused platelets would be immediately activated by the large $vWF$ multimers, leading to an increase in microthrombi and a worsening of symptoms."
+    },
+    {
+      "question": "What is the typical presentation of hereditary $TTP$ (Upshaw-Schulman syndrome)?",
+      "options": [
+        "Sudden, life-threatening episodes in adulthood.",
+        "Chronic, relapsing thrombocytopenia that often presents in infancy or childhood.",
+        "Severe, acute episodes triggered by viral infections.",
+        "An acute presentation after exposure to heparin."
+      ],
+      "answer": "Chronic, relapsing thrombocytopenia that often presents in infancy or childhood.",
+      "explanation": "Hereditary $TTP$ is caused by a genetic mutation in the $ADAMTS13$ gene. It typically presents with chronic or relapsing thrombocytopenia and is often milder than the acquired form, with episodes triggered by stress, infection, or pregnancy."
+    },
+    {
+      "question": "Which of the following laboratory findings would be most consistent with a diagnosis of $TTP$?",
+      "options": [
+        "A low platelet count and a high $PT/aPTT$.",
+        "A low platelet count and a high $D$-dimer and fibrin split products.",
+        "A low platelet count, elevated $LDH$ and indirect bilirubin, and a negative Coombs test.",
+        "A low platelet count and positive anti-platelet antibodies."
+      ],
+      "answer": "A low platelet count, elevated $LDH$ and indirect bilirubin, and a negative Coombs test.",
+      "explanation": "The elevated $LDH$ and indirect bilirubin are signs of hemolysis. The negative Coombs test rules out a primary autoimmune hemolytic anemia. This combination, along with thrombocytopenia, points toward a microangiopathic process like $TTP$."
+    },
+    {
+      "question": "How does the treatment for hereditary $TTP$ differ from that of acquired $TTP$?",
+      "options": [
+        "Hereditary $TTP$ is treated with plasma exchange; acquired $TTP$ is not.",
+        "Hereditary $TTP$ is treated with routine plasma infusions to replace the deficient enzyme; acquired $TTP$ is treated with plasma exchange.",
+        "Hereditary $TTP$ is treated with rituximab; acquired $TTP$ is treated with corticosteroids.",
+        "Hereditary $TTP$ is treated with platelet transfusions."
+      ],
+      "answer": "Hereditary $TTP$ is treated with routine plasma infusions to replace the deficient enzyme; acquired $TTP$ is treated with plasma exchange.",
+      "explanation": "Since hereditary $TTP$ is a deficiency of the enzyme itself, routine infusions of fresh frozen plasma are sufficient to replenish $ADAMTS13$. Acquired $TTP$ requires plasma exchange to remove the inhibitory antibodies in addition to replacing the enzyme."
+    },
+    {
+      "question": "Which of the following conditions is most important to distinguish $TTP$ from clinically, due to a similar presentation but different treatment?",
+      "options": [
+        "Immune Thrombocytopenia ($ITP$).",
+        "Disseminated Intravascular Coagulation ($DIC$).",
+        "Aplastic Anemia.",
+        "Hemophilia."
+      ],
+      "answer": "Disseminated Intravascular Coagulation ($DIC$).",
+      "explanation": "$DIC$ can present with both microangiopathic hemolytic anemia and thrombocytopenia. However, in contrast to $TTP$, $DIC$ is characterized by a high $D$-dimer, low fibrinogen, and prolonged $PT/aPTT$, and is treated differently."
+    },
+    {
+      "question": "A patient with suspected $TTP$ has severe neurologic symptoms. What is the most urgent intervention?",
+      "options": [
+        "Platelet transfusion.",
+        "Immediate start of plasma exchange.",
+        "A bone marrow biopsy.",
+        "Administration of fresh frozen plasma."
+      ],
+      "answer": "Immediate start of plasma exchange.",
+      "explanation": "Neurologic symptoms are a sign of severe disease and microvascular thrombosis in the brain. Plasma exchange must be initiated as soon as possible to prevent irreversible damage and death. Treatment should not be delayed while waiting for a definitive diagnosis."
+    },
+    {
+      "question": "What is the typical time frame for clinical improvement after starting plasma exchange for $TTP$?",
+      "options": [
+        "Within 24-48 hours.",
+        "Within 5-10 days.",
+        "Within 2-3 weeks.",
+        "Within 1 month."
+      ],
+      "answer": "Within 24-48 hours.",
+      "explanation": "Clinical improvement, including a rise in the platelet count and a decrease in $LDH$, is usually seen within 1 to 2 days of starting daily plasma exchange. If no response is seen, a different diagnosis or treatment strategy should be considered."
+    },
+    {
+      "question": "Which medication is used as a second-line therapy for refractory or relapsing $TTP$?",
+      "options": [
+        "Aspirin",
+        "Rituximab",
+        "Heparin",
+        "Warfarin"
+      ],
+      "answer": "Rituximab",
+      "explanation": "Rituximab is a monoclonal antibody that targets B cells. Since acquired $TTP$ is an autoimmune disease, rituximab can be used to reduce the production of the inhibitory $ADAMTS13$ antibodies in patients who do not respond to or relapse after initial therapy."
+    },
+    {
+      "question": "What is the main difference between Thrombotic Thrombocytopenic Purpura ($TTP$) and Hemolytic-Uremic Syndrome ($HUS$)?",
+      "options": [
+        "$TTP$ primarily causes kidney failure; $HUS$ primarily causes neurologic symptoms.",
+        "$TTP$ is associated with a severe $ADAMTS13$ deficiency; $HUS$ is not.",
+        "$TTP$ is triggered by a bacterial infection; $HUS$ is not.",
+        "$TTP$ is a bleeding disorder; $HUS$ is a clotting disorder."
+      ],
+      "answer": "$TTP$ is associated with a severe $ADAMTS13$ deficiency; $HUS$ is not.",
+      "explanation": "While both conditions cause microangiopathic hemolytic anemia and thrombocytopenia, $TTP$ is specifically defined by a severe $ADAMTS13$ deficiency. Typical $HUS$ is associated with Shiga toxin-producing E. coli and does not have this deficiency."
+    },
+    {
+      "question": "In a patient with $TTP$, which of the following is most likely to be elevated?",
+      "options": [
+        "Hemoglobin and hematocrit.",
+        "Platelet count.",
+        "Lactate Dehydrogenase ($LDH$) and indirect bilirubin.",
+        "Fibrinogen and prothrombin time ($PT$)."
+      ],
+      "answer": "Lactate Dehydrogenase ($LDH$) and indirect bilirubin.",
+      "explanation": "$LDH$ and indirect bilirubin are markers of red blood cell destruction ($hemolysis$). Since microangiopathic hemolytic anemia is a key feature of $TTP$, these markers are typically elevated due to the breakdown of red blood cells."
+    },
+    {
+      "question": "Hereditary $TTP$ is also known by which of the following names?",
+      "options": [
+        "Evans syndrome.",
+        "Bernard-Soulier syndrome.",
+        "Upshaw-Schulman syndrome.",
+        "von Willebrand disease."
+      ],
+      "answer": "Upshaw-Schulman syndrome.",
+      "explanation": "Upshaw-Schulman syndrome is the inherited form of $TTP$, caused by a mutation in the $ADAMTS13$ gene. It is a rare autosomal recessive disorder."
+    },
+    {
+      "question": "Which of the following is NOT a feature of $TTP$?",
+      "options": [
+        "Thrombocytopenia.",
+        "High $LDH$.",
+        "Positive Direct Coombs Test.",
+        "Neurologic symptoms."
+      ],
+      "answer": "Positive Direct Coombs Test.",
+      "explanation": "A positive Direct Coombs Test indicates that red blood cells are coated with antibodies, a finding more typical of autoimmune hemolytic anemia. In $TTP$, the hemolysis is mechanical due to microthrombi, so the Coombs test is negative."
+    },
+    {
+      "question": "What is the mortality rate of $TTP$ if left untreated?",
+      "options": [
+        "Less than 10%.",
+        "Approximately 20%.",
+        "Approximately 50%.",
+        "Over 90%."
+      ],
+      "answer": "Over 90%.",
+      "explanation": "$TTP$ is a medical emergency. Without timely and appropriate treatment, particularly plasma exchange, the mortality rate is extremely high due to irreversible organ damage."
+    },
+    {
+      "question": "A patient with $TTP$ is on plasma exchange therapy and her platelet count is rising. What is the most appropriate next step in management?",
+      "options": [
+        "Continue daily plasma exchange until the platelet count is normal and signs of hemolysis are resolved.",
+        "Discontinue all treatment immediately.",
+        "Start a platelet transfusion to speed up recovery.",
+        "Switch to weekly plasma exchange."
+      ],
+      "answer": "Continue daily plasma exchange until the platelet count is normal and signs of hemolysis are resolved.",
+      "explanation": "Plasma exchange should be continued daily until the platelet count normalizes and the signs of hemolysis ($e.g.$, $LDH$ level) resolve. Discontinuing too early can lead to a rapid relapse."
+    },
+    {
+      "question": "Which of the following is NOT a known trigger for acute episodes of acquired $TTP$?",
+      "options": [
+        "Pregnancy.",
+        "Infection ($e.g.$, $HIV$).",
+        "Malignancy.",
+        "Chronic kidney disease."
+      ],
+      "answer": "Chronic kidney disease.",
+      "explanation": "While severe kidney injury is a symptom of $TTP$, chronic kidney disease itself is not a known trigger for an acute acquired $TTP$ episode. However, it can be a presenting symptom or a complication of the disease."
+    },
+    {
+      "question": "What is the typical age of onset for acquired $TTP$?",
+      "options": [
+        "Infancy.",
+        "Childhood.",
+        "Adolescence.",
+        "Adulthood, typically between ages 20 and 50."
+      ],
+      "answer": "Adulthood, typically between ages 20 and 50.",
+      "explanation": "Acquired $TTP$ most commonly affects adults, with a peak incidence in the third to fifth decades of life. This contrasts with hereditary $TTP$ and $HUS$, which are more common in children."
+    },
+    {
+      "question": "What is the function of the microthrombi formed in $TTP$?",
+      "options": [
+        "They cause systemic bleeding.",
+        "They cause microvascular obstruction, leading to end-organ ischemia and damage.",
+        "They cause a life-threatening pulmonary embolism.",
+        "They cause the destruction of white blood cells."
+      ],
+      "answer": "They cause microvascular obstruction, leading to end-organ ischemia and damage.",
+      "explanation": "The widespread microthrombi formation in $TTP$ blocks blood flow in the capillaries and arterioles. This leads to ischemia and damage in organs such as the brain, kidneys, and heart."
+    },
+    {
+      "question": "What is the role of corticosteroids in the treatment of acquired $TTP$?",
+      "options": [
+        "To replace the deficient $ADAMTS13$ enzyme.",
+        "To provide a permanent cure.",
+        "To suppress the autoimmune response that produces the inhibitory antibodies.",
+        "To dissolve existing microthrombi."
+      ],
+      "answer": "To suppress the autoimmune response that produces the inhibitory antibodies.",
+      "explanation": "Corticosteroids are used in conjunction with plasma exchange to suppress the underlying autoimmune process and prevent the production of new inhibitory antibodies."
+    },
+    {
+      "question": "What is the difference between $TTP$ and $HUS$ regarding kidney involvement?",
+      "options": [
+        "Kidney involvement is more severe in $TTP$ than in $HUS$.",
+        "Kidney involvement is more severe in $HUS$ than in $TTP$.",
+        "Kidney involvement is rare in both conditions.",
+        "Both conditions have similar rates of severe kidney failure."
+      ],
+      "answer": "Kidney involvement is more severe in $HUS$ than in $TTP$.",
+      "explanation": "While both can affect the kidneys, renal failure is a defining feature and is typically more severe in $HUS$. Neurologic symptoms are more prominent in $TTP$."
+    },
+    {
+      "question": "What is the most common cause of death in a patient with untreated $TTP$?",
+      "options": [
+        "Renal failure.",
+        "Heart failure.",
+        "Severe bleeding from thrombocytopenia.",
+        "Neurological complications, such as stroke or coma."
+      ],
+      "answer": "Neurological complications, such as stroke or coma.",
+      "explanation": "The most feared complication and leading cause of death in $TTP$ is the widespread microthrombosis in the brain, leading to stroke, seizures, and coma."
+    },
+    {
+      "question": "In a patient with suspected $TTP$, a platelet count of $40 \times 10^9/L$ would be considered:",
+      "options": [
+        "Normal.",
+        "Mild thrombocytopenia.",
+        "Moderate thrombocytopenia.",
+        "Severe thrombocytopenia."
+      ],
+      "answer": "Severe thrombocytopenia.",
+      "explanation": "While a platelet count less than $150 \times 10^9/L$ is thrombocytopenia, a count in the range of $40 \times 10^9/L$ is considered severe. In $TTP$, counts are often less than $20 \times 10^9/L$."
+    },
+    {
+      "question": "What is a major risk factor for relapse in patients with a history of acquired $TTP$?",
+      "options": [
+        "Sustained normal platelet counts.",
+        "High $ADAMTS13$ activity after treatment.",
+        "An underlying rheumatologic condition, like $SLE$.",
+        "Long-term use of anticoagulants."
+      ],
+      "answer": "An underlying rheumatologic condition, like $SLE$.",
+      "explanation": "Acquired $TTP$ is often associated with other autoimmune diseases, such as Systemic Lupus Erythematosus ($SLE$). Patients with an associated condition have a higher risk of relapse."
+    },
+    {
+      "question": "What is the expected outcome of a patient with acquired $TTP$ who receives timely and appropriate treatment?",
+      "options": [
+        "The condition will progress to chronic kidney disease.",
+        "They will require a splenectomy.",
+        "They will have a full recovery, but a risk of relapse remains.",
+        "The condition will be cured permanently with no risk of recurrence."
+      ],
+      "answer": "They will have a full recovery, but a risk of relapse remains.",
+      "explanation": "With modern therapy, the prognosis for acute $TTP$ is excellent. However, since the underlying autoimmune process is not cured, patients must be monitored for signs of relapse."
+    },
+    {
+      "question": "What is the name for the antibodies that inhibit the $ADAMTS13$ enzyme in acquired $TTP$?",
+      "options": [
+        "Platelet Factor 4 antibodies.",
+        "Antinuclear antibodies ($ANA$).",
+        "Anti-$ADAMTS13$ antibodies.",
+        "Antiphospholipid antibodies."
+      ],
+      "answer": "Anti-$ADAMTS13$ antibodies.",
+      "explanation": "Acquired $TTP$ is caused by the development of $IgG$ autoantibodies that specifically target and inhibit the function of the $ADAMTS13$ enzyme."
+    }
+  ]
+}, {
+  "name": "von Willebrand Disease (vWD)",
+  "questions": [
+    {
+      "question": "What are the two primary functions of von Willebrand factor ($vWF$) in hemostasis?",
+      "options": [
+        "Platelet activation and fibrinolysis.",
+        "Platelet aggregation and red blood cell production.",
+        "Platelet adhesion and carrying Factor VIII.",
+        "Vasoconstriction and thrombin activation."
+      ],
+      "answer": "Platelet adhesion and carrying Factor VIII.",
+      "explanation": "vWF has two crucial roles: it facilitates the adhesion of platelets to the subendothelium at a site of vascular injury, and it acts as a carrier protein that protects Factor VIII from premature degradation."
+    },
+    {
+      "question": "Which type of von Willebrand disease ($vWD$) is the most common?",
+      "options": [
+        "Type 1",
+        "Type 2A",
+        "Type 2B",
+        "Type 3"
+      ],
+      "answer": "Type 1",
+      "explanation": "Type 1 $vWD$ accounts for about 75% of all cases. It is characterized by a partial quantitative deficiency of $vWF$."
+    },
+    {
+      "question": "A patient with a bleeding disorder has a prolonged activated partial thromboplastin time ($aPTT$) and a normal prothrombin time ($PT$). Which of the following conditions is a likely cause?",
+      "options": [
+        "Hemophilia A or B, or von Willebrand disease.",
+        "Vitamin K deficiency.",
+        "Immune Thrombocytopenia ($ITP$).",
+        "Disseminated Intravascular Coagulation ($DIC$)."
+      ],
+      "answer": "Hemophilia A or B, or von Willebrand disease.",
+      "explanation": "The $aPTT$ measures the intrinsic and common pathways of coagulation, which includes Factor VIII. Since $vWF$ protects Factor VIII, a deficiency in $vWF$ can lead to a secondary deficiency of Factor VIII, thus prolonging the $aPTT$."
+    },
+    {
+      "question": "Which of the following is a characteristic of Type 3 von Willebrand disease?",
+      "options": [
+        "A mild, qualitative defect.",
+        "A severe quantitative deficiency with virtually no detectable $vWF$ or Factor VIII.",
+        "A gain-of-function mutation leading to spontaneous platelet aggregation.",
+        "Symptoms that are generally mild and require no treatment."
+      ],
+      "answer": "A severe quantitative deficiency with virtually no detectable $vWF$ or Factor VIII.",
+      "explanation": "Type 3 is the most severe form of $vWD$. It is characterized by a near-complete absence of $vWF$ and a profound secondary deficiency of Factor VIII, leading to severe bleeding that can mimic hemophilia."
+    },
+    {
+      "question": "Desmopressin ($DDAVP$) is the first-line treatment for which type of $vWD$?",
+      "options": [
+        "Type 3",
+        "Type 2A",
+        "Type 2B",
+        "Type 1"
+      ],
+      "answer": "Type 1",
+      "explanation": "$DDAVP$ works by causing the release of endogenous $vWF$ from endothelial cells. It is highly effective in Type 1 $vWD$ because the patient has some $vWF$ to release, but it is not effective in Type 3 or some Type 2 variants."
+    },
+    {
+      "question": "Which type of $vWD$ is characterized by a qualitative defect where the $vWF$ protein is present but does not function properly?",
+      "options": [
+        "Type 1",
+        "Type 2",
+        "Type 3",
+        "Acquired $vWD$"
+      ],
+      "answer": "Type 2",
+      "explanation": "Type 2 $vWD$ is a group of four subtypes (2A, 2B, 2M, 2N) characterized by normal or near-normal levels of $vWF$ antigen but a qualitative defect in its function, leading to impaired platelet adhesion."
+    },
+    {
+      "question": "What is the key diagnostic test used to measure the functionality of von Willebrand factor?",
+      "options": [
+        "$vWF$ antigen level.",
+        "Factor VIII activity.",
+        "Ristocetin cofactor activity ($vWF:RCo$).",
+        "Prothrombin time ($PT$)."
+      ],
+      "answer": "Ristocetin cofactor activity ($vWF:RCo$).",
+      "explanation": "The ristocetin cofactor activity assay measures the ability of a patient's $vWF$ to agglutinate platelets in the presence of the antibiotic ristocetin. It is the best measure of $vWF$ functionality."
+    },
+    {
+      "question": "Patients with Type 2B von Willebrand disease have a unique risk due to their a 'gain-of-function' mutation. What is this risk?",
+      "options": [
+        "A tendency for spontaneous bleeding.",
+        "A tendency for spontaneous platelet aggregation and thrombocytopenia.",
+        "A tendency for deep muscle hematomas.",
+        "A tendency for joint bleeding."
+      ],
+      "answer": "A tendency for spontaneous platelet aggregation and thrombocytopenia.",
+      "explanation": "The mutation in Type 2B $vWD$ causes the factor to bind to platelets more avidly, even without vascular injury. This leads to spontaneous platelet aggregation, causing both thrombocytopenia and bleeding."
+    },
+    {
+      "question": "Why is desmopressin ($DDAVP$) contraindicated in Type 2B $vWD$?",
+      "options": [
+        "It is not effective.",
+        "It can worsen the thrombocytopenia by releasing more dysfunctional $vWF$.",
+        "It can cause a hypertensive crisis.",
+        "It can cause life-threatening bleeding."
+      ],
+      "answer": "It can worsen the thrombocytopenia by releasing more dysfunctional $vWF$.",
+      "explanation": "In Type 2B $vWD$, releasing more of the 'sticky' $vWF$ multimers can cause a severe drop in the platelet count due to widespread, inappropriate aggregation. Therefore, it is avoided."
+    },
+    {
+      "question": "Which of the following is the most common symptom in patients with von Willebrand disease?",
+      "options": [
+        "Joint bleeding ($hemarthrosis$).",
+        "Deep muscle hematomas.",
+        "Mucocutaneous bleeding ($e.g.$, epistaxis, menorrhagia).",
+        "Spontaneous cerebral hemorrhage."
+      ],
+      "answer": "Mucocutaneous bleeding ($e.g.$, epistaxis, menorrhagia).",
+      "explanation": "Since $vWD$ is a disorder of primary hemostasis, bleeding typically occurs in the skin and mucous membranes. Epistaxis (nosebleeds) and menorrhagia (heavy menstrual bleeding) are classic symptoms."
+    },
+    {
+      "question": "Which of the following conditions is often clinically indistinguishable from severe Type 3 $vWD$?",
+      "options": [
+        "Hemophilia B.",
+        "Acquired hemophilia.",
+        "Hemophilia A.",
+        "Bernard-Soulier syndrome."
+      ],
+      "answer": "Hemophilia A.",
+      "explanation": "Since Type 3 $vWD$ involves a profound secondary deficiency of Factor VIII, its clinical presentation can be very similar to Hemophilia A. A definitive diagnosis requires specific laboratory testing for both Factor VIII and $vWF$."
+    },
+    {
+      "question": "A patient with von Willebrand disease should avoid which of the following medications due to its antiplatelet effect?",
+      "options": [
+        "Acetaminophen ($Tylenol$).",
+        "Ibuprofen ($Motrin$).",
+        "Codeine.",
+        "Prednisone."
+      ],
+      "answer": "Ibuprofen ($Motrin$).",
+      "explanation": "Nonsteroidal anti-inflammatory drugs ($NSAIDs$) like ibuprofen inhibit platelet function. In a patient with an underlying hemostatic disorder, this can significantly increase the risk of bleeding."
+    },
+    {
+      "question": "What is the laboratory test result that would be inconsistent with a diagnosis of von Willebrand disease?",
+      "options": [
+        "Normal or low platelet count.",
+        "Normal $vWF$ antigen level.",
+        "Prolonged bleeding time.",
+        "Prolonged $aPTT$."
+      ],
+      "answer": "Normal $vWF$ antigen level.",
+      "explanation": "While a normal $vWF$ antigen level can occur in some qualitative variants (Type 2), a diagnosis of $vWD$ requires either a quantitative or qualitative defect in the factor. A normal $vWF$ antigen in the absence of a functional defect would not be consistent with the disease."
+    },
+    {
+      "question": "What is the primary treatment for a bleeding episode in a patient with Type 2A $vWD$?",
+      "options": [
+        "Platelet transfusion.",
+        "DDAVP.",
+        "Recombinant Factor VIII.",
+        "von Willebrand factor concentrate."
+      ],
+      "answer": "von Willebrand factor concentrate.",
+      "explanation": "In Type 2A $vWD$, the problem is a qualitative defect in the $vWF$ protein itself. Therefore, a concentrate containing functional $vWF$ multimers is needed to correct the defect. $DDAVP$ is often not effective in this type."
+    },
+    {
+      "question": "A patient with $vWD$ has a surgical procedure planned. What is the most important prophylactic measure to take?",
+      "options": [
+        "Platelet transfusion before the surgery.",
+        "Administration of aspirin to prevent clotting.",
+        "Administration of $DDAVP$ or a $vWF$-containing concentrate.",
+        "Pre-operative vitamin K administration."
+      ],
+      "answer": "Administration of $DDAVP$ or a $vWF$-containing concentrate.",
+      "explanation": "Prophylaxis with either $DDAVP$ (for Type 1) or a $vWF$-containing concentrate (for Type 2 and 3) is essential before surgery to increase the $vWF$ and Factor VIII levels to prevent excessive bleeding."
+    },
+    {
+      "question": "What is a key difference between Type 2N $vWD$ and Hemophilia A?",
+      "options": [
+        "In Type 2N, the $vWF$ is normal.",
+        "Type 2N is an inherited disorder, while Hemophilia A is acquired.",
+        "In Type 2N, the $vWF$ can't bind to Factor VIII, leading to its rapid clearance.",
+        "Type 2N has a normal $aPTT$."
+      ],
+      "answer": "In Type 2N, the $vWF$ can't bind to Factor VIII, leading to its rapid clearance.",
+      "explanation": "Type 2N $vWD$ is a qualitative defect where the $vWF$ is unable to bind to Factor VIII. This causes Factor VIII to be rapidly cleared from the circulation, clinically mimicking the low Factor VIII levels seen in Hemophilia A."
+    },
+    {
+      "question": "What is the mechanism of action of Desmopressin ($DDAVP$)?",
+      "options": [
+        "It stimulates the production of Factor VIII.",
+        "It directly replaces the deficient $vWF$ multimers.",
+        "It promotes the release of endogenous $vWF$ and Factor VIII from storage sites.",
+        "It inhibits the breakdown of fibrin clots."
+      ],
+      "answer": "It promotes the release of endogenous $vWF$ and Factor VIII from storage sites.",
+      "explanation": "$DDAVP$ is an analog of vasopressin that stimulates the release of $vWF$ and Factor VIII from the Weibel-Palade bodies of endothelial cells, thus temporarily raising their circulating levels."
+    },
+    {
+      "question": "A patient with suspected $vWD$ has a normal $vWF$ antigen level but a very low ristocetin cofactor activity. What type of $vWD$ is most likely?",
+      "options": [
+        "Type 1",
+        "Type 2A or 2M",
+        "Type 2B",
+        "Type 3"
+      ],
+      "answer": "Type 2A or 2M",
+      "explanation": "In Type 2A and 2M $vWD$, the protein is present in normal amounts but is functionally defective. The normal antigen level with a low activity level points to a qualitative defect."
+    },
+    {
+      "question": "Why is the bleeding time test considered less useful in the modern diagnosis of $vWD$?",
+      "options": [
+        "It is not specific and is difficult to standardize.",
+        "It is too expensive.",
+        "It is not sensitive to the presence of $vWF$ defects.",
+        "It is an invasive procedure."
+      ],
+      "answer": "It is not specific and is difficult to standardize.",
+      "explanation": "The bleeding time test has largely been replaced by more specific and reproducible laboratory assays like $vWF:RCo$ and multimer analysis due to its poor standardization and low specificity."
+    },
+    {
+      "question": "What is the typical inheritance pattern of Type 1 $vWD$?",
+      "options": [
+        "X-linked recessive.",
+        "Autosomal recessive.",
+        "Autosomal dominant.",
+        "Maternal inheritance."
+      ],
+      "answer": "Autosomal dominant.",
+      "explanation": "Type 1 $vWD$ is an autosomal dominant disorder, meaning only one copy of the mutated gene is needed to cause the disease. This explains its high prevalence."
+    },
+    {
+      "question": "Which type of $vWD$ is the only one associated with the potential for joint bleeding?",
+      "options": [
+        "Type 1",
+        "Type 2B",
+        "Type 2N",
+        "Type 3"
+      ],
+      "answer": "Type 3",
+      "explanation": "Due to the profound deficiency of both $vWF$ and Factor VIII, Type 3 $vWD$ can present with the same type of severe bleeding, including joint and muscle bleeds, as severe Hemophilia A."
+    },
+    {
+      "question": "A patient with a history of spontaneous bruising and gum bleeding has a normal platelet count. What is the most likely diagnosis?",
+      "options": [
+        "Immune Thrombocytopenia ($ITP$).",
+        "Hemophilia A.",
+        "Von Willebrand disease.",
+        "Thrombotic Thrombocytopenic Purpura ($TTP$)."
+      ],
+      "answer": "Von Willebrand disease.",
+      "explanation": "The symptoms are classic for a primary hemostasis disorder. Since the platelet count is normal, $vWD$ is a more likely diagnosis than $ITP$ or $TTP$, which are disorders of platelet number."
+    },
+    {
+      "question": "The diagnosis of Type 2A $vWD$ is confirmed by which of the following?",
+      "options": [
+        "Low $vWF$ antigen and low Factor VIII.",
+        "A normal $aPTT$.",
+        "The absence of large $vWF$ multimers on electrophoresis.",
+        "A positive direct Coombs test."
+      ],
+      "answer": "The absence of large $vWF$ multimers on electrophoresis.",
+      "explanation": "Type 2A is a qualitative defect characterized by a lack of the high molecular weight multimers of $vWF$. This is confirmed by a multimer analysis, which is a specialized form of electrophoresis."
+    },
+    {
+      "question": "Why is the Factor VIII level often low in patients with von Willebrand disease?",
+      "options": [
+        "Because Factor VIII is also deficient in $vWD$.",
+        "Because $vWF$ protects Factor VIII from degradation.",
+        "Because $vWF$ is needed for the production of Factor VIII.",
+        "Because the patient has a co-existing Hemophilia A."
+      ],
+      "answer": "Because $vWF$ protects Factor VIII from degradation.",
+      "explanation": "vWF acts as a chaperone for Factor VIII. In the absence of adequate $vWF$, Factor VIII is rapidly cleared from the circulation, leading to a secondary Factor VIII deficiency."
+    },
+    {
+      "question": "Which of the following conditions can cause an acquired form of von Willebrand syndrome?",
+      "options": [
+        "Chronic kidney disease.",
+        "Lupus and certain lymphoproliferative disorders.",
+        "Hyperthyroidism.",
+        "Diabetes mellitus."
+      ],
+      "answer": "Lupus and certain lymphoproliferative disorders.",
+      "explanation": "Acquired von Willebrand syndrome is a rare condition that mimics the inherited disease. It is often caused by autoimmune disorders like systemic lupus erythematosus ($SLE$) or by monoclonal gammopathies ($e.g.$, multiple myeloma), where antibodies or abnormal proteins bind to and destroy $vWF$."
+    },
+    {
+      "question": "What is the primary treatment for a patient with Type 3 $vWD$?",
+      "options": [
+        "DDAVP.",
+        "Platelet-rich plasma.",
+        "Recombinant Factor VIII.",
+        "von Willebrand factor concentrate ($vWF/FVIII$ concentrate)."
+      ],
+      "answer": "von Willebrand factor concentrate ($vWF/FVIII$ concentrate).",
+      "explanation": "Since Type 3 patients have a near-complete absence of $vWF$, $DDAVP$ is ineffective. They require replacement therapy with a concentrate that contains both $vWF$ and Factor VIII to treat bleeding episodes."
+    },
+    {
+      "question": "What is the main goal of treatment for a patient with von Willebrand disease?",
+      "options": [
+        "To cure the underlying genetic defect.",
+        "To prevent all bleeding episodes.",
+        "To prevent bleeding, especially in the context of procedures or trauma.",
+        "To increase the Factor VIII level to above normal."
+      ],
+      "answer": "To prevent bleeding, especially in the context of procedures or trauma.",
+      "explanation": "The goal of treatment is not to 'cure' the genetic disease, but to raise the circulating levels of functional $vWF$ and Factor VIII to a safe level to prevent or manage bleeding related to procedures or trauma."
+    },
+    {
+      "question": "What is the role of antithrombin in the management of $vWD$?",
+      "options": [
+        "It is a key part of the treatment.",
+        "It is not relevant to the management of $vWD$.",
+        "It is used to treat bleeding episodes.",
+        "It is used to prevent arterial clots."
+      ],
+      "answer": "It is not relevant to the management of $vWD$.",
+      "explanation": "Antithrombin is a natural anticoagulant that is a key component of the coagulation cascade. It is not involved in primary hemostasis and is not used to treat or manage $vWD$."
+    },
+    {
+      "question": "A patient is diagnosed with Type 1 $vWD$ with mild bleeding. What is a reasonable first-line treatment for a minor bleeding episode?",
+      "options": [
+        "Intravenous infusion of $vWF$ concentrate.",
+        "Oral corticosteroids.",
+        "Intranasal desmopressin ($DDAVP$).",
+        "Aspirin."
+      ],
+      "answer": "Intranasal desmopressin ($DDAVP$).",
+      "explanation": "For mild Type 1 $vWD$, intranasal $DDAVP$ is an easy and effective first-line therapy to raise circulating $vWF$ levels and control bleeding."
+    },
+    {
+      "question": "What is a key difference between $vWD$ and platelet function disorders like Glanzmann's thrombasthenia?",
+      "options": [
+        "In $vWD$, the bleeding time is always normal.",
+        "In $vWD$, there is a deficiency of a plasma protein; in Glanzmann's, there is a platelet receptor defect.",
+        "In $vWD$, the platelet count is always low.",
+        "Glanzmann's thrombasthenia is always an acquired disorder."
+      ],
+      "answer": "In $vWD$, there is a deficiency of a plasma protein; in Glanzmann's, there is a platelet receptor defect.",
+      "explanation": "The core distinction is the location of the defect. $vWD$ is a plasma protein disorder, while Glanzmann's thrombasthenia is a defect in the platelet itself (specifically the $GPIIb/IIIa$ receptor)."
+    }
+  ]
+}
     ]
 }
